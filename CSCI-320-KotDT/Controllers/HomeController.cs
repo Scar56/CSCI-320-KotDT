@@ -24,9 +24,5 @@ namespace CSCI_320_KotDT.Controllers
 			
 			return View();
 		}
-
-		public ActionResult Login() {
-			return View();
-		}
 	}
 }
