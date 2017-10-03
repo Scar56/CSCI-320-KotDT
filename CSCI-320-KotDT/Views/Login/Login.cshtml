@@ -1,11 +1,8 @@
 @{
     ViewBag.Title = "Login Page";
 }
-@using (Html.BeginForm(FormMethod.Post)){
-
-    <form>
+    <form method="post">
     UserName: <input type="text" name="username" placeholder="UserName"/><br/>
     Password: <input type="password" name="password" placeholder="Password"/><br/>
     <button type="submit">Login</button>
     </form>
-}
