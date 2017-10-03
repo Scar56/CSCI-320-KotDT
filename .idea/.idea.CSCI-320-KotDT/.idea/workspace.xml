@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96d2b476-0c12-4b44-9497-9f5e04c0921b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/CreateUser.cshtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Login.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/CSCI-320-KotDT.csproj" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/CSCI-320-KotDT.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,18 +33,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="100">
+              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
-                <marker date="1506995885609" expanded="false" signature="6:35" ph="..." />
-                <marker date="1506995885609" expanded="true" signature="74:498" ph="{...}" />
-                <marker date="1506995885609" expanded="true" signature="122:496" ph="{...}" />
-                <marker date="1506995885609" expanded="true" signature="169:207" ph="{...}" />
-                <marker date="1506995885609" expanded="true" signature="258:296" ph="{...}" />
-                <marker date="1506995885609" expanded="true" signature="384:490" ph="{...}" />
+                <marker date="1506996928365" expanded="false" signature="6:35" ph="..." />
+                <marker date="1506996928365" expanded="true" signature="74:517" ph="{...}" />
+                <marker date="1506996928365" expanded="true" signature="122:515" ph="{...}" />
+                <marker date="1506996928365" expanded="true" signature="187:225" ph="{...}" />
+                <marker date="1506996928365" expanded="true" signature="276:314" ph="{...}" />
+                <marker date="1506996928365" expanded="true" signature="403:509" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -106,16 +102,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.cshtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Login.cshtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="60">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding>
-                <marker date="1506995885657" expanded="true" signature="0:38" ph="@..." />
-                <marker date="1506995885657" expanded="true" signature="39:326" ph="@..." />
-                <marker date="1506995885657" expanded="true" signature="96:326" ph="{...}" />
-                <marker date="1506995885657" expanded="true" signature="103:324" ph="&lt;form.../&gt;" />
+                <marker date="1506996928393" expanded="true" signature="0:38" ph="@..." />
+                <marker date="1506996928393" expanded="true" signature="39:309" ph="@..." />
+                <marker date="1506996928393" expanded="true" signature="79:309" ph="{...}" />
+                <marker date="1506996928393" expanded="true" signature="86:307" ph="&lt;form.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -185,8 +181,8 @@
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Login.cshtml" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" />
+        <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml" />
       </list>
     </option>
   </component>
@@ -515,7 +511,7 @@
       <workItem from="1506469673934" duration="1463000" />
       <workItem from="1506901587640" duration="2832000" />
       <workItem from="1506953194824" duration="2699000" />
-      <workItem from="1506986305506" duration="1760000" />
+      <workItem from="1506986305506" duration="2479000" />
     </task>
     <task id="LOCAL-00001" summary="Created Login Page">
       <created>1506903211219</created>
@@ -531,11 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506904451594</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="login page returns ome after sign in">
+      <created>1506995949848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506995949848</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21025000" />
+    <option name="totallyTimeSpent" value="21744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,13 +551,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="434" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31702346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31702346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33843017" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -605,7 +607,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Login Page" />
     <MESSAGE value="added form to login, created empty user class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added form to login, created empty user class" />
+    <MESSAGE value="login page returns ome after sign in" />
+    <option name="LAST_COMMIT_MESSAGE" value="login page returns ome after sign in" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -965,19 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <marker date="1506995885657" expanded="true" signature="0:38" ph="@..." />
-            <marker date="1506995885657" expanded="true" signature="39:326" ph="@..." />
-            <marker date="1506995885657" expanded="true" signature="96:326" ph="{...}" />
-            <marker date="1506995885657" expanded="true" signature="103:324" ph="&lt;form.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -995,15 +985,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="100">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <marker date="1506995885609" expanded="false" signature="6:35" ph="..." />
-            <marker date="1506995885609" expanded="true" signature="74:498" ph="{...}" />
-            <marker date="1506995885609" expanded="true" signature="122:496" ph="{...}" />
-            <marker date="1506995885609" expanded="true" signature="169:207" ph="{...}" />
-            <marker date="1506995885609" expanded="true" signature="258:296" ph="{...}" />
-            <marker date="1506995885609" expanded="true" signature="384:490" ph="{...}" />
+            <marker date="1506996928365" expanded="false" signature="6:35" ph="..." />
+            <marker date="1506996928365" expanded="true" signature="74:517" ph="{...}" />
+            <marker date="1506996928365" expanded="true" signature="122:515" ph="{...}" />
+            <marker date="1506996928365" expanded="true" signature="187:225" ph="{...}" />
+            <marker date="1506996928365" expanded="true" signature="276:314" ph="{...}" />
+            <marker date="1506996928365" expanded="true" signature="403:509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <marker date="1506996928393" expanded="true" signature="0:38" ph="@..." />
+            <marker date="1506996928393" expanded="true" signature="39:309" ph="@..." />
+            <marker date="1506996928393" expanded="true" signature="79:309" ph="{...}" />
+            <marker date="1506996928393" expanded="true" signature="86:307" ph="&lt;form.../&gt;" />
           </folding>
         </state>
       </provider>

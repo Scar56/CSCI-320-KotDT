@@ -4,6 +4,7 @@ using System.Web.Mvc;
 namespace CSCI_320_KotDT.Controllers {
     public class LoginController : Controller {
         
+        [HttpGet]
         public ActionResult Login() {
             return View();
         }
@@ -13,7 +14,7 @@ namespace CSCI_320_KotDT.Controllers {
         }
 
         [HttpPost]
-        public ActionResult Sign(string username, string password) {
+        public ActionResult Login(string username, string password) {
             Console.WriteLine(username);
             return RedirectToAction("Index", "Home");
         }
