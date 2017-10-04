@@ -1,8 +1,10 @@
 @{
     ViewBag.Title = "Login Page";
 }
-    <form method="post">
+<form method="post">
     UserName: <input type="text" name="username" placeholder="UserName"/><br/>
     Password: <input type="password" name="password" placeholder="Password"/><br/>
     <button type="submit">Login</button>
-    </form>
+</form>
+
+If you do not have an account then @Html.ActionLink("Create one", "CreateUser", "Login")
