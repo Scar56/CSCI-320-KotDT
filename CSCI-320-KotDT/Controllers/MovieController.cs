@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ControllerDI.Interfaces;
 using Npgsql;
 
 namespace CSCI_320_KotDT.Controllers
 {
 	public class MovieController : Controller
 	{
+		public MovieController(IQueryHandler IQuery) {
+		}
+		
 		public ActionResult Display(String title = "alphabet")
 		{
 			string connstring = "Host=reddwarf.cs.rit.edu;" +

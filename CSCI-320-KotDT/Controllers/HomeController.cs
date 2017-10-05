@@ -12,8 +12,8 @@ namespace CSCI_320_KotDT.Controllers
 	{
 		
 		public HomeController(IQueryHandler IQuery) {
-//			QueryHandler = IQuery;
 		}
+		
 		public ActionResult Index()
 		{
 			return View();
