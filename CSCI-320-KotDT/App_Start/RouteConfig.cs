@@ -14,6 +14,12 @@ namespace CSCI_320_KotDT
 				"{controller}/{action}/{id}",
 				new { controller = "Home", action = "Index", id = UrlParameter.Optional }
 			);
+
+			routes.MapRoute(
+				"Movie",
+				"{controller}/{action}/{id}",
+				new { Controller = "Movie", action = "Display", id = UrlParameter.Optional }
+			);
 		}
 	}
 }
