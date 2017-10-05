@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Data.SqlClient;
 using System.Web.Mvc;
 using ControllerDI.Interfaces;
-using Npgsql;
 
 namespace CSCI_320_KotDT.Controllers {
     public class LoginController : Controller {
@@ -31,8 +29,7 @@ namespace CSCI_320_KotDT.Controllers {
         
         [HttpPost]
         public ActionResult CreateUser(string username, string password, string firstName, string lastName) {
-            //TODO find better place to open conection (possibly in main application, need to implement controller initializer)
-
+            
             string queryString = "Select * From \"User\" where username = '" + username + "'";
             var cmd = QueryHandler.query(queryString);
             var dr = cmd.ExecuteReader();
