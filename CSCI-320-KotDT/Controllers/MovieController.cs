@@ -10,7 +10,10 @@ namespace CSCI_320_KotDT.Controllers
 {
 	public class MovieController : Controller
 	{
+		private readonly IQueryHandler QueryHandler;
+
 		public MovieController(IQueryHandler IQuery) {
+			QueryHandler = IQuery;
 		}
 		
 		public ActionResult Display(String title = "alphabet")
