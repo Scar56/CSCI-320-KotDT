@@ -1,10 +1,16 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Web.Mvc;
+using ControllerDI.Interfaces;
 using Npgsql;
 
 namespace CSCI_320_KotDT.Controllers {
     public class LoginController : Controller {
+        private readonly IQueryHandler QueryHandler;
+
+        public LoginController(IQueryHandler IQuery) {
+            QueryHandler = IQuery;
+        }
         
         [HttpGet]
         public ActionResult Login() {
@@ -22,13 +28,17 @@ namespace CSCI_320_KotDT.Controllers {
             ViewBag.invalid = false;
             return View();
         }
+        
         [HttpPost]
         public ActionResult CreateUser(string username, string password, string firstName, string lastName) {
+            //TODO find better place to open conection (possibly in main application, need to implement controller initializer)
+
+            string queryString = "Select * From \"User\" where username = '" + username + "'";
+            var cmd = QueryHandler.query(queryString);
+            var dr = cmd.ExecuteReader();
+            while(dr.Read())
+                Console.WriteLine(dr[0]);
             //check validity
-            using(var conn = new NpgsqlConnection("Host=reddwarf.cs.rit.edu; username=p32003f; password=kiexeiH7veiqu9Uta6Go")) 
-            {
-                conn.Open();
-            }
             if(username.Equals("a")) {
                 ViewBag.invalid = true;
                 return View();

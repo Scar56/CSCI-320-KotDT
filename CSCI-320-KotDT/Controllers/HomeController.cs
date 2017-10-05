@@ -4,11 +4,16 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Ajax;
+using ControllerDI.Interfaces;
 
 namespace CSCI_320_KotDT.Controllers
 {
 	public class HomeController : Controller
 	{
+		
+		public HomeController(IQueryHandler IQuery) {
+//			QueryHandler = IQuery;
+		}
 		public ActionResult Index()
 		{
 			return View();
