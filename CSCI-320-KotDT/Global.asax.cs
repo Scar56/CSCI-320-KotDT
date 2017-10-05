@@ -13,7 +13,9 @@ namespace CSCI_320_KotDT
 	{
 		protected void Application_Start()
 		{
+			// changes controller factory to 'controllerFactory.cs' for dependency injection
 			ControllerBuilder.Current.SetControllerFactory(new controllerFactory());
+			
 			AreaRegistration.RegisterAllAreas();
 			GlobalConfiguration.Configure(WebApiConfig.Register);
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
