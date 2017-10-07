@@ -12,7 +12,6 @@ namespace ControllerDI.Services {
         // Constructor, opens the connection to our database 
         public QueryHandler () {
             conn = new NpgsqlConnection("Host=reddwarf.cs.rit.edu; username=p32003f; password=kiexeiH7veiqu9Uta6Go");
-            
             conn.Open();
         }
 
