@@ -14,8 +14,9 @@ namespace CSCI_320_KotDT.Controllers
 		public HomeController(IQueryHandler IQuery) {
 		}
 		
-		public ActionResult Index()
-		{
+		public ActionResult Index() {
+			ViewBag.username =
+				System.Web.HttpContext.Current.Session["UserID"];
 			return View();
 		}
 		public ActionResult About() {

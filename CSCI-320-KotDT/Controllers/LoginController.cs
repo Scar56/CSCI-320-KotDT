@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.Configuration;
 using System.Web.Mvc;
+using System.Web.Services;
 using ControllerDI.Interfaces;
 
 namespace CSCI_320_KotDT.Controllers {
@@ -15,10 +16,20 @@ namespace CSCI_320_KotDT.Controllers {
         public ActionResult Login() {
             return View();
         }
-        [HttpPost]
+        [HttpPost][WebMethod(EnableSession = true)]
         public ActionResult Login(string username, string password) {
-            Console.WriteLine(username);
-            return RedirectToAction("Index", "Home");
+            string queryString = "Select username, password From \"User\" where username = '" + username + "'";
+            var cmd = QueryHandler.query(queryString);
+            var dr = cmd.ExecuteReader();
+            while(dr.Read()){
+                if (password.Equals(dr[1])) {
+                    dr.Close();
+                    System.Web.HttpContext.Current.Session["UserID"] = username;
+                    return RedirectToAction("Index", "Home");
+                }
+                dr.Close();
+            }
+            return View();
         }
     
         
@@ -58,7 +69,6 @@ namespace CSCI_320_KotDT.Controllers {
             var cmd = QueryHandler.query(queryString);
             var dr = cmd.ExecuteReader();
             while(dr.Read()){
-                Console.WriteLine(dr[0]);
                 //check validity
                 if(username.Equals(dr[0])) {
                     ViewBag.invalid = true;
