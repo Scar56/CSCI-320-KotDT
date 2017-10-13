@@ -23,6 +23,7 @@ namespace CSCI_320_KotDT.Controllers
 
 		[HttpPost]
 		public ActionResult Search(string search) {
+			Console.WriteLine(search);
 			return View();
 		}
 	}

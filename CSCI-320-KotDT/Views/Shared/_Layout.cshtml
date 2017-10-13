@@ -30,6 +30,13 @@
         else{
           <li>@Html.ActionLink("Logout", "Logout", "Login")</li>
         }
+        <li>        
+          <form action="/Home/Search" method="post">
+              <input name="search" placeholder="username, movie title...">
+              <button value="submit">search</button>
+          </form>
+        </li>
+        <li>
         
       </ul>
     </div>
