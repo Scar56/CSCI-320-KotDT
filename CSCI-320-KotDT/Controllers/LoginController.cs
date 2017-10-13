@@ -16,11 +16,19 @@ namespace CSCI_320_KotDT.Controllers {
         public ActionResult Login() {
             return View();
         }
+        
+        [HttpGet]
+        public ActionResult Logout() {
+            
+            System.Web.HttpContext.Current.Session["UserID"] = null;
+            return RedirectToAction("Index", "Home");
+        }
         [HttpPost][WebMethod(EnableSession = true)]
         public ActionResult Login(string username, string password) {
             string queryString = "Select username, password From \"User\" where username = '" + username + "'";
             var cmd = QueryHandler.query(queryString);
             var dr = cmd.ExecuteReader();
+            //should at most have one result
             while(dr.Read()){
                 if (password.Equals(dr[1])) {
                     dr.Close();
