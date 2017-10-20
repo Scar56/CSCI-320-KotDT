@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96d2b476-0c12-4b44-9497-9f5e04c0921b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,29 +42,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="440">
+              <caret line="27" column="103" lean-forward="false" selection-start-line="27" selection-start-column="103" selection-end-line="27" selection-end-column="103" />
               <folding>
-                <marker date="1508506097348" expanded="true" signature="7:145" ph="..." />
-                <marker date="1508506097348" expanded="true" signature="183:850" ph="{...}" />
-                <marker date="1508506097348" expanded="true" signature="227:848" ph="{...}" />
-                <marker date="1508506097348" expanded="true" signature="328:359" ph="{...}" />
-                <marker date="1508506097348" expanded="true" signature="393:492" ph="{...}" />
-                <marker date="1508506097348" expanded="true" signature="551:845" ph="{...}" />
-                <marker date="1508506097348" expanded="true" signature="761:787" ph="{...}" />
+                <marker date="1508534312204" expanded="false" signature="7:145" ph="..." />
+                <marker date="1508534312204" expanded="true" signature="183:889" ph="{...}" />
+                <marker date="1508534312204" expanded="true" signature="227:887" ph="{...}" />
+                <marker date="1508534312204" expanded="true" signature="328:359" ph="{...}" />
+                <marker date="1508534312204" expanded="true" signature="393:492" ph="{...}" />
+                <marker date="1508534312204" expanded="true" signature="551:884" ph="{...}" />
+                <marker date="1508534312204" expanded="true" signature="800:826" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search.cshtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Search.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <marker date="1508506097396" expanded="true" signature="0:40" ph="@..." />
                 <marker date="1508506097396" expanded="true" signature="42:100" ph="@..." />
@@ -80,7 +77,7 @@
       <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="0">
               <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
                 <marker date="1508028253379" expanded="true" signature="17:1889" ph="&lt;html.../&gt;" />
@@ -225,8 +222,8 @@
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" />
-        <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" />
+        <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
       </list>
     </option>
   </component>
@@ -237,10 +234,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1857" />
-    <option name="height" value="1092" />
+    <option name="x" value="1985" />
+    <option name="y" value="434" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -417,7 +414,8 @@
       <workItem from="1508161156089" duration="653000" />
       <workItem from="1508260231922" duration="2708000" />
       <workItem from="1508331837281" duration="389000" />
-      <workItem from="1508505690477" duration="449000" />
+      <workItem from="1508505690477" duration="528000" />
+      <workItem from="1508533689303" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="Created Login Page">
       <created>1506903211219</created>
@@ -531,11 +529,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507937489168</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="search bar can list results (currently just queries all usernames)">
+      <created>1508506173054</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1508506173054</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66444000" />
+    <option name="totallyTimeSpent" value="67222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,23 +552,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="1985" y="434" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30784914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30784914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33788037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16118598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -618,7 +623,8 @@
     <MESSAGE value="Users can logout" />
     <MESSAGE value="removed about and contact pages from home" />
     <MESSAGE value="added search bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="added search bar" />
+    <MESSAGE value="search bar can list results (currently just queries all usernames)" />
+    <option name="LAST_COMMIT_MESSAGE" value="search bar can list results (currently just queries all usernames)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -675,13 +681,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Scripts/jquery-1.9.1.min.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/Error.cshtml">
@@ -692,13 +698,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap.min.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap.min.css">
@@ -934,14 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding>
-            <marker date="1507901715579" expanded="true" signature="0:35" ph="@..." />
-            <marker date="1507901715579" expanded="true" signature="37:310" ph="&lt;div.../&gt;" />
-            <marker date="1507901715579" expanded="true" signature="332:737" ph="&lt;div.../&gt;" />
-            <marker date="1507901715579" expanded="true" signature="388:614" ph="&lt;p.../&gt;" />
-            <marker date="1507901715579" expanded="true" signature="740:1061" ph="&lt;div.../&gt;" />
-            <marker date="1507901715579" expanded="true" signature="1064:1358" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -970,25 +968,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <marker date="1508506097348" expanded="true" signature="7:145" ph="..." />
-            <marker date="1508506097348" expanded="true" signature="183:850" ph="{...}" />
-            <marker date="1508506097348" expanded="true" signature="227:848" ph="{...}" />
-            <marker date="1508506097348" expanded="true" signature="328:359" ph="{...}" />
-            <marker date="1508506097348" expanded="true" signature="393:492" ph="{...}" />
-            <marker date="1508506097348" expanded="true" signature="551:845" ph="{...}" />
-            <marker date="1508506097348" expanded="true" signature="761:787" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="0">
           <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <marker date="1508028253379" expanded="true" signature="17:1889" ph="&lt;html.../&gt;" />
@@ -1015,11 +997,27 @@
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <marker date="1508506097396" expanded="true" signature="0:40" ph="@..." />
             <marker date="1508506097396" expanded="true" signature="42:100" ph="@..." />
             <marker date="1508506097396" expanded="true" signature="83:100" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" column="103" lean-forward="false" selection-start-line="27" selection-start-column="103" selection-end-line="27" selection-end-column="103" />
+          <folding>
+            <marker date="1508534312204" expanded="false" signature="7:145" ph="..." />
+            <marker date="1508534312204" expanded="true" signature="183:889" ph="{...}" />
+            <marker date="1508534312204" expanded="true" signature="227:887" ph="{...}" />
+            <marker date="1508534312204" expanded="true" signature="328:359" ph="{...}" />
+            <marker date="1508534312204" expanded="true" signature="393:492" ph="{...}" />
+            <marker date="1508534312204" expanded="true" signature="551:884" ph="{...}" />
+            <marker date="1508534312204" expanded="true" signature="800:826" ph="{...}" />
           </folding>
         </state>
       </provider>

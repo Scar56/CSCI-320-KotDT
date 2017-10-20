@@ -25,7 +25,7 @@ namespace CSCI_320_KotDT.Controllers
 
 		[HttpPost]
 		public ActionResult Search(string search) {
-			string queryString = "Select Username From \"User\"";
+			string queryString = "Select Username From \"User\" where username like '%" + search + "%'";
 			var cmd = QueryHandler.query(queryString);
 
 			NpgsqlDataReader dr = cmd.ExecuteReader();
