@@ -1,18 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Web;
+﻿
+using System.Collections;
+using System.Data;
 using System.Web.Mvc;
-using System.Web.Mvc.Ajax;
+using System.Web.UI.WebControls;
 using ControllerDI.Interfaces;
+using Npgsql;
 
 namespace CSCI_320_KotDT.Controllers
 {
 	public class HomeController : Controller
 	{
 		
+		private readonly IQueryHandler QueryHandler;
+
 		public HomeController(IQueryHandler IQuery) {
+			QueryHandler = IQuery;
 		}
 		
 		public ActionResult Index() {
@@ -23,7 +25,18 @@ namespace CSCI_320_KotDT.Controllers
 
 		[HttpPost]
 		public ActionResult Search(string search) {
-			Console.WriteLine(search);
+			string queryString = "Select Username From \"User\"";
+			var cmd = QueryHandler.query(queryString);
+
+			NpgsqlDataReader dr = cmd.ExecuteReader();
+
+			ArrayList res = new ArrayList();
+			while (dr.Read()) {
+				res.Add(dr[0]);
+			}
+			ViewBag.searchRes = res;
+			
+			
 			return View();
 		}
 	}

@@ -1,3 +1,7 @@
 ﻿@{
   ViewBag.Title = "Search Results";
 }
+
+@foreach (string i in ViewBag.searchRes) {
+  <li>@i</li>
+}
