@@ -11,27 +11,25 @@ namespace CSCI_320_KotDT.Controllers
     {
         private readonly IQueryHandler QueryHandler;
 
-        private MovieDBContext db = new MovieDBContext();
-
         public MoviesController(IQueryHandler IQuery)
         {
             QueryHandler = IQuery;
         }
 
         // GET: Movies
-        public ActionResult Index()
+        public ActionResult Index(string search)
         {
-            string queryString = "SELECT title, release_year, running_time FROM movies order by title limit 30";
-
+            string queryString = "SELECT title, release_year, running_time, id FROM movies order by title limit 30";
+            if (!String.IsNullOrEmpty(search))
+            {
+                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search  + "%'order by title limit 30"; 
+            }
            
 
             var cmd = QueryHandler.query(queryString);
             List<Movie> movies = new List<Movie>();
             using (var reader = cmd.ExecuteReader())
             {
-                Console.Write(reader.GetName(0));
-                Console.Write(reader.GetName(1));
-                Console.Write(reader.GetName(2));
                 while (reader.Read())
                 {
                     Console.Write(reader.FieldCount);
@@ -39,7 +37,8 @@ namespace CSCI_320_KotDT.Controllers
                     String title = reader.GetString(0);
                     Int32 ry = reader.GetInt32(1);
                     Int32 rt = reader.GetInt32(2);
-                    Movie movie = new Movie(title, ry, rt);
+                    Int32 id = reader.GetInt32(3);
+                    Movie movie = new Movie(title, ry, rt, id);
                     movies.Add(movie);
 
                 }
@@ -54,7 +53,23 @@ namespace CSCI_320_KotDT.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Movie movie = db.Movies.Find(id);
+
+            string query = "select title, release_year, running_time from movies where id = " + id.ToString();
+
+            var cmd = QueryHandler.query(query);
+            Movie movie = null;// db.Movies.Find(id);
+            using (var reader = cmd.ExecuteReader())
+            {
+                if (reader.Read())
+                {
+                    String title = reader.GetString(0);
+                    Int32 ry = reader.GetInt32(1);
+                    Int32 rt = reader.GetInt32(2);
+                    movie = new Movie(title, ry, rt, (int)id);
+                }
+
+            }
+         
             if (movie == null)
             {
                 return HttpNotFound();
