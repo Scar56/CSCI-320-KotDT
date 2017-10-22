@@ -22,7 +22,7 @@ namespace CSCI_320_KotDT.Controllers
             string queryString = "SELECT title, release_year, running_time, id FROM movies order by title limit 30";
             if (!String.IsNullOrEmpty(search))
             {
-                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search + "%'order by title limit 30";
+                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search + "%') order by title limit 30";
             }
 
 
@@ -57,7 +57,7 @@ namespace CSCI_320_KotDT.Controllers
             string query = "select title, release_year, running_time from movies where id = " + id.ToString();
 
             var cmd = QueryHandler.query(query);
-            Movie movie = null;// db.Movies.Find(id);
+            Movie movie = null;
             using (var reader = cmd.ExecuteReader())
             {
                 if (reader.Read())
@@ -74,7 +74,30 @@ namespace CSCI_320_KotDT.Controllers
             {
                 return HttpNotFound();
             }
-            return View(movie);
+
+            string query_reviews = "select review_text, score, like_count, dislike_count, created_by from review where movie_id = " + id.ToString();
+            cmd = QueryHandler.query(query_reviews);
+            List<Review> reviews = new List<Review>();
+            using (var reader = cmd.ExecuteReader())
+            {
+                if (reader.Read())
+                {
+                    Review review = new Review();
+                    if (!reader.IsDBNull(0))
+                        review.review_text = reader.GetString(0);
+                    if (!reader.IsDBNull(1))
+                        review.score = (float)reader.GetDecimal(1);
+                    if (!reader.IsDBNull(2))
+                        review.like_count = reader.GetInt32(2);
+                    if (!reader.IsDBNull(3))
+                        review.dislike_count = reader.GetInt32(3);
+                    if (!reader.IsDBNull(4))
+                        review.username = reader.GetString(4);
+                    reviews.Add(review);
+                }
+
+            }
+            return View(movie, reviews);
         }
 
 

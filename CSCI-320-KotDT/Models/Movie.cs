@@ -13,6 +13,8 @@ namespace CSCI_320_KotDT.Models
 
         [Display(Name = "Release Year")]
         public int Release_year { get; set; }
+
+        [Display(Name = "Running Time")]
         public int Running_time { get; set; }
 
         public Movie(string Title)
