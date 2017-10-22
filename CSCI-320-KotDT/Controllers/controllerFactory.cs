@@ -13,6 +13,7 @@ namespace CSCI_320_KotDT.Controllers {
         {
             IQueryHandler iHandler = new QueryHandler();
             // add any new services here and in every controller constructor
+
             IController controller = Activator.CreateInstance(controllerType, new[] { iHandler }) as Controller;
             return controller;
 //            if (requestContext == null)

@@ -18,7 +18,7 @@ namespace CSCI_320_KotDT
 			routes.MapRoute(
 				"Movie",
 				"{controller}/{action}/{id}",
-				new { Controller = "Movie", action = "Display", id = UrlParameter.Optional }
+				new { Controller = "Movie", action = "Search", id = UrlParameter.Optional }
 			);
 		}
 	}
