@@ -124,10 +124,7 @@
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Global.asax.cs" />
     <Compile Include="Models\Movie.cs" />
-<<<<<<< Updated upstream
     <Compile Include="Models\Review.cs" />
-=======
->>>>>>> Stashed changes
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -173,10 +170,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Web.config" />
-<<<<<<< Updated upstream
-=======
-    <Content Include="Views\Movies\Create.cshtml" />
->>>>>>> Stashed changes
     <Content Include="Views\Movies\Delete.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Movies\Edit.cshtml" />
@@ -185,11 +178,7 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
-<<<<<<< Updated upstream
     <Content Include="Views\Movies\Create.cshtml" />
-=======
-    <Content Include="Views\Movie\Search.cshtml" />
->>>>>>> Stashed changes
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -213,11 +202,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-<<<<<<< Updated upstream
           <IISUrl>http://localhost:65177/</IISUrl>
-=======
-          <IISUrl>http://localhost:51297/</IISUrl>
->>>>>>> Stashed changes
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

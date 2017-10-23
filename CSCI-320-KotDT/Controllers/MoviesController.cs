@@ -57,7 +57,7 @@ namespace CSCI_320_KotDT.Controllers
             string query = "select title, release_year, running_time from movies where id = " + id.ToString();
 
             var cmd = QueryHandler.query(query);
-            Movie movie = null;// db.Movies.Find(id);
+            Movie movie = null;
             using (var reader = cmd.ExecuteReader())
             {
                 if (reader.Read())
@@ -74,6 +74,23 @@ namespace CSCI_320_KotDT.Controllers
             {
                 return HttpNotFound();
             }
+
+            query = "select created_by, dislike_count, like_count, score, review_text from review where movie_id = " + id.ToString();
+            cmd = QueryHandler.query(query);
+            List<Review> reviews = new List<Review>();
+            using (var reader = cmd.ExecuteReader())
+            {
+                if (reader.Read())
+                {
+                    Review r = new Review();
+                    r.username = reader.GetString(0);
+                    r.dislike_count = reader.GetInt32(1);
+                    r.like_count = reader.GetInt32(2);
+                    r.score = reader.GetFloat(3);
+                    r.review_text = reader.GetString(4);
+                    reviews.Add(r);
+                }
+            }
             return View(movie);
         }
 
@@ -82,7 +99,7 @@ namespace CSCI_320_KotDT.Controllers
         {
             if (disposing)
             {
-             //   db.Dispose();
+
             }
             base.Dispose(disposing);
         }

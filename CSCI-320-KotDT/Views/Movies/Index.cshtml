@@ -11,13 +11,11 @@
 
     @using (Html.BeginForm("Index", "Movies", FormMethod.Get))
     {
-<<<<<<< Updated upstream
     <p>
         Title: @Html.TextBox("Search") <br />
         <input type="submit" value="Filter" />
     </p>
     }
-    </p>
     <table class="table">
         <tr>
             <th>
@@ -34,7 +32,8 @@
 
         @foreach (var item in Model)
         {
-            <tr>
+
+            <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Movies", new { id = item.MovieId }))'">
                 <td>
                     @Html.DisplayFor(modelItem => item.Title)
                 </td>
@@ -44,52 +43,8 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Running_time)
                 </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.MovieId }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.MovieId }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.MovieId })
-                </td>
             </tr>
         }
 
     </table>
-=======
-        <p> Title: @Html.TextBox("Search") <br />
-        <input type="submit" value="Filter" /></p>
-    }
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Title)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Release_year)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Running_time)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Title)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Release_year)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Running_time)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MovieId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MovieId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MovieId })
-        </td>
-    </tr>
-}
-
-</table>
->>>>>>> Stashed changes

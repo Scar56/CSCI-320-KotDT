@@ -22,3 +22,11 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.index-row{
+    cursor:pointer;
+}
+
+.index-row:hover{
+    background: #c7c7c7
+}

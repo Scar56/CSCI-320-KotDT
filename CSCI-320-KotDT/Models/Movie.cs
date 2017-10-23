@@ -7,21 +7,12 @@ namespace CSCI_320_KotDT.Models
     public class Movie
     {
         [Key]
-<<<<<<< Updated upstream
         public int MovieId { get; set; }
-=======
-        public int MovieId{ get; set; }
->>>>>>> Stashed changes
-
         public string Title { get; set; }
 
         [Display(Name = "Release Year")]
         public int Release_year { get; set; }
-<<<<<<< Updated upstream
-
         [Display(Name = "Running Time")]
-=======
->>>>>>> Stashed changes
         public int Running_time { get; set; }
 
         public Movie(string Title)
@@ -36,17 +27,8 @@ namespace CSCI_320_KotDT.Models
             this.Running_time = Running_time;
             this.MovieId = id;
         }
-<<<<<<< Updated upstream
 
 
     }
 }
 
-
-
-=======
-        
-
-    }
-}
->>>>>>> Stashed changes
