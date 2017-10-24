@@ -30,12 +30,24 @@ namespace CSCI_320_KotDT.Controllers
 
 			NpgsqlDataReader dr = cmd.ExecuteReader();
 
-			ArrayList res = new ArrayList();
+			ArrayList users = new ArrayList();
 			while (dr.Read()) {
-				res.Add(dr[0]);
+				users.Add(dr[0]);
 			}
-			ViewBag.searchRes = res;
+			dr.Close();
+			ViewBag.users = users;
 			
+			queryString = "Select title From movies where title like '%" + search + "%'";
+			cmd = QueryHandler.query(queryString);
+
+			dr = cmd.ExecuteReader();
+
+			ArrayList movies = new ArrayList();
+			while (dr.Read()) {
+				movies.Add(dr[0]);
+			}
+			dr.Close();
+			ViewBag.movies = movies;
 			
 			return View();
 		}

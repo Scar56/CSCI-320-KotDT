@@ -1,40 +1,80 @@
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\CSCI_320_KotDT.dll.config
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\CSCI_320_KotDT.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\CSCI_320_KotDT.pdb
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\Newtonsoft.Json.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\Npgsql.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Net.Http.Formatting.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Helpers.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Http.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Http.WebHost.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Mvc.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Razor.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.WebPages.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.WebPages.Razor.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\Microsoft.Extensions.DependencyInjection.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\Newtonsoft.Json.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\Npgsql.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Net.Http.Formatting.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Threading.Tasks.Extensions.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Http.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Http.WebHost.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Helpers.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Mvc.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.Razor.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.WebPages.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\System.Web.WebPages.Razor.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\obj\Debug\CSCI-320-KotDT.csprojResolveAssemblyReference.cache
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\obj\Debug\CSCI-320-KotDT.csproj.CoreCompileInputs.cache
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\obj\Debug\CSCI_320_KotDT.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\obj\Debug\CSCI_320_KotDT.pdb
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\EntityFramework.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\EntityFramework.SqlServer.dll
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\EntityFramework.xml
-C:\Users\Connor McAuliffe\Source\Repos\CSCI-320-KotDT\CSCI-320-KotDT\bin\EntityFramework.SqlServer.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll.config
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/Newtonsoft.Json.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/Npgsql.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Net.Http.Formatting.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Runtime.InteropServices.RuntimeInformation.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Helpers.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Http.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Http.WebHost.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Mvc.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Razor.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.Deployment.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.Razor.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/Newtonsoft.Json.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/Npgsql.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Net.Http.Formatting.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Threading.Tasks.Extensions.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Http.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Http.WebHost.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Helpers.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Mvc.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Razor.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.Deployment.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.Razor.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csprojResolveAssemblyReference.cache
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csproj.CoreCompileInputs.cache
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/EntityFramework.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/EntityFramework.SqlServer.dll
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/EntityFramework.xml
+C:/Users/Connor McAuliffe/Source/Repos/CSCI-320-KotDT/CSCI-320-KotDT/bin/EntityFramework.SqlServer.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/EntityFramework.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/EntityFramework.SqlServer.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Web.Infrastructure.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/Newtonsoft.Json.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/Npgsql.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Net.Http.Formatting.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Runtime.InteropServices.RuntimeInformation.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Helpers.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Http.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Http.WebHost.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Mvc.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Razor.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.Deployment.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.Razor.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/EntityFramework.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/EntityFramework.SqlServer.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/Newtonsoft.Json.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/Npgsql.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Net.Http.Formatting.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Http.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Http.WebHost.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Mvc.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Helpers.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.Razor.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.Deployment.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Web.WebPages.Razor.xml
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csprojResolveAssemblyReference.cache
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csproj.CoreCompileInputs.cache
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Threading.Tasks.Extensions.dll
+/home/shaun/RiderProjects/CSCI-320-KotDT/CSCI-320-KotDT/bin/System.Threading.Tasks.Extensions.xml

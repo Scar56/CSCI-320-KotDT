@@ -2,6 +2,12 @@
   ViewBag.Title = "Search Results";
 }
 
-@foreach (string i in ViewBag.searchRes) {
+<p>Users</p>
+@foreach (string i in ViewBag.users) {
+  <li>@i</li>
+}
+
+<p>Movies</p>
+@foreach (string i in ViewBag.movies) {
   <li>@i</li>
 }
