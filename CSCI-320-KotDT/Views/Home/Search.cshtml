@@ -1,13 +1,24 @@
 ﻿@{
   ViewBag.Title = "Search Results";
 }
+<div style="float: left">
+  <p>Users</p>
+  @foreach (string i in ViewBag.users) {
+    <li>@i</li>
+  }
+</div>
 
-<p>Users</p>
-@foreach (string i in ViewBag.users) {
-  <li>@i</li>
-}
-<br/>
-<p>Movies</p>
-@foreach (string i in ViewBag.movies) {
-  <li>@i</li>
-}
+<div style="float: left; padding-left: 100px">
+  <p>Movies</p>
+  @foreach (string i in ViewBag.movies) {
+    <li>@i</li>
+  }
+</div>
+
+<div style="float: right; padding-left: 100px">
+  <p>Actors</p>
+@*  @foreach (string i in ViewBag.actors) {*@
+@*    <li>@i</li>*@
+@*  }*@
+</div>
+<div style="clear: both"></div>

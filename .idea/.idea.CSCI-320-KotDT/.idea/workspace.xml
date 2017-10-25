@@ -8,7 +8,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +22,7 @@
       <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="880">
               <caret line="49" column="30" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="49" selection-end-column="30" />
               <folding>
                 <marker date="1508886712888" expanded="false" signature="7:145" ph="..." />
@@ -39,26 +38,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search.cshtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Search.cshtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="420">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <marker date="1508887156100" expanded="true" signature="0:40" ph="@..." />
-                <marker date="1508887156100" expanded="true" signature="55:109" ph="@..." />
-                <marker date="1508887156100" expanded="true" signature="92:109" ph="{...}" />
-                <marker date="1508887156100" expanded="true" signature="130:185" ph="@..." />
-                <marker date="1508887156100" expanded="true" signature="168:185" ph="{...}" />
+                <marker date="1508937833517" expanded="true" signature="0:40" ph="@..." />
+                <marker date="1508937833517" expanded="true" signature="41:149" ph="&lt;div.../&gt;" />
+                <marker date="1508937833517" expanded="true" signature="84:142" ph="@..." />
+                <marker date="1508937833517" expanded="true" signature="121:142" ph="{...}" />
+                <marker date="1508937833517" expanded="true" signature="151:282" ph="&lt;div.../&gt;" />
+                <marker date="1508937833517" expanded="true" signature="216:275" ph="@..." />
+                <marker date="1508937833517" expanded="true" signature="254:275" ph="{...}" />
+                <marker date="1508937833517" expanded="true" signature="284:428" ph="&lt;div.../&gt;" />
+                <marker date="1508937833517" expanded="true" signature="348:421" ph="@*...*@" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="295">
               <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding>
                 <marker date="1508887456568" expanded="true" signature="17:1915" ph="&lt;html.../&gt;" />
@@ -86,7 +89,7 @@
       <file leaf-file-name="bootstrap-theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap-theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="7120">
               <caret line="356" column="25" lean-forward="false" selection-start-line="356" selection-start-column="25" selection-end-line="356" selection-end-column="25" />
               <folding />
             </state>
@@ -106,52 +109,52 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Scripts/jquery-1.9.1.min.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c6/cf55ef06/IController.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/App_Start/WebApiConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2C057D9-D34D-4E02-9E58-0897BD60340C/1a/757ed04e/Stack`1.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/92/c9ac35b2/DefaultControllerFactory.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/a9/9346c9d1/Controller.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/controllerFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/f7/5b8a9319/DirectRouteExtensions.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c5/b50eec9d/MvcResources.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8918DD12-4691-4544-8225-E1B3745EFDAF/98/c7aa5cde/RequestContext.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/de/c1f035e5/IControllerActivator.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MovieController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Create.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/2a/b31fd1fd/RouteCollectionExtensions.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/85/57437056/ControllerTypeCache.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/ec/64f5d118/ControllerBase.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c6/cf55ef06/IController.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2C057D9-D34D-4E02-9E58-0897BD60340C/1a/757ed04e/Stack`1.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/a9/9346c9d1/Controller.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/03/b7e9d07f/UrlParameter.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2833757-5F6C-4665-B6EC-AF25FF10DAC6/70/c9683eed/OwinStartupAttribute.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/f7/5b8a9319/DirectRouteExtensions.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c5/b50eec9d/MvcResources.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/84/602bed8a/WebViewPage`1.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/204F7700-36D4-41BB-8DFD-3DABA3550E83/a4/ba74f5ff/Activator.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/79/1def5321/WebViewPage.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8918DD12-4691-4544-8225-E1B3745EFDAF/98/c7aa5cde/RequestContext.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/de/c1f035e5/IControllerActivator.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F99F496C-B0D2-49C1-A945-C1FCABCE1695/ab/6b1f6269/HttpConfigurationExtensions.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Global.asax" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MovieController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42C9FE38-DC3A-42F0-B8EB-5BF7EC82F25F/41/069747e6/WebPageBase.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MoviesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Create.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/IQueryHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/QueryHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8918DD12-4691-4544-8225-E1B3745EFDAF/60/e14d5118/HttpApplication.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/2a/b31fd1fd/RouteCollectionExtensions.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8874DD89-F3EA-4859-A41F-9BD179CDA13A/52/743b8938/NpgsqlCommand.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap.min.css.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/85/57437056/ControllerTypeCache.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/CreateUser.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/ec/64f5d118/ControllerBase.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -196,8 +199,8 @@
         <option value="$PROJECT_DIR$/CSCI-320-KotDT.sln" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/packages.config" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" />
       </list>
     </option>
   </component>
@@ -208,8 +211,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -227,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -350,6 +353,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,6 +498,7 @@
       <workItem from="1508331837281" duration="389000" />
       <workItem from="1508505690477" duration="528000" />
       <workItem from="1508533689303" duration="699000" />
+      <workItem from="1508937071720" duration="760000" />
     </task>
     <task id="LOCAL-00001" summary="Created Login Page">
       <created>1506903211219</created>
@@ -635,11 +640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508886790448</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="css change on search bar">
+      <created>1508887521750</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1508887521750</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70652000" />
+    <option name="totallyTimeSpent" value="72061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -651,43 +663,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1020" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3069001" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31204942" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3069001" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30735457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33788037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30784914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33788037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16118598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -698,19 +697,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30784914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30784914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33788037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16118598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +764,8 @@
     <MESSAGE value="fixing merge errors" />
     <MESSAGE value="again" />
     <MESSAGE value="search includes and displays movies" />
-    <option name="LAST_COMMIT_MESSAGE" value="search includes and displays movies" />
+    <MESSAGE value="css change on search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="css change on search bar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -957,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="74" lean-forward="false" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,25 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1508883928953" expanded="false" signature="6:147" ph="..." />
-            <marker date="1508883928953" expanded="true" signature="185:3356" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="234:3354" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="348:403" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="476:1529" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="650:842" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="1015:1485" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="1067:1471" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="1575:3177" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="1613:1717" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="1964:2285" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="2013:2270" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="2326:2393" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="2681:3135" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="2730:3121" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="3235:3348" ph="{...}" />
-            <marker date="1508883928953" expanded="true" signature="3272:3301" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,15 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding>
-            <marker date="1507901715579" expanded="true" signature="0:35" ph="@..." />
-            <marker date="1507901715579" expanded="true" signature="37:310" ph="&lt;div.../&gt;" />
-            <marker date="1507901715579" expanded="true" signature="312:1365" ph="&lt;div.../&gt;" />
-            <marker date="1507901715579" expanded="true" signature="332:737" ph="&lt;div.../&gt;" />
-            <marker date="1507901715579" expanded="true" signature="388:614" ph="&lt;p.../&gt;" />
-            <marker date="1507901715579" expanded="true" signature="740:1061" ph="&lt;div.../&gt;" />
-            <marker date="1507901715579" expanded="true" signature="1064:1358" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1088,21 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508883928965" expanded="true" signature="36:68" ph="@..." />
-            <marker date="1508883928965" expanded="true" signature="86:1863" ph="@..." />
-            <marker date="1508883928965" expanded="true" signature="111:1863" ph="{...}" />
-            <marker date="1508883928965" expanded="true" signature="147:1861" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="346:761" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="491:746" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="771:1207" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="923:1192" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1217:1653" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1369:1638" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1663:1850" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1700:1835" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1865:1923" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,24 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <marker date="1508883928965" expanded="true" signature="49:82" ph="@..." />
-            <marker date="1508883928965" expanded="true" signature="100:1250" ph="&lt;p.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="154:334" ph="@..." />
-            <marker date="1508883928965" expanded="true" signature="212:334" ph="{...}" />
-            <marker date="1508883928965" expanded="true" signature="223:328" ph="&lt;p.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="339:1250" ph="&lt;table.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="369:705" ph="&lt;tr.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="386:467" ph="&lt;th.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="480:568" ph="&lt;th.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="581:669" ph="&lt;th.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="715:1236" ph="@..." />
-            <marker date="1508883928965" expanded="true" signature="743:1236" ph="{...}" />
-            <marker date="1508883928965" expanded="true" signature="767:1226" ph="&lt;tr.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="896:984" ph="&lt;td.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1001:1096" ph="&lt;td.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1113:1208" ph="&lt;td.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1135,21 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508883928965" expanded="true" signature="36:70" ph="@..." />
-            <marker date="1508883928965" expanded="true" signature="89:1824" ph="@..." />
-            <marker date="1508883928965" expanded="true" signature="114:1824" ph="{...}" />
-            <marker date="1508883928965" expanded="true" signature="155:1822" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="305:720" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="450:705" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="730:1166" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="882:1151" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1176:1612" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1328:1597" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1622:1811" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1659:1796" ph="&lt;div.../&gt;" />
-            <marker date="1508883928965" expanded="true" signature="1826:1884" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,13 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <marker date="1507338004080" expanded="false" signature="6:230" ph="..." />
-            <marker date="1507338004080" expanded="true" signature="256:822" ph="{...}" />
-            <marker date="1507338004080" expanded="true" signature="297:820" ph="{...}" />
-            <marker date="1507338004080" expanded="true" signature="337:656" ph="{...}" />
-            <marker date="1507338004080" expanded="true" signature="720:817" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,35 +1084,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="7120">
           <caret line="356" column="25" lean-forward="false" selection-start-line="356" selection-start-column="25" selection-end-line="356" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <marker date="1508887156100" expanded="true" signature="0:40" ph="@..." />
-            <marker date="1508887156100" expanded="true" signature="55:109" ph="@..." />
-            <marker date="1508887156100" expanded="true" signature="92:109" ph="{...}" />
-            <marker date="1508887156100" expanded="true" signature="130:185" ph="@..." />
-            <marker date="1508887156100" expanded="true" signature="168:185" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="880">
           <caret line="49" column="30" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="49" selection-end-column="30" />
           <folding>
             <marker date="1508886712888" expanded="false" signature="7:145" ph="..." />
@@ -1216,7 +1114,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="295">
           <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding>
             <marker date="1508887456568" expanded="true" signature="17:1915" ph="&lt;html.../&gt;" />
@@ -1236,6 +1134,24 @@
             <marker date="1508887456568" expanded="true" signature="1528:1659" ph="&lt;div.../&gt;" />
             <marker date="1508887456568" expanded="true" signature="1592:1652" ph="&lt;footer.../&gt;" />
             <marker date="1508887456568" expanded="true" signature="1661:1855" ph="&lt;environment.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1508937833517" expanded="true" signature="0:40" ph="@..." />
+            <marker date="1508937833517" expanded="true" signature="41:149" ph="&lt;div.../&gt;" />
+            <marker date="1508937833517" expanded="true" signature="84:142" ph="@..." />
+            <marker date="1508937833517" expanded="true" signature="121:142" ph="{...}" />
+            <marker date="1508937833517" expanded="true" signature="151:282" ph="&lt;div.../&gt;" />
+            <marker date="1508937833517" expanded="true" signature="216:275" ph="@..." />
+            <marker date="1508937833517" expanded="true" signature="254:275" ph="{...}" />
+            <marker date="1508937833517" expanded="true" signature="284:428" ph="&lt;div.../&gt;" />
+            <marker date="1508937833517" expanded="true" signature="348:421" ph="@*...*@" />
           </folding>
         </state>
       </provider>
