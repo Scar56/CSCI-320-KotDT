@@ -35,7 +35,14 @@
 
     </dl>
 </div>
+<div>
+        <h3>Reviews</h3>
+        @foreach(var review in Model.reviews)
+        {
+                <p>Review by: @Html.DisplayFor(text => review.username)</p>
+                <p>@Html.DisplayFor(text => review.review_text)</p>
+        }
+
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.MovieId }) |
     @Html.ActionLink("Back to List", "Index")
 </p>

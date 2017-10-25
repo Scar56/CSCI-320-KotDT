@@ -22,9 +22,9 @@ namespace CSCI_320_KotDT.Controllers
             string queryString = "SELECT title, release_year, running_time, id FROM movies order by title limit 30";
             if (!String.IsNullOrEmpty(search))
             {
-                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search  + "%'order by title limit 30"; 
+                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search  + "%') order by title limit 30";
             }
-           
+
 
             var cmd = QueryHandler.query(queryString);
             List<Movie> movies = new List<Movie>();
@@ -51,7 +51,7 @@ namespace CSCI_320_KotDT.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new HttpStatusCodeResult((int)HttpStatusCode.BadRequest);
             }
 
             string query = "select title, release_year, running_time from movies where id = " + id.ToString();
@@ -69,7 +69,7 @@ namespace CSCI_320_KotDT.Controllers
                 }
 
             }
-         
+
             if (movie == null)
             {
                 return HttpNotFound();
@@ -91,6 +91,7 @@ namespace CSCI_320_KotDT.Controllers
                     reviews.Add(r);
                 }
             }
+            movie.reviews = reviews;
             return View(movie);
         }
 

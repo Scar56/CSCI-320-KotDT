@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CSCI_320_KotDT.Models
@@ -14,6 +15,8 @@ namespace CSCI_320_KotDT.Models
         public int Release_year { get; set; }
         [Display(Name = "Running Time")]
         public int Running_time { get; set; }
+
+        public List<Review> reviews;
 
         public Movie(string Title)
         {
