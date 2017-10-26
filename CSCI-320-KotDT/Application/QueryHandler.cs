@@ -27,6 +27,10 @@ namespace ControllerDI.Services {
             return cmd;
         }
 
+        /// <summary>creates command object for specified query</summary>
+        /// <returns>2D arraylist representation of query, or 1d arraylist if only one column</returns>
+        /// <param name="queryString">The desired query string</param>
+        /// <param name="columns">The number of columns in the result table</param>
         public ArrayList read(string queryString, int columns) {
             var cmd = query(queryString);
             var dr = cmd.ExecuteReader();
