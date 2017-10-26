@@ -32,15 +32,19 @@
         <dd>
             @Html.DisplayFor(model => model.Running_time)
         </dd>
+        <table class="table">
         @foreach (var actor in Model.Cast)
             {
-            <dd>
-                @Html.DisplayFor(modelItem => actor.Name)
-            </dd>
-                <dd>
-                    @Html.DisplayFor(modelItem => actor.Role)
-                </dd>
+                <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
+                    <td>
+                        @Html.DisplayFor(modelItem => actor.Name)
+                    </td>
+                    <td>   
+                        @Html.DisplayFor(modelItem => actor.Role)
+                    </td>
+                </tr>
         }
+        </table>
     </dl>
 </div>
 <div>

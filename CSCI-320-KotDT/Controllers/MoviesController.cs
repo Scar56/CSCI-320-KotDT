@@ -20,11 +20,11 @@ namespace CSCI_320_KotDT.Controllers
         public ActionResult Index(string search, int pageNum = 0, int pageSize = 25)
         {
             int temp = pageNum * pageSize;
-            string queryString = "SELECT title, release_year, running_time, id FROM movies order by (select score from moviescore where moviescore.id = movies.id), title limit " +
+            string queryString = "SELECT title, release_year, running_time, id FROM movies order by title limit " + 
                 pageSize.ToString() + " offset " + temp.ToString();
             if (!String.IsNullOrEmpty(search))
             {
-                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search + "%') order by (select score from moviescore where moviescore.id = movies.id), title limit " +
+                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search  + "%') order by title limit " + 
                 pageSize.ToString() + " offset " + temp.ToString();
             }
             Console.WriteLine(queryString);
@@ -77,6 +77,23 @@ namespace CSCI_320_KotDT.Controllers
             {
                 return HttpNotFound();
             }
+
+            query = "SELECT name, role FROM actors WHERE performed_in = '" + movie.Title + "'";
+            //query += "ORDER BY (SELECT count(name) FROM actors";                                  //TODO: Order by popularity
+            cmd = QueryHandler.query(query);
+            List<Actor> cast = new List<Actor>();
+            using (var reader = cmd.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    String name = reader.GetString(0);
+                    String role = reader.GetString(1);
+                    cast.Add(new Actor(name, role));
+                }
+
+            }
+
+            movie.Cast = cast;
 
             query = "select created_by, dislike_count, like_count, score, review_text from review where movie_id = " + id.ToString();
             cmd = QueryHandler.query(query);
