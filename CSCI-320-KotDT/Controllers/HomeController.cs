@@ -37,17 +37,20 @@ namespace CSCI_320_KotDT.Controllers
 			dr.Close();
 			ViewBag.users = users;
 			
-			queryString = "Select title From movies where title like '%" + search + "%'";
+			queryString = "Select title, id From movies where title like '%" + search + "%'";
 			cmd = QueryHandler.query(queryString);
 
 			dr = cmd.ExecuteReader();
 
 			ArrayList movies = new ArrayList();
+			ArrayList id = new ArrayList();
 			while (dr.Read()) {
 				movies.Add(dr[0]);
+				id.Add(dr[1]);
 			}
 			dr.Close();
 			ViewBag.movies = movies;
+			ViewBag.id = id;
 			
 			return View();
 		}
