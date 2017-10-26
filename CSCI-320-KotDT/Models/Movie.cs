@@ -21,9 +21,10 @@ namespace CSCI_320_KotDT.Models
         [Display(Name = "Cast")]
         public List<Actor> Cast { get; set; }
 
-        public Movie(string Title)
+        public Movie(string Title, int id)
         {
             this.Title = Title;
+            this.MovieId = id;
         }
 
         public Movie(string Title, int Release_year, int Running_time, int id)

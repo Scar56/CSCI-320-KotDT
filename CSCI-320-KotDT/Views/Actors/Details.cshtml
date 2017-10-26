@@ -1,0 +1,29 @@
+﻿@model CSCI_320_KotDT.Models.Actor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>@Html.DisplayFor(model => model.Name)</h4>
+    <table class="table">
+        @foreach (var movie in Model.Filmography)
+        {
+            <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Movies", new { id = movie.Item1.MovieId }))'">
+                <td>
+                    @Html.DisplayFor(modelItem => movie.Item2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => movie.Item1.Title)
+                </td>
+                
+            </tr>
+        }
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Name }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
