@@ -1,8 +1,6 @@
 ﻿
 using System.Collections;
-using System.Data;
 using System.Web.Mvc;
-using System.Web.UI.WebControls;
 using ControllerDI.Interfaces;
 using Npgsql;
 
@@ -28,27 +26,18 @@ namespace CSCI_320_KotDT.Controllers
 			string queryString = "Select Username From \"User\" where username like '%" + search + "%'";
 			var cmd = QueryHandler.query(queryString);
 
-			NpgsqlDataReader dr = cmd.ExecuteReader();
-
-			ArrayList users = new ArrayList();
-			while (dr.Read()) {
-				users.Add(dr[0]);
-			}
-			dr.Close();
+			ArrayList users = QueryHandler.read(queryString, 1);
 			ViewBag.users = users;
 			
 			queryString = "Select title, id From movies where title like '%" + search + "%'";
-			cmd = QueryHandler.query(queryString);
-
-			dr = cmd.ExecuteReader();
+			ArrayList dr = QueryHandler.read(queryString, 2);
 
 			ArrayList movies = new ArrayList();
 			ArrayList id = new ArrayList();
-			while (dr.Read()) {
-				movies.Add(dr[0]);
-				id.Add(dr[1]);
+			foreach(ArrayList i in dr){
+				movies.Add(i[0]);
+				id.Add(i[1]);
 			}
-			dr.Close();
 			ViewBag.movies = movies;
 			ViewBag.id = id;
 			
