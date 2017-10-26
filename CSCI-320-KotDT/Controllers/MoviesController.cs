@@ -17,14 +17,17 @@ namespace CSCI_320_KotDT.Controllers
         }
 
         // GET: Movies
-        public ActionResult Index(string search)
+        public ActionResult Index(string search, int pageNum = 0, int pageSize = 25)
         {
-            string queryString = "SELECT title, release_year, running_time, id FROM movies order by title limit 30";
+            int temp = pageNum * pageSize;
+            string queryString = "SELECT title, release_year, running_time, id FROM movies order by title limit " + 
+                pageSize.ToString() + " offset " + temp.ToString();
             if (!String.IsNullOrEmpty(search))
             {
-                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search  + "%') order by title limit 30";
+                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search  + "%') order by title limit " + 
+                pageSize.ToString() + " offset" + temp.ToString();
             }
-
+            Console.WriteLine(queryString);
 
             var cmd = QueryHandler.query(queryString);
             List<Movie> movies = new List<Movie>();
