@@ -1,5 +1,4 @@
-﻿using System;
-using System.Web.Configuration;
+﻿using System.Collections;
 using System.Web.Mvc;
 using System.Web.Services;
 using ControllerDI.Interfaces;
@@ -26,16 +25,12 @@ namespace CSCI_320_KotDT.Controllers {
         [HttpPost][WebMethod(EnableSession = true)]
         public ActionResult Login(string username, string password) {
             string queryString = "Select username, password From \"User\" where username = '" + username + "'";
-            var cmd = QueryHandler.query(queryString);
-            var dr = cmd.ExecuteReader();
+            
             //should at most have one result
-            while(dr.Read()){
-                if (password.Equals(dr[1])) {
-                    dr.Close();
-                    System.Web.HttpContext.Current.Session["UserID"] = username;
-                    return RedirectToAction("Index", "Home");
-                }
-                dr.Close();
+            ArrayList query = QueryHandler.read(queryString, 2);
+            if (password.Equals(((ArrayList)query[0])[1])) {
+                System.Web.HttpContext.Current.Session["UserID"] = username;
+                return RedirectToAction("Index", "Home");
             }
             return View();
         }
@@ -74,22 +69,19 @@ namespace CSCI_320_KotDT.Controllers {
             }
             
             string queryString = "Select * From \"User\" where username = '" + username + "'";
-            var cmd = QueryHandler.query(queryString);
-            var dr = cmd.ExecuteReader();
-            while(dr.Read()){
+            ArrayList usernames = QueryHandler.read(queryString, 1);
+            foreach(string i in usernames){
                 //check validity
-                if(username.Equals(dr[0])) {
+                if(username.Equals(i)) {
                     ViewBag.invalid = true;
                     ViewBag.invalidMessage = "username invalid";
                     return View();
                 }
             }
-            dr.Close();
             
             ViewBag.invalid = false;
             queryString = "INSERT INTO \"User\" VALUES('" + username + "'" + ", " + "'" + password + "'" + ", " + "'" + firstName + "'" + ", " + "'" + lastName + "'" + ", " + false + ")";
-            cmd.CommandText = queryString;
-            cmd.ExecuteNonQuery();
+            QueryHandler.nonQuery(queryString);
             return RedirectToAction("Index", "Home");
         }
     }

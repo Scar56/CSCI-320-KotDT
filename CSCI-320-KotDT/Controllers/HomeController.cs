@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Web.Mvc;
 using ControllerDI.Interfaces;
-using Npgsql;
 
 namespace CSCI_320_KotDT.Controllers
 {
@@ -24,7 +23,6 @@ namespace CSCI_320_KotDT.Controllers
 		[HttpPost]
 		public ActionResult Search(string search) {
 			string queryString = "Select Username From \"User\" where username like '%" + search + "%'";
-			var cmd = QueryHandler.query(queryString);
 
 			ArrayList users = QueryHandler.read(queryString, 1);
 			ViewBag.users = users;

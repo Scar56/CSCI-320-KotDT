@@ -1,8 +1,4 @@
-﻿using System.Web.Http.Dispatcher;
-using System;
-using System.Collections;
-using System.Runtime.InteropServices;
-using System.Web;
+﻿using System.Collections;
 using ControllerDI.Interfaces;
 using Npgsql;
 
@@ -49,6 +45,13 @@ namespace ControllerDI.Services {
             dr.Close();
             return res;
         }
-
+        
+        /// <summary>creates command object for specified query</summary>
+        /// <param name="queryString">The desired query string</param>
+        public void nonQuery(string queryString){
+            var cmd = query(queryString);
+            cmd.ExecuteNonQuery();
+        }
+        
     }
 }
