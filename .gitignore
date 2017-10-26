@@ -6,3 +6,7 @@
 /.vs/CSCI-320-KotDT/v15/.suo
 /Backup2
 /CSCI-320-KotDT/obj/Debug
+*.config
+*.ide
+*.ide
+*.cache
