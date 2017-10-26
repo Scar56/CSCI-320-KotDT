@@ -32,7 +32,15 @@
         <dd>
             @Html.DisplayFor(model => model.Running_time)
         </dd>
-
+        @foreach (var actor in Model.Cast)
+            {
+            <dd>
+                @Html.DisplayFor(modelItem => actor.Name)
+            </dd>
+                <dd>
+                    @Html.DisplayFor(modelItem => actor.Role)
+                </dd>
+        }
     </dl>
 </div>
 <div>

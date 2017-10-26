@@ -18,6 +18,9 @@ namespace CSCI_320_KotDT.Models
 
         public List<Review> reviews;
 
+        [Display(Name = "Cast")]
+        public List<Actor> Cast { get; set; }
+
         public Movie(string Title)
         {
             this.Title = Title;
