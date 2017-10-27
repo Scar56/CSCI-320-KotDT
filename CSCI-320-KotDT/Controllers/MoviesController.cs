@@ -77,7 +77,7 @@ namespace CSCI_320_KotDT.Controllers
             {
                 return HttpNotFound();
             }
-
+/*
             query = "SELECT name, role FROM actors WHERE performed_in = '" + movie.Title + "'";
             //query += "ORDER BY (SELECT count(name) FROM actors";                                  //TODO: Order by popularity
             cmd = QueryHandler.query(query);
@@ -94,7 +94,7 @@ namespace CSCI_320_KotDT.Controllers
             }
 
             movie.Cast = cast;
-
+*/
             query = "select created_by, dislike_count, like_count, score, review_text from review where movie_id = " + id.ToString();
             cmd = QueryHandler.query(query);
             List<Review> reviews = new List<Review>();
