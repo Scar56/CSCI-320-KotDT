@@ -4,6 +4,8 @@ using System.Net;
 using System.Web.Mvc;
 using CSCI_320_KotDT.Models;
 using ControllerDI.Interfaces;
+using System.Diagnostics;
+using System.Collections;
 
 namespace CSCI_320_KotDT.Controllers
 {
@@ -77,7 +79,7 @@ namespace CSCI_320_KotDT.Controllers
             {
                 return HttpNotFound();
             }
-/*
+
             query = "SELECT name, role FROM actors WHERE performed_in = '" + movie.Title + "'";
             //query += "ORDER BY (SELECT count(name) FROM actors";                                  //TODO: Order by popularity
             cmd = QueryHandler.query(query);
@@ -94,8 +96,8 @@ namespace CSCI_320_KotDT.Controllers
             }
 
             movie.Cast = cast;
-*/
-            query = "select created_by, dislike_count, like_count, score, review_text from review where movie_id = " + id.ToString();
+
+            query = "select created_by, dislike_count, like_count, score, ReviewText from review where movie_id = " + id.ToString();
             cmd = QueryHandler.query(query);
             List<Review> reviews = new List<Review>();
             using (var reader = cmd.ExecuteReader())
@@ -103,16 +105,50 @@ namespace CSCI_320_KotDT.Controllers
                 if (reader.Read())
                 {
                     Review r = new Review();
-                    r.username = reader.GetString(0);
-                    r.dislike_count = reader.GetInt32(1);
-                    r.like_count = reader.GetInt32(2);
-                    r.score = reader.GetFloat(3);
-                    r.review_text = reader.GetString(4);
+                    r.CreatedBy = reader.GetString(0);
+                    r.DislikeCount = reader.GetInt32(1);
+                    r.LikeCount = reader.GetInt32(2);
+                    r.Score = reader.GetFloat(3);
+                    r.ReviewText = reader.GetString(4);
                     reviews.Add(r);
                 }
             }
-            movie.reviews = reviews;
+            movie.Reviews = reviews;
+            movie.NewReview = new Review(movie.MovieId);
+            
             return View(movie);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult AddReview(Review review)
+        {
+            if (ModelState.IsValid)
+            {
+                String query = "insert into review (review_id, ReviewText, score, created_by, movie_id) values ( nextval('review_review_id_seq'),'" +
+                    review.ReviewText + "'," + review.Score.ToString() + ",'" + review.CreatedBy + "'," + review.MovieId + ")";
+
+                return RedirectToAction("Details", new { id = review.MovieId });
+            }
+            Debug.Print("here");
+            return RedirectToAction("Details", new { id = review.MovieId });
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create([Bind(Include = "Name,Performed_in,Role")] Actor actor)
+        {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View(actor);
         }
 
 
@@ -124,5 +160,6 @@ namespace CSCI_320_KotDT.Controllers
             }
             base.Dispose(disposing);
         }
+
     }
 }

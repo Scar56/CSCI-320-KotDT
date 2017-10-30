@@ -8,7 +8,7 @@ namespace CSCI_320_KotDT.Models
     {
         [Key]
         public string Name { get; set; }
-        public string Performed_in { get; set; }
+        public string PerformedIn { get; set; }
         public string Role { get; set; }
 
         public Actor(string Name, string Role)
@@ -18,4 +18,6 @@ namespace CSCI_320_KotDT.Models
         }
 
     }
+
+   
 }

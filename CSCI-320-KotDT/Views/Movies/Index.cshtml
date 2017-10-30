@@ -7,10 +7,9 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
-
     @using (Html.BeginForm("Index", "Movies", FormMethod.Get))
     {
+       
     <p>
         Title: @Html.TextBox("Search") <br />
         <input type="submit" value="Filter" />
@@ -22,10 +21,10 @@
                 @Html.DisplayNameFor(model => model.Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Release_year)
+                @Html.DisplayNameFor(model => model.ReleaseYear)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Running_time)
+                @Html.DisplayNameFor(model => model.RunningTime)
             </th>
             <th></th>
         </tr>
@@ -38,10 +37,10 @@
                     @Html.DisplayFor(modelItem => item.Title)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Release_year)
+                    @Html.DisplayFor(modelItem => item.ReleaseYear)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Running_time)
+                    @Html.DisplayFor(modelItem => item.RunningTime)
                 </td>
             </tr>
         }
