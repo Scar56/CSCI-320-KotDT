@@ -1,0 +1,9 @@
+﻿@using CSCI_320_KotDT.Models
+@{
+    ViewBag.Title = "User";
+}
+
+@{User user = (User) HttpContext.Current.Session["selectedUser"];
+}
+@user.firstName
+@user.lastName

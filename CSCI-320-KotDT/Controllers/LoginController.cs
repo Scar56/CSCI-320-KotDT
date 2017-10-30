@@ -28,9 +28,9 @@ namespace CSCI_320_KotDT.Controllers {
             string queryString = "Select username, password, first_name, last_name From \"User\" where username = '" + username + "'";
             
             //should at most have one result
-            ArrayList query = QueryHandler.read(queryString, 2);
+            ArrayList query = QueryHandler.read(queryString, 4);
             if (password.Equals(((ArrayList)query[0])[1])) {
-                System.Web.HttpContext.Current.Session["User"] = new User(username, (string) ((ArrayList)query[0])[2], (string) ((ArrayList)query[0])[3]);
+                System.Web.HttpContext.Current.Session["UserID"] = new User(username, (string) ((ArrayList)query[0])[2], (string) ((ArrayList)query[0])[3]);
                 return RedirectToAction("Index", "Home");
             }
             return View();
