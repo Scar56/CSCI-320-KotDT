@@ -1,0 +1,26 @@
+﻿@model CSCI_320_KotDT.Models.Review
+
+@using (Html.BeginForm("AddReview", "Movies", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Review</h4>
+        <hr />
+        <input type="hidden" name="@Html.NameFor(m=>m.MovieId)" value="@Model.MovieId" />
+
+        <p>Username: <input type="text" name="@Html.NameFor(m=>m.CreatedBy)" value="@Model.CreatedBy" /></p>
+
+        <p>Review: <input type="text" name="@Html.NameFor(m=>m.review_text)" value="@Model.review_text" /></p>
+
+        <p>Score: <input type="text" name="@Html.NameFor(m=>m.ReviewText)" value="@Model.Score" /></p>
+
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}

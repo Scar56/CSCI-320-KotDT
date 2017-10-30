@@ -1,4 +1,5 @@
-@model CSCI_320_KotDT.Models.Movie
+@using CSCI_320_KotDT.Models
+@model Movie
 @{
     ViewBag.Title = "Details";
 }
@@ -18,24 +19,24 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Release_year)
+            @Html.DisplayNameFor(model => model.ReleaseYear)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Release_year)
+            @Html.DisplayFor(model => model.ReleaseYear)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Running_time)
+            @Html.DisplayNameFor(model => model.RunningTime)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Running_time)
+            @Html.DisplayFor(model => model.RunningTime)
         </dd>
         <table class="table">
         @foreach (var actor in Model.Cast)
-            {
-                <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
+        {
+                <tr onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
                     <td>
                         @Html.DisplayFor(modelItem => actor.Name)
                     </td>
@@ -49,12 +50,15 @@
 </div>
 <div>
         <h3>Reviews</h3>
-        @foreach(var review in Model.reviews)
+        @foreach (var review in Model.Reviews)
         {
-                <p>Review by: @Html.DisplayFor(text => review.username)</p>
-                <p>@Html.DisplayFor(text => review.review_text)</p>
+                <p>Review by: @Html.DisplayFor(text => review.CreatedBy)</p>
+                <p>@Html.DisplayFor(text => review.ReviewText)</p>
         }
 
+        @{Html.RenderPartial("_Review", Model.NewReview); }
+
+</div>
 <p>
     @Html.ActionLink("Back to List", "Index")
 </p>

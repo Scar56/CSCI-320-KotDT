@@ -12,11 +12,13 @@ namespace CSCI_320_KotDT.Models
         public string Title { get; set; }
 
         [Display(Name = "Release Year")]
-        public int Release_year { get; set; }
+        public int ReleaseYear { get; set; }
         [Display(Name = "Running Time")]
-        public int Running_time { get; set; }
+        public int RunningTime { get; set; }
 
-        public List<Review> reviews;
+        public List<Review> Reviews;
+
+        public Review NewReview;
 
         [Display(Name = "Cast")]
         public List<Actor> Cast { get; set; }
@@ -29,11 +31,14 @@ namespace CSCI_320_KotDT.Models
         public Movie(string Title, int Release_year, int Running_time, int id)
         {
             this.Title = Title;
-            this.Release_year = Release_year;
-            this.Running_time = Running_time;
+            this.ReleaseYear = Release_year;
+            this.RunningTime = Running_time;
             this.MovieId = id;
         }
 
+        public Movie()
+        {
+        }
 
     }
 }
