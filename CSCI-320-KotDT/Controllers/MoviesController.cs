@@ -22,11 +22,14 @@ namespace CSCI_320_KotDT.Controllers
         public ActionResult Index(string search, int pageNum = 0, int pageSize = 25)
         {
             int temp = pageNum * pageSize;
-            string queryString = "SELECT title, release_year, running_time, id FROM movies order by title limit " + 
+            string queryString = "SELECT title, release_year, running_time,
+            id FROM movies order by (select score from moviescore where movies.id = moviescore.id), title limit " +
                 pageSize.ToString() + " offset " + temp.ToString();
             if (!String.IsNullOrEmpty(search))
             {
-                queryString = "SELECT title, release_year, running_time, id FROM movies where lower(title) like lower('%" + search  + "%') order by title limit " + 
+                queryString = "SELECT title, release_year, running_time, id FROM
+                movies where lower(title) like lower('%" + search  + "%')
+                order by (select score from moviescore where movies.id = moviescore.id), title limit " +
                 pageSize.ToString() + " offset " + temp.ToString();
             }
             Console.WriteLine(queryString);
@@ -80,7 +83,7 @@ namespace CSCI_320_KotDT.Controllers
                 return HttpNotFound();
             }
 
-            query = "SELECT name, role FROM actors WHERE performed_in = '" + movie.Title + "'";
+            query = "SELECT name, role FROM actors WHERE movie_id = '" + movie.Id + "'";
             //query += "ORDER BY (SELECT count(name) FROM actors";                                  //TODO: Order by popularity
             cmd = QueryHandler.query(query);
             List<Actor> cast = new List<Actor>();
@@ -115,7 +118,7 @@ namespace CSCI_320_KotDT.Controllers
             }
             movie.Reviews = reviews;
             movie.NewReview = new Review(movie.MovieId);
-            
+
             return View(movie);
         }
 
