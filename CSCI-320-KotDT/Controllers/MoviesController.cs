@@ -22,14 +22,14 @@ namespace CSCI_320_KotDT.Controllers
         public ActionResult Index(string search, int pageNum = 0, int pageSize = 25)
         {
             int temp = pageNum * pageSize;
-            string queryString = "SELECT title, release_year, running_time,
-            id FROM movies order by (select score from moviescore where movies.id = moviescore.id), title limit " +
+            string queryString = "SELECT title, release_year, running_time," + 
+            "id FROM movies order by (select score from moviescore where movies.id = moviescore.id), title limit " +
                 pageSize.ToString() + " offset " + temp.ToString();
             if (!String.IsNullOrEmpty(search))
             {
-                queryString = "SELECT title, release_year, running_time, id FROM
-                movies where lower(title) like lower('%" + search  + "%')
-                order by (select score from moviescore where movies.id = moviescore.id), title limit " +
+                queryString = "SELECT title, release_year, running_time, id FROM" + 
+                "movies where lower(title) like lower('%" + search  + "%')" + 
+                "order by (select score from moviescore where movies.id = moviescore.id), title limit " +
                 pageSize.ToString() + " offset " + temp.ToString();
             }
             Console.WriteLine(queryString);
