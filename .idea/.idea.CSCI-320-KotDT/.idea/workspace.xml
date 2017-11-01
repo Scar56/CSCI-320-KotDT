@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96d2b476-0c12-4b44-9497-9f5e04c0921b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" />
+    <list default="true" id="96d2b476-0c12-4b44-9497-9f5e04c0921b" name="Default" comment="temporary fix while I put my changes back in">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,81 +13,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="CSCI-320-KotDT" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
+      <file leaf-file-name="MoviesController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MoviesController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="49" column="30" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="1306">
+              <caret line="96" column="2" lean-forward="false" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
               <folding>
-                <marker date="1508886712888" expanded="false" signature="7:145" ph="..." />
-                <marker date="1508886712888" expanded="true" signature="183:1193" ph="{...}" />
-                <marker date="1508886712888" expanded="true" signature="227:1191" ph="{...}" />
-                <marker date="1508886712888" expanded="true" signature="328:359" ph="{...}" />
-                <marker date="1508886712888" expanded="true" signature="393:492" ph="{...}" />
-                <marker date="1508886712888" expanded="true" signature="551:1188" ph="{...}" />
-                <marker date="1508886712888" expanded="true" signature="802:830" ph="{...}" />
-                <marker date="1508886712888" expanded="true" signature="1090:1119" ph="{...}" />
+                <marker date="1509109795112" expanded="false" signature="6:147" ph="..." />
+                <marker date="1509109795112" expanded="true" signature="185:4312" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="234:4310" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="348:403" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="512:1777" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="797:1058" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="1263:1733" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="1315:1719" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="1823:4133" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="1861:1970" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="2217:2538" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="2266:2523" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="2570:2637" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="2638:3313" ph="/* query = &quot;SELECT name, role FROM actors WHERE performed_in = '&quot; + movie.Title + &quot;'&quot;; ... */" />
+                <marker date="1509109795112" expanded="true" signature="3600:4054" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="3649:4040" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="4191:4304" ph="{...}" />
+                <marker date="1509109795112" expanded="true" signature="4228:4257" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.cshtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <marker date="1508937833517" expanded="true" signature="0:40" ph="@..." />
-                <marker date="1508937833517" expanded="true" signature="41:149" ph="&lt;div.../&gt;" />
-                <marker date="1508937833517" expanded="true" signature="84:142" ph="@..." />
-                <marker date="1508937833517" expanded="true" signature="121:142" ph="{...}" />
-                <marker date="1508937833517" expanded="true" signature="151:282" ph="&lt;div.../&gt;" />
-                <marker date="1508937833517" expanded="true" signature="216:275" ph="@..." />
-                <marker date="1508937833517" expanded="true" signature="254:275" ph="{...}" />
-                <marker date="1508937833517" expanded="true" signature="284:428" ph="&lt;div.../&gt;" />
-                <marker date="1508937833517" expanded="true" signature="348:421" ph="@*...*@" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <marker date="1508887456568" expanded="true" signature="17:1915" ph="&lt;html.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="24:371" ph="&lt;head.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="372:1907" ph="&lt;body.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="379:1527" ph="&lt;div.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="434:1520" ph="&lt;div.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="462:890" ph="&lt;div.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="496:782" ph="&lt;button.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="895:1511" ph="&lt;div.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="940:1500" ph="&lt;ul.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="1035:1228" ph="@..." />
-                <marker date="1508887456568" expanded="true" signature="1065:1139" ph="{...}" />
-                <marker date="1508887456568" expanded="true" signature="1139:1228" ph="{...}" />
-                <marker date="1508887456568" expanded="true" signature="1237:1488" ph="&lt;li.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="1286:1474" ph="&lt;form.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="1528:1659" ph="&lt;div.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="1592:1652" ph="&lt;footer.../&gt;" />
-                <marker date="1508887456568" expanded="true" signature="1661:1855" ph="&lt;environment.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-theme.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap-theme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7120">
-              <caret line="356" column="25" lean-forward="false" selection-start-line="356" selection-start-column="25" selection-end-line="356" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -100,62 +51,42 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="queryTesting" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Scripts/jquery-1.9.1.min.map" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c6/cf55ef06/IController.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/App_Start/WebApiConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2C057D9-D34D-4E02-9E58-0897BD60340C/1a/757ed04e/Stack`1.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/App_Start/WebApiConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/92/c9ac35b2/DefaultControllerFactory.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/a9/9346c9d1/Controller.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/IQueryHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/QueryHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/controllerFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/03/b7e9d07f/UrlParameter.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2833757-5F6C-4665-B6EC-AF25FF10DAC6/70/c9683eed/OwinStartupAttribute.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/f7/5b8a9319/DirectRouteExtensions.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c5/b50eec9d/MvcResources.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/84/602bed8a/WebViewPage`1.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/204F7700-36D4-41BB-8DFD-3DABA3550E83/a4/ba74f5ff/Activator.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/79/1def5321/WebViewPage.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8918DD12-4691-4544-8225-E1B3745EFDAF/98/c7aa5cde/RequestContext.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/de/c1f035e5/IControllerActivator.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F99F496C-B0D2-49C1-A945-C1FCABCE1695/ab/6b1f6269/HttpConfigurationExtensions.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Global.asax" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MovieController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42C9FE38-DC3A-42F0-B8EB-5BF7EC82F25F/41/069747e6/WebPageBase.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MoviesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Web.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Create.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Web.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/IQueryHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Web.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/QueryHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MoviesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8918DD12-4691-4544-8225-E1B3745EFDAF/60/e14d5118/HttpApplication.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/2a/b31fd1fd/RouteCollectionExtensions.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8874DD89-F3EA-4859-A41F-9BD179CDA13A/52/743b8938/NpgsqlCommand.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap.min.css.map" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/85/57437056/ControllerTypeCache.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/CreateUser.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/ec/64f5d118/ControllerBase.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Login/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap.min.css.map" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -201,6 +132,7 @@
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml" />
+        <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MoviesController.cs" />
       </list>
     </option>
   </component>
@@ -211,9 +143,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="1020" />
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3856" />
+    <option name="height" value="2092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -279,73 +212,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shared" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSCI-320-KotDT (1 project)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSCI-320-KotDT" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Movies" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSCI-320-KotDT (1 project)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSCI-320-KotDT" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSCI-320-KotDT (1 project)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSCI-320-KotDT" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
+              <option name="myItemId" value="Models" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,9 +225,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="SearchEverywhereHistoryKey" value="defaultcontroller&#9;null&#9;null&#10;startup.cs&#9;FILE&#9;file:///home/shaun/.Rider2017.1/config/resharper-host/DecompilerCache/decompiler/E2833757-5F6C-4665-B6EC-AF25FF10DAC6/70/c9683eed/OwinStartupAttribute.cs&#10;configureser&#9;null&#9;null&#10;startup&#9;null&#9;null&#10;controllertypec&#9;null&#9;null" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -499,6 +367,9 @@
       <workItem from="1508505690477" duration="528000" />
       <workItem from="1508533689303" duration="699000" />
       <workItem from="1508937071720" duration="760000" />
+      <workItem from="1509109442156" duration="1385000" />
+      <workItem from="1509203309067" duration="257000" />
+      <workItem from="1509546802333" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="Created Login Page">
       <created>1506903211219</created>
@@ -647,11 +518,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508887521750</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="temporary fix while I put my changes back in">
+      <created>1509110226866</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1509110226866</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72061000" />
+    <option name="totallyTimeSpent" value="73840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,28 +541,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1020" extended-state="6" />
-    <editor active="true" />
+    <frame x="-16" y="-16" width="3856" height="2092" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30735457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30735457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33788037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3378525" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16082636" sideWeight="0.4978308" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609375" sideWeight="0.5021692" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -765,7 +642,8 @@
     <MESSAGE value="again" />
     <MESSAGE value="search includes and displays movies" />
     <MESSAGE value="css change on search bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="css change on search bar" />
+    <MESSAGE value="temporary fix while I put my changes back in" />
+    <option name="LAST_COMMIT_MESSAGE" value="temporary fix while I put my changes back in" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -799,13 +677,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Scripts/jquery-1.9.1.min.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/Error.cshtml">
@@ -816,13 +694,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap.min.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap.min.css">
@@ -846,49 +724,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c6/cf55ef06/IController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/ec/64f5d118/ControllerBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/a9/9346c9d1/Controller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="66" lean-forward="false" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/85/57437056/ControllerTypeCache.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/2a/b31fd1fd/RouteCollectionExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="138" column="24" lean-forward="false" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c6/cf55ef06/IController.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/ec/64f5d118/ControllerBase.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/a9/9346c9d1/Controller.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/85/57437056/ControllerTypeCache.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/2a/b31fd1fd/RouteCollectionExtensions.cs" />
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/About.cshtml" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8874DD89-F3EA-4859-A41F-9BD179CDA13A/52/743b8938/NpgsqlCommand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="825" column="24" lean-forward="false" selection-start-line="825" selection-start-column="24" selection-end-line="825" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8874DD89-F3EA-4859-A41F-9BD179CDA13A/52/743b8938/NpgsqlCommand.cs" />
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Global.asax">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -896,63 +738,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8918DD12-4691-4544-8225-E1B3745EFDAF/60/e14d5118/HttpApplication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2833757-5F6C-4665-B6EC-AF25FF10DAC6/70/c9683eed/OwinStartupAttribute.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8918DD12-4691-4544-8225-E1B3745EFDAF/60/e14d5118/HttpApplication.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E2833757-5F6C-4665-B6EC-AF25FF10DAC6/70/c9683eed/OwinStartupAttribute.cs" />
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/App_Start/Startup.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/f7/5b8a9319/DirectRouteExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c5/b50eec9d/MvcResources.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8918DD12-4691-4544-8225-E1B3745EFDAF/98/c7aa5cde/RequestContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/de/c1f035e5/IControllerActivator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/204F7700-36D4-41BB-8DFD-3DABA3550E83/a4/ba74f5ff/Activator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="70" column="25" lean-forward="false" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MovieController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/f7/5b8a9319/DirectRouteExtensions.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/c5/b50eec9d/MvcResources.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8918DD12-4691-4544-8225-E1B3745EFDAF/98/c7aa5cde/RequestContext.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/de/c1f035e5/IControllerActivator.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/204F7700-36D4-41BB-8DFD-3DABA3550E83/a4/ba74f5ff/Activator.cs" />
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MovieController.cs" />
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/IQueryHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -967,13 +761,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/92/c9ac35b2/DefaultControllerFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="260" column="4" lean-forward="false" selection-start-line="260" selection-start-column="4" selection-end-line="261" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/92/c9ac35b2/DefaultControllerFactory.cs" />
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/QueryHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1038,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MoviesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1089,69 +870,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Content/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7120">
+        <state relative-caret-position="12816">
           <caret line="356" column="25" lean-forward="false" selection-start-line="356" selection-start-column="25" selection-end-line="356" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="49" column="30" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="49" selection-end-column="30" />
-          <folding>
-            <marker date="1508886712888" expanded="false" signature="7:145" ph="..." />
-            <marker date="1508886712888" expanded="true" signature="183:1193" ph="{...}" />
-            <marker date="1508886712888" expanded="true" signature="227:1191" ph="{...}" />
-            <marker date="1508886712888" expanded="true" signature="328:359" ph="{...}" />
-            <marker date="1508886712888" expanded="true" signature="393:492" ph="{...}" />
-            <marker date="1508886712888" expanded="true" signature="551:1188" ph="{...}" />
-            <marker date="1508886712888" expanded="true" signature="802:830" ph="{...}" />
-            <marker date="1508886712888" expanded="true" signature="1090:1119" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="1152">
           <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <marker date="1508887456568" expanded="true" signature="17:1915" ph="&lt;html.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="24:371" ph="&lt;head.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="372:1907" ph="&lt;body.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="379:1527" ph="&lt;div.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="434:1520" ph="&lt;div.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="462:890" ph="&lt;div.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="496:782" ph="&lt;button.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="895:1511" ph="&lt;div.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="940:1500" ph="&lt;ul.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="1035:1228" ph="@..." />
-            <marker date="1508887456568" expanded="true" signature="1065:1139" ph="{...}" />
-            <marker date="1508887456568" expanded="true" signature="1139:1228" ph="{...}" />
-            <marker date="1508887456568" expanded="true" signature="1237:1488" ph="&lt;li.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="1286:1474" ph="&lt;form.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="1528:1659" ph="&lt;div.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="1592:1652" ph="&lt;footer.../&gt;" />
-            <marker date="1508887456568" expanded="true" signature="1661:1855" ph="&lt;environment.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Search.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="756">
           <caret line="21" column="5" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1578">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MoviesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1306">
+          <caret line="96" column="2" lean-forward="false" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
           <folding>
-            <marker date="1508937833517" expanded="true" signature="0:40" ph="@..." />
-            <marker date="1508937833517" expanded="true" signature="41:149" ph="&lt;div.../&gt;" />
-            <marker date="1508937833517" expanded="true" signature="84:142" ph="@..." />
-            <marker date="1508937833517" expanded="true" signature="121:142" ph="{...}" />
-            <marker date="1508937833517" expanded="true" signature="151:282" ph="&lt;div.../&gt;" />
-            <marker date="1508937833517" expanded="true" signature="216:275" ph="@..." />
-            <marker date="1508937833517" expanded="true" signature="254:275" ph="{...}" />
-            <marker date="1508937833517" expanded="true" signature="284:428" ph="&lt;div.../&gt;" />
-            <marker date="1508937833517" expanded="true" signature="348:421" ph="@*...*@" />
+            <marker date="1509109795112" expanded="false" signature="6:147" ph="..." />
+            <marker date="1509109795112" expanded="true" signature="185:4312" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="234:4310" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="348:403" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="512:1777" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="797:1058" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="1263:1733" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="1315:1719" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="1823:4133" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="1861:1970" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="2217:2538" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="2266:2523" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="2570:2637" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="2638:3313" ph="/* query = &quot;SELECT name, role FROM actors WHERE performed_in = '&quot; + movie.Title + &quot;'&quot;; ... */" />
+            <marker date="1509109795112" expanded="true" signature="3600:4054" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="3649:4040" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="4191:4304" ph="{...}" />
+            <marker date="1509109795112" expanded="true" signature="4228:4257" ph="{...}" />
           </folding>
         </state>
       </provider>
