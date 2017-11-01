@@ -5,7 +5,7 @@
 <div style="float: left">
   <p>Users</p>
   @foreach (string i in ViewBag.users) {
-    <li>@i</li>
+    <li>@Html.ActionLink(i, "User", "User", new{username = i}, null)</li>
   }
 </div>
 

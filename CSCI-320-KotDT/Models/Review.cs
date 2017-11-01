@@ -9,20 +9,35 @@ namespace CSCI_320_KotDT.Models
     public class Review
     {
 
-        public int review_id;
-        public string review_text;
+        public int Id { get; set; }
 
+        [Required]
+        [Display(Name = "Review")]
+        public string ReviewText { get; set; }
+
+        [Required]
         [Display(Name = "Score")]
-        public float score;
+        public float Score { get; set; }
 
         [Display(Name = "Likes")]
-        public int like_count;
+        public int LikeCount { get; set; }
 
         [Display(Name = "Dislikes")]
-        public int dislike_count;
+        public int DislikeCount { get; set; }
 
+        [Required]
         [Display(Name = "User")]
-        public string username;
-        public int movie_id;
+        public string CreatedBy { get; set; }
+        public int MovieId { get; set; }
+
+        public Review(int movie_id)
+        {
+            this.MovieId = movie_id;
+        }
+
+        public Review()
+        {
+
+        }
     }
 }

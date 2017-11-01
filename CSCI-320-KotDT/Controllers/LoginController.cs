@@ -2,6 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Services;
 using ControllerDI.Interfaces;
+using CSCI_320_KotDT.Models;
 
 namespace CSCI_320_KotDT.Controllers {
     public class LoginController : Controller {
@@ -24,12 +25,12 @@ namespace CSCI_320_KotDT.Controllers {
         }
         [HttpPost][WebMethod(EnableSession = true)]
         public ActionResult Login(string username, string password) {
-            string queryString = "Select username, password From \"User\" where username = '" + username + "'";
+            string queryString = "Select username, password, first_name, last_name From \"User\" where username = '" + username + "'";
             
             //should at most have one result
-            ArrayList query = QueryHandler.read(queryString, 2);
+            ArrayList query = QueryHandler.read(queryString, 4);
             if (password.Equals(((ArrayList)query[0])[1])) {
-                System.Web.HttpContext.Current.Session["UserID"] = username;
+                System.Web.HttpContext.Current.Session["UserID"] = new User(username, (string) ((ArrayList)query[0])[2], (string) ((ArrayList)query[0])[3]);
                 return RedirectToAction("Index", "Home");
             }
             return View();
