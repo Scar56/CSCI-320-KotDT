@@ -11,3 +11,6 @@
 *.ide
 *.cache
 *.cache
+*.xml
+*.dll
+*.pdb
