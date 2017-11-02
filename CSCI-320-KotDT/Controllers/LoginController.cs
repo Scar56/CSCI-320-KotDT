@@ -81,7 +81,7 @@ namespace CSCI_320_KotDT.Controllers {
             }
             
             ViewBag.invalid = false;
-            queryString = "INSERT INTO \"User\" VALUES('" + username + "'" + ", " + "'" + password + "'" + ", " + "'" + firstName + "'" + ", " + "'" + lastName + "'" + ", " + false + ")";
+            queryString = "INSERT INTO \"User\" (username, password, first_name, last_name, is_anonymous) VALUES('" + username + "'" + ", " + "'" + password + "'" + ", " + "'" + firstName + "'" + ", " + "'" + lastName + "'" + ", " + false + ")";
             QueryHandler.nonQuery(queryString);
             return RedirectToAction("Index", "Home");
         }

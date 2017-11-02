@@ -15,7 +15,7 @@ namespace CSCI_320_KotDT.Controllers {
 
         [HttpGet]
         public ActionResult User(string username) {
-            string queryString = "Select username, first_name, last_name From \"User\" where username = '" + username + "'";
+            string queryString = "SELECT username, first_name, last_name FROM \"User\" WHERE username = '" + username + "'";
 
             //should at most have one result
             ArrayList query = QueryHandler.read(queryString, 3);
@@ -28,7 +28,7 @@ namespace CSCI_320_KotDT.Controllers {
             
             if (currUser != null) {
                 ViewBag.followable = 1;
-                queryString = "Select follower, following From follows_user where follower = '" +
+                queryString = "SELECT follower, following FROM follows_user WHERE follower = '" +
                               ((User) System.Web.HttpContext.Current.Session["UserID"]).username + "'";
     
                 query = QueryHandler.read(queryString, 2);
@@ -47,7 +47,7 @@ namespace CSCI_320_KotDT.Controllers {
         public ActionResult follow() {
             string currUser = ((User)System.Web.HttpContext.Current.Session["UserID"]).username;
             string selUser = ((User)System.Web.HttpContext.Current.Session["selectedUser"]).username;
-            string query = "Insert Into follows_user " +
+            string query = "INSERT INTO follows_user " +
                                "(follower, following) " + 
                                     "VALUES('" + currUser + "', '" + selUser + "')";
             QueryHandler.nonQuery(query);
@@ -55,10 +55,10 @@ namespace CSCI_320_KotDT.Controllers {
         }
         
         public ActionResult unfollow() {
-            string currUser = ((User)System.Web.HttpContext.Current.Session["UserID"]).username;
-            string selUser = ((User)System.Web.HttpContext.Current.Session["selectedUser"]).username;
-            string query = "delete from follows_user " +
-                           "where(follower = '" + currUser + "' AND  following = '" + selUser + "')";
+            string currUser = ((User) System.Web.HttpContext.Current.Session["UserID"]).username;
+            string selUser = ((User) System.Web.HttpContext.Current.Session["selectedUser"]).username;
+            string query = "DELETE FROM follows_user " +
+                           "WHERE (follower = '" + currUser + "' AND  following = '" + selUser + "')";
             QueryHandler.nonQuery(query);
             return RedirectToAction("User", "User", new{username = selUser});
         }
