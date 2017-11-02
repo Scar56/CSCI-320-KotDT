@@ -5,5 +5,11 @@
 
 @{User user = (User) HttpContext.Current.Session["selectedUser"];
 }
-@user.firstName
-@user.lastName
+<h2>
+    @user.firstName
+    @user.lastName
+</h2>
+
+@if(Session["UserID"] != ""){
+    <button runat="server" onclick="location.href='@Url.Action("follow", "User")'">Follow</button>
+}
