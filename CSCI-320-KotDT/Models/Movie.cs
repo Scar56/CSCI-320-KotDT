@@ -36,8 +36,10 @@ namespace CSCI_320_KotDT.Models
             this.MovieId = id;
         }
 
-        public Movie()
+        public Movie(string Title, int id)
         {
+            this.Title = Title;
+            this.MovieId = id;
         }
 
     }

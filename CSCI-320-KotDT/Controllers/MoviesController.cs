@@ -83,7 +83,7 @@ namespace CSCI_320_KotDT.Controllers
                 return HttpNotFound();
             }
 
-            query = "SELECT name, role FROM actors WHERE movie_id = '" + movie.Id + "'";
+            query = "SELECT name, role FROM actors WHERE movie_id = '" + movie.MovieId + "'";
             //query += "ORDER BY (SELECT count(name) FROM actors";                                  //TODO: Order by popularity
             cmd = QueryHandler.query(query);
             List<Actor> cast = new List<Actor>();
@@ -100,7 +100,7 @@ namespace CSCI_320_KotDT.Controllers
 
             movie.Cast = cast;
 
-            query = "select created_by, dislike_count, like_count, score, ReviewText from review where movie_id = " + id.ToString();
+            query = "select created_by, dislike_count, like_count, score, Review_Text from review where movie_id = " + id.ToString();
             cmd = QueryHandler.query(query);
             List<Review> reviews = new List<Review>();
             using (var reader = cmd.ExecuteReader())
@@ -128,7 +128,7 @@ namespace CSCI_320_KotDT.Controllers
         {
             if (ModelState.IsValid)
             {
-                String query = "insert into review (review_id, ReviewText, score, created_by, movie_id) values ( nextval('review_review_id_seq'),'" +
+                String query = "insert into review (review_id, Review_Text, score, created_by, movie_id) values ( nextval('review_review_id_seq'),'" +
                     review.ReviewText + "'," + review.Score.ToString() + ",'" + review.CreatedBy + "'," + review.MovieId + ")";
 
                 return RedirectToAction("Details", new { id = review.MovieId });

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI.WebControls;
 using CSCI_320_KotDT.Models;
 using ControllerDI.Interfaces;
 
@@ -23,7 +24,7 @@ namespace CSCI_320_KotDT.Controllers
         // GET: Actors
         public ActionResult Index()
         {
-            return View(db.Actors.ToList());
+            return View();
         }
 
         // GET: Actors/Details/5
@@ -31,13 +32,34 @@ namespace CSCI_320_KotDT.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new HttpStatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            Actor actor = db.Actors.Find(id);
-            if (actor == null)
+
+            string query = "SELECT movie_id, performed_in, role  FROM actors WHERE name LIKE '" + id.ToString() + "' ";
+            query += "ORDER BY billing_position";
+
+            var cmd = QueryHandler.query(query);
+            Actor actor = new Actor(id);
+                                            
+            using (var reader = cmd.ExecuteReader())
             {
-                return HttpNotFound();
+                if (!reader.HasRows)
+                {
+                    return HttpNotFound();
+                }
+                
+                
+                while (reader.Read())
+                {
+                    Int32 movieId = reader.GetInt32(0);
+                    String title = reader.GetString(1);
+                    String role = reader.GetString(2);
+                    
+                    actor.Roles.Add(new Tuple<string, Movie>(role, new Movie(title, movieId)));
+                }
+
             }
+            
             return View(actor);
         }
 
@@ -56,8 +78,6 @@ namespace CSCI_320_KotDT.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Actors.Add(actor);
-                db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
@@ -71,7 +91,7 @@ namespace CSCI_320_KotDT.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Actor actor = db.Actors.Find(id);
+            Actor actor = null;
             if (actor == null)
             {
                 return HttpNotFound();
@@ -88,8 +108,6 @@ namespace CSCI_320_KotDT.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(actor).State = EntityState.Modified;
-                db.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View(actor);
@@ -102,7 +120,7 @@ namespace CSCI_320_KotDT.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Actor actor = db.Actors.Find(id);
+            Actor actor = null;
             if (actor == null)
             {
                 return HttpNotFound();
@@ -115,9 +133,7 @@ namespace CSCI_320_KotDT.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
-            Actor actor = db.Actors.Find(id);
-            db.Actors.Remove(actor);
-            db.SaveChanges();
+            Actor actor = null;
             return RedirectToAction("Index");
         }
 
@@ -125,7 +141,6 @@ namespace CSCI_320_KotDT.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
             }
             base.Dispose(disposing);
         }
