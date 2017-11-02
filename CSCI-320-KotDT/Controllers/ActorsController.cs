@@ -39,9 +39,16 @@ namespace CSCI_320_KotDT.Controllers
             query += "ORDER BY billing_position";
 
             var cmd = QueryHandler.query(query);
-            Actor actor = new Actor();
+            Actor actor = new Actor(id);
+                                            
             using (var reader = cmd.ExecuteReader())
             {
+                if (!reader.HasRows)
+                {
+                    return HttpNotFound();
+                }
+                
+                
                 while (reader.Read())
                 {
                     Int32 movieId = reader.GetInt32(0);
@@ -53,10 +60,6 @@ namespace CSCI_320_KotDT.Controllers
 
             }
             
-            if (actor.Roles.Count == 0)
-            {
-                return HttpNotFound();
-            }
             return View(actor);
         }
 

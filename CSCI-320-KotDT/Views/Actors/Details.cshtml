@@ -17,7 +17,7 @@
         <table class="table">
             @foreach (var role in Model.Roles)
             {
-                <tr onclick="location.href = '@(Url.Action("Details", "Movies", new { id = role.Item2.MovieId }))'">
+                <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Movies", new { id = role.Item2.MovieId }))'">
                     <td>
                         @Html.DisplayFor(modelItem => role.Item1)
                     </td>

@@ -21,8 +21,10 @@ namespace CSCI_320_KotDT.Models
             this.Role = Role;
         }
 
-        public Actor() 
+        public Actor(string name)
         {
+            this.Name = name;
+            this.Roles = new List<Tuple<string, Movie>>();
         }
 
     }

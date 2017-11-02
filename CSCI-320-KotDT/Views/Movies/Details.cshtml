@@ -36,7 +36,7 @@
         <table class="table">
         @foreach (var actor in Model.Cast)
         {
-                <tr onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
+                <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
                     <td>
                         @Html.DisplayFor(modelItem => actor.Name)
                     </td>
