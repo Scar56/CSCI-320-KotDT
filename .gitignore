@@ -10,3 +10,8 @@
 *.ide
 *.ide
 *.cache
+*.cache
+*.xml
+*.dll
+*.pdb
+*.pdb

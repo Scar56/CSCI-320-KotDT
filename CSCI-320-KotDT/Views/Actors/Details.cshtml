@@ -10,21 +10,23 @@
     <h4>Actor</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Performed_in)
-        </dt>
+        <h1>
+            @Html.DisplayFor(model => model.Name)
+        </h1>
 
-        <dd>
-            @Html.DisplayFor(model => model.Performed_in)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Role)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Role)
-        </dd>
+        <table class="table">
+            @foreach (var role in Model.Roles)
+            {
+                <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Movies", new { id = role.Item2.MovieId }))'">
+                    <td>
+                        @Html.DisplayFor(modelItem => role.Item1)
+                    </td>
+                    <td>   
+                        @Html.DisplayFor(modelItem => role.Item2.Title)
+                    </td>
+                </tr>
+            }
+        </table>
 
     </dl>
 </div>
