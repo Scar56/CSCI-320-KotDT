@@ -1,61 +1,43 @@
 @using CSCI_320_KotDT.Models
 @model Movie
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = Html.DisplayFor(model => model.Title);
 }
 
-<h2>Details</h2>
+
 
 <div>
-    <h4>Movie</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
+    <h1>@Html.DisplayFor(model => model.Title)</h1>
+        
+    <p>Released In: @Html.DisplayFor(model => model.ReleaseYear)</p>
+        
+    <p>Runtime: @Html.DisplayFor(model => model.RunningTime)</p>
 
-        <dd>
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.ReleaseYear)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ReleaseYear)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.RunningTime)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.RunningTime)
-        </dd>
-        <table class="table">
-        @foreach (var actor in Model.Cast)
-        {
-                <tr onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
-                    <td>
-                        @Html.DisplayFor(modelItem => actor.Name)
-                    </td>
-                    <td>   
-                        @Html.DisplayFor(modelItem => actor.Role)
-                    </td>
-                </tr>
-        }
-        </table>
-    </dl>
+    <table class="table">
+    @foreach (var actor in Model.Cast)
+    {
+            <tr onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
+                <td>
+                    @Html.DisplayFor(modelItem => actor.Name)
+                </td>
+                <td>   
+                    @Html.DisplayFor(modelItem => actor.Role)
+                </td>
+            </tr>
+    }
+    </table>
+    
 </div>
+<hr />
 <div>
-        <h3>Reviews</h3>
+        <h4>Reviews</h4>
         @foreach (var review in Model.Reviews)
         {
-                <p>Review by: @Html.DisplayFor(text => review.CreatedBy)</p>
+                <h5>Review by: @Html.DisplayFor(text => review.CreatedBy)</h5>
+                <h5>Score: @Html.DisplayFor(text =>review.Score)</h5>
                 <p>@Html.DisplayFor(text => review.ReviewText)</p>
         }
-
+        <hr />
         @{Html.RenderPartial("_Review", Model.NewReview); }
 
 </div>

@@ -97,12 +97,13 @@ namespace CSCI_320_KotDT.Controllers
 
             movie.Cast = cast;
 
-            query = "select created_by, dislike_count, like_count, score, ReviewText from review where movie_id = " + id.ToString();
+            query = "select created_by, dislike_count, like_count, score, review_text from review where movie_id = " + id.ToString()
+                + " order by like_count, score desc";
             cmd = QueryHandler.query(query);
             List<Review> reviews = new List<Review>();
             using (var reader = cmd.ExecuteReader())
             {
-                if (reader.Read())
+                while (reader.Read())
                 {
                     Review r = new Review();
                     r.CreatedBy = reader.GetString(0);
@@ -125,9 +126,11 @@ namespace CSCI_320_KotDT.Controllers
         {
             if (ModelState.IsValid)
             {
-                String query = "insert into review (review_id, ReviewText, score, created_by, movie_id) values ( nextval('review_review_id_seq'),'" +
+                String query = "insert into review (review_id, review_text, score, created_by, movie_id) values ( nextval('review_review_id_seq'),'" +
                     review.ReviewText + "'," + review.Score.ToString() + ",'" + review.CreatedBy + "'," + review.MovieId + ")";
 
+                var cmd = QueryHandler.query(query);
+                cmd.ExecuteReader();
                 return RedirectToAction("Details", new { id = review.MovieId });
             }
             Debug.Print("here");
