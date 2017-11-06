@@ -48,7 +48,7 @@ namespace CSCI_320_KotDT.Controllers {
             if(username.Equals("")){
                 ViewBag.invalid = true;
                 ViewBag.invalidMessage = "A username is required";
-                return View();
+                return View(); 
             }
             
             if(password.Equals("")){
