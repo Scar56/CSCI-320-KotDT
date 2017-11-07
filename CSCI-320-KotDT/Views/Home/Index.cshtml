@@ -9,10 +9,13 @@
     <p class="lead">Login I guess, or create an account (dont let me forget to add some kind of filler here)</p>
   }
   else {
-    foreach (Review review in ViewBag.feed)
-     {
-       <p>Review by: @review.CreatedBy</p>
-       <p>@review.ReviewText</p>
-     }
+    <table class="table">
+      @foreach (Review review in ViewBag.feed) {
+        <tr class="index-row"><td>
+          <p>Review by: @review.CreatedBy</p>
+          <p>@review.ReviewText</p></td>
+        </tr>
+      }
+    </table>
   }
 </div>
