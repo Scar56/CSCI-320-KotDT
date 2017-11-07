@@ -24,7 +24,7 @@ namespace CSCI_320_KotDT.Controllers
 			ArrayList dr = QueryHandler.read(queryString, 9);
 			List<Review> reviews = new List<Review>();
 			foreach(ArrayList i in dr) {
-					Review r = new Review();
+					Review r = new Review((int)i[8], QueryHandler);
 					r.CreatedBy = (string)i[7];
 					r.DislikeCount = (int)i[5];
 					r.LikeCount = (int)i[4];
@@ -56,6 +56,17 @@ namespace CSCI_320_KotDT.Controllers
 			ViewBag.id = id;
 			
 			return View();
+		}
+		
+		
+		public ActionResult Like(Review review) {
+			review.like();
+			return RedirectToAction("Index");
+		}
+		
+		public ActionResult Dislike(Review review) {
+			review.dislike();
+			return RedirectToAction("Index");
 		}
 	}
 }

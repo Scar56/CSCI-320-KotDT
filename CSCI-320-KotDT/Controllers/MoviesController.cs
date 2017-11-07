@@ -100,24 +100,25 @@ namespace CSCI_320_KotDT.Controllers
 
             movie.Cast = cast;
 
-            query = "select created_by, dislike_count, like_count, score, Review_Text from review where movie_id = " + id.ToString();
+            query = "select created_by, dislike_count, like_count, score, Review_Text, review_id from review where movie_id = " + id.ToString();
             cmd = QueryHandler.query(query);
             List<Review> reviews = new List<Review>();
             using (var reader = cmd.ExecuteReader())
             {
                 if (reader.Read())
                 {
-                    Review r = new Review();
+                    Review r = new Review(movie.MovieId, QueryHandler);
                     r.CreatedBy = reader.GetString(0);
                     r.DislikeCount = reader.GetInt32(1);
                     r.LikeCount = reader.GetInt32(2);
                     r.Score = reader.GetFloat(3);
                     r.ReviewText = reader.GetString(4);
+                    r.Id = reader.GetInt32(5);
                     reviews.Add(r);
                 }
             }
             movie.Reviews = reviews;
-            movie.NewReview = new Review(movie.MovieId);
+            movie.NewReview = new Review(movie.MovieId, QueryHandler);
 
             return View(movie);
         }
