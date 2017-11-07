@@ -13,6 +13,7 @@
       @foreach (Review review in ViewBag.feed) {
         <tr class="index-row"><td>
           <p>Review by: @review.CreatedBy</p>
+          <p>Likes: @review.LikeCount     Dislikes: @review.DislikeCount Score: @review.Score</p>
           <p>@review.ReviewText</p></td>
         </tr>
       }
