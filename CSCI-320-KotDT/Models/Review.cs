@@ -42,6 +42,11 @@ namespace CSCI_320_KotDT.Models
 
         private readonly IQueryHandler QueryHandler;
 
+        public Review()
+        {
+
+        }
+
         public Review(int movie_id, IQueryHandler IQuery) {
             QueryHandler = IQuery;
             MovieId = movie_id;

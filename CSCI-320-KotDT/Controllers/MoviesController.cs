@@ -121,7 +121,6 @@ namespace CSCI_320_KotDT.Controllers
                     r.LikeCount = reader.GetInt32(2);
                     r.Score = reader.GetFloat(3);
                     r.ReviewText = reader.GetString(4);
-                    r.Id = reader.GetInt32(5);
                     reviews.Add(r);
                 }
             }
@@ -140,8 +139,8 @@ namespace CSCI_320_KotDT.Controllers
                 String query = "insert into review (review_id, review_text, score, created_by, movie_id) values ( nextval('review_review_id_seq')," +
                     "@0, @1, @2, @3)";
 
-                var cmd = QueryHandler.query(query, review.ReviewText, review.Score.ToString(), review.CreatedBy, review.MovieId.ToString());
-                cmd.ExecuteScalar();
+                var cmd = QueryHandler.query(query, review.ReviewText, review.Score, user.username, review.MovieId);
+                cmd.ExecuteReader();
                 return RedirectToAction("Details", new { id = review.MovieId });
             }
             Debug.Print("here");

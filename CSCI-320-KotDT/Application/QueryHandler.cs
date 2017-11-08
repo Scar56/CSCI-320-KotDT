@@ -23,7 +23,7 @@ namespace ControllerDI.Services {
             return cmd;
         }
 
-        public NpgsqlCommand query(string queryString, params string[] parameters)
+        public NpgsqlCommand query(string queryString, params object[] parameters)
         {
             var cmd = new NpgsqlCommand(queryString, conn);
             for(int i = 0; i < parameters.Length; i++)

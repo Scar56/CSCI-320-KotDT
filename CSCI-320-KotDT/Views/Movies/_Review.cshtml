@@ -1,4 +1,5 @@
-﻿@model CSCI_320_KotDT.Models.Review
+﻿@using CSCI_320_KotDT.Models
+@model Review
 
 @using (Html.BeginForm("AddReview", "Movies", FormMethod.Post))
 {
@@ -8,8 +9,8 @@
         <h5>Add a Review</h5>
         <input type="hidden" name="@Html.NameFor(m=>m.MovieId)" value="@Model.MovieId" />
 
-        
-        <p>Username: @Html.TextBoxFor(m => m.CreatedBy)</p>
+        @{ User user = (User)HttpContext.Current.Session["UserID"]; }
+        <input type="hidden" name="@Html.NameFor(m=>m.CreatedBy)" value="@user.username" />
 
         <p>Review: <input type="text" name="@Html.NameFor(m=>m.ReviewText)" value="@Model.ReviewText" /></p>
 
