@@ -23,6 +23,17 @@ namespace ControllerDI.Services {
             return cmd;
         }
 
+        public NpgsqlCommand query(string queryString, params string[] parameters)
+        {
+            var cmd = new NpgsqlCommand(queryString, conn);
+            for(int i = 0; i < parameters.Length; i++)
+            {
+                cmd.Parameters.Add(new NpgsqlParameter("@" + i.ToString(), parameters[i]));
+            }
+            
+            return cmd;
+        }
+
         /// <summary>creates command object for specified query</summary>
         /// <returns>2D arraylist representation of query, or 1d arraylist if only one column</returns>
         /// <param name="queryString">The desired query string</param>

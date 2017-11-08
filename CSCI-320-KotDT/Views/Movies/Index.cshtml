@@ -1,12 +1,13 @@
 ﻿@model IEnumerable<CSCI_320_KotDT.Models.Movie>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Movies";
 }
 
 <h2>Index</h2>
 
-<p>
+
+
     @using (Html.BeginForm("Index", "Movies", FormMethod.Get))
     {
        
@@ -14,6 +15,15 @@
         Title: @Html.TextBox("Search") <br />
         <input type="submit" value="Filter" />
     </p>
+    }
+    @if (@Model.Count() == 25)
+    {
+
+        if ((string.IsNullOrEmpty(Request["pageNum"]) ? "0" : Request["pageNum"]) != "0")
+        {
+            @Html.ActionLink("Prev", "Index", "Movies", new { pageNum = Convert.ToInt32(Request.Params["pageNum"]) - 1, search = Request.Params["search"] }, new { @style = "margin-right:20px;" })
+        }
+        @Html.ActionLink("Next", "Index", "Movies", new { pageNum = Convert.ToInt32(Request.Params["pageNum"]) + 1, search = Request.Params["search"] }, null)
     }
     <table class="table">
         <tr>
@@ -46,4 +56,11 @@
         }
 
     </table>
-
+@if (@Model.Count() == 25)
+{
+    if ((string.IsNullOrEmpty(Request["pageNum"]) ? "0" : Request["pageNum"]) != "0")
+    {
+        @Html.ActionLink("Prev", "Index", "Movies", new { pageNum = Convert.ToInt32(Request.Params["pageNum"]) - 1, search = Request.Params["search"] }, new { @style = "margin-right:20px;" })
+    }
+    @Html.ActionLink("Next", "Index", "Movies", new { pageNum = Convert.ToInt32(Request.Params["pageNum"]) + 1, search = Request.Params["search"] }, null)
+}

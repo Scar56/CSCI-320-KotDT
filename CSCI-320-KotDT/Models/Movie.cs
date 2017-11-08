@@ -16,6 +16,10 @@ namespace CSCI_320_KotDT.Models
         [Display(Name = "Running Time")]
         public int RunningTime { get; set; }
 
+        public string[] Genres { get; set; }
+
+        public string Director { get; set; }
+
         public List<Review> Reviews;
 
         public Review NewReview;
@@ -40,6 +44,11 @@ namespace CSCI_320_KotDT.Models
         {
             this.Title = Title;
             this.MovieId = id;
+        }
+
+        public static string OrderingString()
+        {
+            return " order by(select score from moviescore where movies.id = moviescore.id), title ";
         }
 
     }

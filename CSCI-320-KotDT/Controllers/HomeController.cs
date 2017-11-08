@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Web.Mvc;
 using ControllerDI.Interfaces;
+using CSCI_320_KotDT.Models;
 
 namespace CSCI_320_KotDT.Controllers
 {
@@ -26,11 +27,12 @@ namespace CSCI_320_KotDT.Controllers
 
 			ArrayList users = QueryHandler.read(queryString, 1);
 			ViewBag.users = users;
-			
-			queryString = "Select title, id From movies where title like '%" + search + "%'";
-			ArrayList dr = QueryHandler.read(queryString, 2);
 
-			ArrayList movies = new ArrayList();
+            queryString = "SELECT title, id FROM movies where lower(title) like lower('%" + search + "%') " + Movie.OrderingString() + "limit 25";
+            ArrayList dr = QueryHandler.read(queryString, 2);
+
+
+            ArrayList movies = new ArrayList();
 			ArrayList id = new ArrayList();
 			foreach(ArrayList i in dr){
 				movies.Add(i[0]);
@@ -38,8 +40,14 @@ namespace CSCI_320_KotDT.Controllers
 			}
 			ViewBag.movies = movies;
 			ViewBag.id = id;
-			
-			return View();
+
+            queryString = "SELECT distinct name FROM actors where lower(name) like lower('%" + search + "%') limit 25";
+            ArrayList actors = QueryHandler.read(queryString, 1);
+            ViewBag.actors = actors;
+
+            ViewBag.search = search;
+
+            return View();
 		}
 	}
 }

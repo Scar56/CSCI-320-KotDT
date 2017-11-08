@@ -6,6 +6,7 @@ using CSCI_320_KotDT.Models;
 using ControllerDI.Interfaces;
 using System.Diagnostics;
 using System.Collections;
+using Npgsql;
 
 namespace CSCI_320_KotDT.Controllers
 {
@@ -21,20 +22,26 @@ namespace CSCI_320_KotDT.Controllers
         // GET: Movies
         public ActionResult Index(string search, int pageNum = 0, int pageSize = 25)
         {
+            NpgsqlCommand cmd;
             int temp = pageNum * pageSize;
             string queryString = "SELECT title, release_year, running_time," + 
-            "id FROM movies order by (select score from moviescore where movies.id = moviescore.id), title limit " +
+            "id FROM movies " + Movie.OrderingString() +" limit " +
                 pageSize.ToString() + " offset " + temp.ToString();
             if (!String.IsNullOrEmpty(search))
             {
-                queryString = "SELECT title, release_year, running_time, id FROM" + 
-                "movies where lower(title) like lower('%" + search  + "%')" + 
-                "order by (select score from moviescore where movies.id = moviescore.id), title limit " +
+                search = search.Replace(' ', '%');
+                queryString = "SELECT title, release_year, running_time, id FROM " + 
+                "movies where lower(title) like lower( @0 ) " + Movie.OrderingString() + " limit " +
                 pageSize.ToString() + " offset " + temp.ToString();
+                cmd = QueryHandler.query(queryString, "%" + search + "%");
+            }
+            else
+            {
+                cmd = QueryHandler.query(queryString);
             }
             Console.WriteLine(queryString);
 
-            var cmd = QueryHandler.query(queryString);
+
             List<Movie> movies = new List<Movie>();
             using (var reader = cmd.ExecuteReader())
             {
@@ -129,11 +136,11 @@ namespace CSCI_320_KotDT.Controllers
         {
             if (ModelState.IsValid)
             {
-                String query = "insert into review (review_id, review_text, score, created_by, movie_id) values ( nextval('review_review_id_seq'),'" +
-                    review.ReviewText + "'," + review.Score.ToString() + ",'" + review.CreatedBy + "'," + review.MovieId + ")";
+                String query = "insert into review (review_id, review_text, score, created_by, movie_id) values ( nextval('review_review_id_seq')," +
+                    "@0, @1, @2, @3)";
 
-                var cmd = QueryHandler.query(query);
-                cmd.ExecuteReader();
+                var cmd = QueryHandler.query(query, review.ReviewText, review.Score.ToString(), review.CreatedBy, review.MovieId.ToString());
+                cmd.ExecuteScalar();
                 return RedirectToAction("Details", new { id = review.MovieId });
             }
             Debug.Print("here");
