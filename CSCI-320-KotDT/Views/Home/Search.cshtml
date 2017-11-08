@@ -14,7 +14,7 @@
   @for(int i = 0; i < ViewBag.movies.Count; i++) {
     <li>@Html.ActionLink((string)ViewBag.movies[i], "Details", "Movies", new{ id = ViewBag.id[i]}, null)</li>
   }
-@if (ViewBag.movies.Count == 25)
+@if (ViewBag.movies.Count == 50)
 {
     @Html.ActionLink("See More", "Index", "Movies", new { search = ViewBag.search }, null)
 }

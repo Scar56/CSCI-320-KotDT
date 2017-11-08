@@ -38,14 +38,7 @@
                 <p>@Html.DisplayFor(text => review.ReviewText)</p>
         }
         <hr />
-        @if (Session["UserID"] == null)
-        {
-            <p>@Html.ActionLink("Login", "Login", "Login") to add a review</p>
-        }
-        else
-        {
-            { Html.RenderPartial("_Review", Model.NewReview); }
-        }
+        @{Html.RenderPartial("_Review", Model.NewReview); }
 
 </div>
 <p>
