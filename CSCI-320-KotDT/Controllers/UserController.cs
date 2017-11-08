@@ -24,7 +24,7 @@ namespace CSCI_320_KotDT.Controllers {
             
             string currUser = null;
             if(System.Web.HttpContext.Current.Session["UserID"] != null)
-                currUser = ((User) System.Web.HttpContext.Current.Session["UserID"]).username;
+                currUser = ((User) System.Web.HttpContext.Current.Session["selectedUser"]).username;
             
             if (currUser != null) {
                 ViewBag.followable = 1;
