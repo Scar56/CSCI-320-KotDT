@@ -13,11 +13,11 @@
     <table class="table">
       @foreach (Review review in ViewBag.feed) {
         <tr><td>
-          <p>Review by: @review.CreatedBy</p>
-          <p>Likes: @review.LikeCount Dislikes: @review.DislikeCount Score: @review.Score</p>
-          @Html.ActionLink("Like", "Like", "Home", new{id = review}, null)
-          @Html.ActionLink("Dislike", "Dislike", "Home", new{id = review}, null)
-          <p>@review.ReviewText</p>
+            <p>Review by: @review.CreatedBy</p>
+            <p>Likes: @review.LikeCount Dislikes: @review.DislikeCount Score: @review.Score</p>
+            @Html.ActionLink("Like", "Like", "Home", new{id = review.Id}, null)
+            @Html.ActionLink("Dislike", "Dislike", "Home", new{id = review.Id}, null)
+            <p>@review.ReviewText</p>
           </td>
         </tr>
       }

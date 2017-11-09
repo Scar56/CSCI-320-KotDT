@@ -1,6 +1,8 @@
 ﻿
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing;
 using System.Web.Mvc;
 using ControllerDI.Interfaces;
 using CSCI_320_KotDT.Models;
@@ -24,13 +26,14 @@ namespace CSCI_320_KotDT.Controllers
 			ArrayList dr = QueryHandler.read(queryString, 9);
 			List<Review> reviews = new List<Review>();
 			foreach(ArrayList i in dr) {
-					Review r = new Review((int)i[8], QueryHandler);
-					r.CreatedBy = (string)i[7];
-					r.DislikeCount = (int)i[5];
-					r.LikeCount = (int)i[4];
-					r.Score = (float)i[3];
-					r.ReviewText = (string)i[2];
-					reviews.Add(r);
+				Review r = new Review((int)i[8]);
+				r.Id = (int) i[6];
+				r.CreatedBy = (string)i[7];
+				r.DislikeCount = (int)i[5];
+				r.LikeCount = (int)i[4];
+				r.Score = (float)i[3];
+				r.ReviewText = (string)i[2];
+				reviews.Add(r);
 			}
 			ViewBag.feed = reviews;
 			return View();
@@ -65,15 +68,17 @@ namespace CSCI_320_KotDT.Controllers
             return View();
 		}
 		
-		
-		public ActionResult Like(Review review) {
-			review.like();
-			return RedirectToAction("Index");
+		public ActionResult Like(int? id) {
+			string queryString = "UPDATE  review set like_count = like_count+1 where review_id = " + id;
+			Console.WriteLine(id);
+			QueryHandler.nonQuery(queryString);
+			return RedirectToAction("Index","Home");
 		}
 		
-		public ActionResult Dislike(Review review) {
-			review.dislike();
-			return RedirectToAction("Index");
+		public ActionResult Dislike(int? id) {
+            string queryString = "UPDATE  review set dislike_count = dislike_count+1 where review_id = " + id;
+            QueryHandler.nonQuery(queryString);
+			return RedirectToAction("Index","Home");
 		}
 	}
 }

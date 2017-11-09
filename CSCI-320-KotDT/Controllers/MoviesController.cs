@@ -115,7 +115,7 @@ namespace CSCI_320_KotDT.Controllers
             {
                 while (reader.Read())
                 {
-                    Review r = new Review(movie.MovieId, QueryHandler);
+                    Review r = new Review();
                     r.CreatedBy = reader.GetString(0);
                     r.DislikeCount = reader.GetInt32(1);
                     r.LikeCount = reader.GetInt32(2);
@@ -126,7 +126,7 @@ namespace CSCI_320_KotDT.Controllers
                 }
             }
             movie.Reviews = reviews;
-            movie.NewReview = new Review(movie.MovieId, QueryHandler);
+            movie.NewReview = new Review(movie.MovieId);
 
             return View(movie);
         }
