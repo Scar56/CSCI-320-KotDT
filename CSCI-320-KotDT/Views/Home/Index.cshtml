@@ -1,5 +1,4 @@
-﻿@using System.Data.Entity.Core.Common.EntitySql
-@using CSCI_320_KotDT.Models
+﻿@using CSCI_320_KotDT.Models
 @{
   ViewBag.Title = "Home Page";
 }
@@ -15,9 +14,10 @@
         <tr><td>
             <p>Review by: @review.CreatedBy</p>
             <p>Likes: @review.LikeCount Dislikes: @review.DislikeCount Score: @review.Score</p>
+            <p>Movie: @Html.ActionLink("this movie", "Details", "Movies", new{id=review.MovieId}, null)</p>
+            <p>@review.ReviewText</p>
             @Html.ActionLink("Like", "Like", "Home", new{id = review.Id}, null)
             @Html.ActionLink("Dislike", "Dislike", "Home", new{id = review.Id}, null)
-            <p>@review.ReviewText</p>
           </td>
         </tr>
       }

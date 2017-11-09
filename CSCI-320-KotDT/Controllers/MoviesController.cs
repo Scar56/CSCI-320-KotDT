@@ -107,7 +107,7 @@ namespace CSCI_320_KotDT.Controllers
 
             movie.Cast = cast;
 
-            query = "select created_by, dislike_count, like_count, score, review_text from review where movie_id = " + id.ToString()
+            query = "select created_by, dislike_count, like_count, score, review_text, review_id from review where movie_id = " + id.ToString()
                 + " order by like_count, score desc";
             cmd = QueryHandler.query(query);
             List<Review> reviews = new List<Review>();
