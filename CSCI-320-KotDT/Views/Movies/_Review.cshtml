@@ -1,5 +1,5 @@
-﻿@model CSCI_320_KotDT.Models.Review
-
+﻿@using CSCI_320_KotDT.Models
+@model Review
 
 
 @using (Html.BeginForm("AddReview", "Movies", FormMethod.Post))
@@ -10,7 +10,9 @@
         <h5>Add a Review</h5>
         <input type="hidden" name="@Html.NameFor(m=>m.MovieId)" value="@Model.MovieId" />
 
-        <input type="hidden" name="@Html.NameFor(m=>m.CreatedBy)" value="" />
+        @{ User user = (User)HttpContext.Current.Session["UserID"]; }
+        <input type="hidden" name="@Html.NameFor(m=>m.CreatedBy)" value="@user.username" />
+
         <div class="form-group">
             @Html.LabelFor(model => model.ReviewText, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">

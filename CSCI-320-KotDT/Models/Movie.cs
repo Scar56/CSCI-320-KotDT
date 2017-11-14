@@ -20,7 +20,7 @@ namespace CSCI_320_KotDT.Models
 
         public string Director { get; set; }
 
-        public List<Review> Reviews;
+        public Review[] Reviews { get; set; }
 
         public Review NewReview;
 

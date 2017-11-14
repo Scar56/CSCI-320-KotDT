@@ -110,7 +110,8 @@ namespace CSCI_320_KotDT.Controllers
             query = "select created_by, dislike_count, like_count, score, review_text, review_id from review where movie_id = " + id.ToString()
                 + " order by like_count, score desc";
             cmd = QueryHandler.query(query);
-            List<Review> reviews = new List<Review>();
+            string idquery = "";
+            Dictionary<int, Review> reviews = new Dictionary<int, Review>();
             using (var reader = cmd.ExecuteReader())
             {
                 while (reader.Read())
@@ -122,10 +123,30 @@ namespace CSCI_320_KotDT.Controllers
                     r.Score = reader.GetFloat(3);
                     r.ReviewText = reader.GetString(4);
                     r.Id = reader.GetInt32(5);
-                    reviews.Add(r);
+                    r.Comments = new List<Comment>();
+                    reviews.Add(r.Id, r);
+                    idquery += " or parent_review_id = " + r.Id;
                 }
             }
-            movie.Reviews = reviews;
+            query = "select comment_text, time_posted, \"user\", parent_review_id from comment where" + idquery.Substring(3) + "order by time_posted";
+            Review tempReview = new Review();
+            cmd = QueryHandler.query(query);
+            using (var reader = cmd.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Comment comment = new Comment();
+                    comment.Text = reader.GetString(0);
+                    comment.Posted = reader.GetDateTime(1);
+                    comment.CreatedBy = reader.GetString(2);
+                    reviews.TryGetValue(reader.GetInt32(3), out tempReview);
+                    tempReview.Comments.Add(comment);
+                }
+            }
+
+            Review[] array = new Review[reviews.Values.Count];
+            reviews.Values.CopyTo(array, 0);
+            movie.Reviews = array;
             movie.NewReview = new Review(movie.MovieId);
 
             return View(movie);
@@ -140,29 +161,25 @@ namespace CSCI_320_KotDT.Controllers
                 String query = "insert into review (review_id, review_text, score, created_by, movie_id) values ( nextval('review_review_id_seq')," +
                     "@0, @1, @2, @3)";
 
-                var cmd = QueryHandler.query(query, review.ReviewText, review.Score.ToString(), review.CreatedBy, review.MovieId.ToString());
-                cmd.ExecuteScalar();
-                return RedirectToAction("Details", new { id = review.MovieId });
+                var cmd = QueryHandler.query(query, review.ReviewText, review.Score, review.CreatedBy, review.MovieId);
+                cmd.ExecuteNonQuery();
             }
-            Debug.Print("here");
             return RedirectToAction("Details", new { id = review.MovieId });
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult AddComment(Comment comment)
+        public ActionResult AddComment(Comment comment, string returnURL)
         {
             if (ModelState.IsValid)
             {
-                String query = "insert into review (review_id, review_text, score, created_by, movie_id) values ( nextval('review_review_id_seq')," +
+                String query = "insert into comment (comment_text, time_posted, \"user\", parent_review_id) values (" +
                     "@0, @1, @2, @3)";
 
-                var cmd = QueryHandler.query(query, review.ReviewText, review.Score.ToString(), review.CreatedBy, review.MovieId.ToString());
-                cmd.ExecuteScalar();
-                return RedirectToAction("Details", new { id = review.MovieId });
+                var cmd = QueryHandler.query(query, comment.Text, comment.Posted, comment.CreatedBy, comment.ParentID);
+                cmd.ExecuteNonQuery();
             }
-            Debug.Print("here");
-            return RedirectToAction("Details", new { id = review.MovieId });
+            return Redirect(returnURL);
         }
 
         public ActionResult Create()

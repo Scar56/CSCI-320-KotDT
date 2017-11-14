@@ -126,6 +126,7 @@
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs" />
     <Compile Include="Models\Actor.cs" />
+    <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\Review.cs" />
     <Compile Include="Models\User.cs" />
@@ -190,6 +191,7 @@
     <Content Include="Views\Actors\Edit.cshtml" />
     <Content Include="Views\Actors\Index.cshtml" />
     <Content Include="Views\Movies\_Review.cshtml" />
+    <Content Include="Views\Movies\_Comment.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
