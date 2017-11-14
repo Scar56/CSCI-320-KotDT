@@ -148,6 +148,23 @@ namespace CSCI_320_KotDT.Controllers
             return RedirectToAction("Details", new { id = review.MovieId });
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult AddComment(Comment comment)
+        {
+            if (ModelState.IsValid)
+            {
+                String query = "insert into review (review_id, review_text, score, created_by, movie_id) values ( nextval('review_review_id_seq')," +
+                    "@0, @1, @2, @3)";
+
+                var cmd = QueryHandler.query(query, review.ReviewText, review.Score.ToString(), review.CreatedBy, review.MovieId.ToString());
+                cmd.ExecuteScalar();
+                return RedirectToAction("Details", new { id = review.MovieId });
+            }
+            Debug.Print("here");
+            return RedirectToAction("Details", new { id = review.MovieId });
+        }
+
         public ActionResult Create()
         {
             return View();
@@ -163,6 +180,21 @@ namespace CSCI_320_KotDT.Controllers
             }
 
             return View(actor);
+        }
+
+        public ActionResult Like(int? id)
+        {
+            string queryString = "UPDATE  review set like_count = like_count+1 where review_id = " + id;
+            Console.WriteLine(id);
+            QueryHandler.nonQuery(queryString);
+            return RedirectToAction("Index", "Home");
+        }
+
+        public ActionResult Dislike(int? id)
+        {
+            string queryString = "UPDATE  review set dislike_count = dislike_count+1 where review_id = " + id;
+            QueryHandler.nonQuery(queryString);
+            return RedirectToAction("Index", "Home");
         }
 
 

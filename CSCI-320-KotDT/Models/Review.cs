@@ -28,6 +28,7 @@ namespace CSCI_320_KotDT.Models
         [Required]
         [Display(Name = "User")]
         public string CreatedBy { get; set; }
+
         public int MovieId { get; set; }
 
         public Review(int movie_id)

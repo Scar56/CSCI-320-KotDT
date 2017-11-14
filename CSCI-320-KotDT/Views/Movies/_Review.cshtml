@@ -1,5 +1,7 @@
 ﻿@model CSCI_320_KotDT.Models.Review
 
+
+
 @using (Html.BeginForm("AddReview", "Movies", FormMethod.Post))
 {
     @Html.AntiForgeryToken()
@@ -8,12 +10,22 @@
         <h5>Add a Review</h5>
         <input type="hidden" name="@Html.NameFor(m=>m.MovieId)" value="@Model.MovieId" />
 
-        
-        <p>Username: @Html.TextBoxFor(m => m.CreatedBy)</p>
-
-        <p>Review: <input type="text" name="@Html.NameFor(m=>m.ReviewText)" value="@Model.ReviewText" /></p>
-
-        <p>Score: <input type="text" name="@Html.NameFor(m=>m.Score)" value="@Model.Score" /></p>
+        <input type="hidden" name="@Html.NameFor(m=>m.CreatedBy)" value="" />
+        <div class="form-group">
+            @Html.LabelFor(model => model.ReviewText, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ReviewText, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ReviewText, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Score, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="range" min="0" max="10" id="slider" step=".5" name="@Html.NameFor(m=>m.Score)" value="@Model.Score" oninput="score.value = slider.valueAsNumber" />
+                <p><output for="slider" name="score">0</output></p>
+                @Html.ValidationMessageFor(model => model.CreatedBy, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
 
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
