@@ -59,7 +59,7 @@ namespace CSCI_320_KotDT.Controllers
 			ViewBag.movies = movies;
 			ViewBag.id = id;
 
-            queryString = "SELECT distinct name FROM actors where lower(name) like lower('%" + search + "%') limit 25";
+            queryString = "SELECT distinct name FROM actors where lower(name) like lower('%" + search + "%') union SELECT distinct name FROM directors where lower(name) like lower('%" + search + "%') limit 25";
             ArrayList actors = QueryHandler.read(queryString, 1);
             ViewBag.actors = actors;
 

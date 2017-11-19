@@ -16,9 +16,11 @@ namespace CSCI_320_KotDT.Models
         [Display(Name = "Running Time")]
         public int RunningTime { get; set; }
 
+        public List<string> Directors { get; set; }
+
         public string[] Genres { get; set; }
 
-        public string Director { get; set; }
+        public float Score { get; set; }
 
         public Review[] Reviews { get; set; }
 
@@ -38,12 +40,17 @@ namespace CSCI_320_KotDT.Models
             this.ReleaseYear = Release_year;
             this.RunningTime = Running_time;
             this.MovieId = id;
+            Genres = new string[15];
+            Directors = new List<string>();
         }
 
         public Movie(string Title, int id)
         {
             this.Title = Title;
             this.MovieId = id;
+            Genres = new string[15];
+            Directors = new List<string>();
+
         }
 
         public static string OrderingString()

@@ -8,11 +8,20 @@
 
 <div>
     <h1>@Html.DisplayFor(model => model.Title)</h1>
+
+    <h3>@Html.LabelFor(model => model.Score): @Html.DisplayFor(model => model.Score)</h3>
         
     <p>Released In: @Html.DisplayFor(model => model.ReleaseYear)</p>
         
     <p>Runtime: @Html.DisplayFor(model => model.RunningTime)</p>
+    <h3>Directors:</h3>
+    <ul>
+    @foreach (string director in Model.Directors)
+    {
+                <li ><a href="@(Url.Action("Details", "Actors", new { id = director }))">@director</a></li>
 
+    }
+    </ul>
     <table class="table">
     @foreach (var actor in Model.Cast)
     {

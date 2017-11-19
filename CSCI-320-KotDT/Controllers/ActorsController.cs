@@ -35,8 +35,9 @@ namespace CSCI_320_KotDT.Controllers
                 return new HttpStatusCodeResult((int)HttpStatusCode.BadRequest);
             }
 
-            string query = "SELECT movie_id, performed_in, role  FROM actors WHERE name LIKE '" + id.ToString() + "' ";
-            query += "ORDER BY billing_position";
+            string query = "(SELECT movie_id, performed_in, role  FROM actors WHERE name LIKE '" + id.ToString() + "' ";
+            query += "ORDER BY billing_position)";
+            query += "union all select movie_id, Directed, 'Director' as role from directors where name like '" + id + "' ";
 
             var cmd = QueryHandler.query(query);
             Actor actor = new Actor(id);

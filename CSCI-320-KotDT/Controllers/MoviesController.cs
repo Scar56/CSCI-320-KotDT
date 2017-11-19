@@ -69,7 +69,7 @@ namespace CSCI_320_KotDT.Controllers
                 return new HttpStatusCodeResult((int)HttpStatusCode.BadRequest);
             }
 
-            string query = "select title, release_year, running_time from movies where id = " + id.ToString();
+            string query = " select title, release_year, running_time, score from movies left join moviescore using (id) where movies.id = " + id.ToString();
 
             var cmd = QueryHandler.query(query);
             Movie movie = null;
@@ -80,15 +80,41 @@ namespace CSCI_320_KotDT.Controllers
                     String title = reader.GetString(0);
                     Int32 ry = reader.GetInt32(1);
                     Int32 rt = reader.GetInt32(2);
-                    movie = new Movie(title, ry, rt, (int)id);
-                }
 
+                    movie = new Movie(title, ry, rt, (int)id);
+                    if (!reader.IsDBNull(3))
+                        movie.Score = (float)reader.GetDouble(3);
+                }
             }
 
             if (movie == null)
             {
                 return HttpNotFound();
             }
+
+            query = "select name from directors where movie_id = " + id.ToString();
+            cmd = QueryHandler.query(query);
+            using (var reader = cmd.ExecuteReader())
+            {
+                
+                while(reader.Read())
+                {
+                    movie.Directors.Add(reader.GetString(0));
+                }
+            }
+
+            query = "select genre from genres where id = " + id.ToString();
+            cmd = QueryHandler.query(query);
+            using (var reader = cmd.ExecuteReader())
+            {
+                int count = 0;
+                while (reader.Read())
+                {
+                    movie.Genres[count] = reader.GetString(0);
+                    count++;
+                }
+            }
+
 
             query = "SELECT name, role FROM actors WHERE movie_id = '" + movie.MovieId + "'";
             //query += "ORDER BY (SELECT count(name) FROM actors";                                  //TODO: Order by popularity
@@ -128,22 +154,24 @@ namespace CSCI_320_KotDT.Controllers
                     idquery += " or parent_review_id = " + r.Id;
                 }
             }
-            query = "select comment_text, time_posted, \"user\", parent_review_id from comment where" + idquery.Substring(3) + "order by time_posted";
-            Review tempReview = new Review();
-            cmd = QueryHandler.query(query);
-            using (var reader = cmd.ExecuteReader())
+            if (idquery != "")
             {
-                while (reader.Read())
+                query = "select comment_text, time_posted, \"user\", parent_review_id from comment where" + idquery.Substring(3) + "order by time_posted";
+                Review tempReview = new Review();
+                cmd = QueryHandler.query(query);
+                using (var reader = cmd.ExecuteReader())
                 {
-                    Comment comment = new Comment();
-                    comment.Text = reader.GetString(0);
-                    comment.Posted = reader.GetDateTime(1);
-                    comment.CreatedBy = reader.GetString(2);
-                    reviews.TryGetValue(reader.GetInt32(3), out tempReview);
-                    tempReview.Comments.Add(comment);
+                    while (reader.Read())
+                    {
+                        Comment comment = new Comment();
+                        comment.Text = reader.GetString(0);
+                        comment.Posted = reader.GetDateTime(1);
+                        comment.CreatedBy = reader.GetString(2);
+                        reviews.TryGetValue(reader.GetInt32(3), out tempReview);
+                        tempReview.Comments.Add(comment);
+                    }
                 }
             }
-
             Review[] array = new Review[reviews.Values.Count];
             reviews.Values.CopyTo(array, 0);
             movie.Reviews = array;
