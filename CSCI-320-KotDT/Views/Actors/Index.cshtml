@@ -6,34 +6,31 @@
 
 <h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+p>
+@using (Html.BeginForm("Index", "Movies", FormMethod.Get))
+{
+       
+    <p>
+        Title: @Html.TextBox("Search") <br />
+        <input type="submit" value="Filter" />
+    </p>
+}
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Performed_in)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Role)
+            @Html.DisplayNameFor(model => model.Name)
         </th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Performed_in)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Role)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Name }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Name }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Name })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+
+        <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Actors", new { id = item.Name }))'">
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+        </tr>
+    }
 
 </table>

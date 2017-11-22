@@ -15,3 +15,5 @@
 *.dll
 *.pdb
 *.pdb
+*.dll
+*.pdb
