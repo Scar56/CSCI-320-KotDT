@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using System.Web.UI.WebControls;
 using CSCI_320_KotDT.Models;
 using ControllerDI.Interfaces;
+using Npgsql;
 
 namespace CSCI_320_KotDT.Controllers
 {
@@ -21,10 +22,42 @@ namespace CSCI_320_KotDT.Controllers
             QueryHandler = IQuery;
         }
 
-        // GET: Actors
-        public ActionResult Index()
+      
+        public ActionResult Index(string search, int pageNum = 0, int pageSize = 25)
         {
-            return View();
+            NpgsqlCommand cmd;
+            int temp = pageNum * pageSize;
+            string queryString = "SELECT DISTINCT name " + 
+                                 "FROM actors " + Actor.OrderingString() +" limit " +
+                                 pageSize.ToString() + " offset " + temp.ToString();
+            if (!String.IsNullOrEmpty(search))
+            {
+                search = search.Replace(' ', '%');
+                queryString = "SELECT DISTINCT name FROM " + 
+                              "actors where lower(name) like lower( @0 ) " + Actor.OrderingString() + " limit " +
+                              pageSize.ToString() + " offset " + temp.ToString();
+                cmd = QueryHandler.query(queryString, "%" + search + "%");
+            }
+            else
+            {
+                cmd = QueryHandler.query(queryString);
+            }
+
+            List<Actor> actors = new List<Actor>();
+            using (var reader = cmd.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Console.Write(reader.FieldCount);
+
+                    String name = reader.GetString(0);
+                    Actor actor = new Actor(name);
+                    actors.Add(actor);
+
+                }
+            }
+            return View(actors);
+
         }
 
         // GET: Actors/Details/5

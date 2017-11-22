@@ -26,6 +26,11 @@ namespace CSCI_320_KotDT.Models
             this.Name = name;
             this.Roles = new List<Tuple<string, Movie>>();
         }
+        
+        public static string OrderingString()
+        {
+            return "";
+        }
 
     }
 
