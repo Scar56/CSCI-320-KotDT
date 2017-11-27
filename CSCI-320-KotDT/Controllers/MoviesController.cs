@@ -199,7 +199,20 @@ namespace CSCI_320_KotDT.Controllers
                 String query = "insert into review (review_id, review_text, score, created_by, movie_id) values ( nextval('review_review_id_seq')," +
                     "@0, @1, @2, @3)";
 
-                var cmd = QueryHandler.query(query, review.ReviewText, review.Score, review.CreatedBy, review.MovieId);
+                String user = review.CreatedBy;
+                String anonQuery = "SELECT is_anonymous FROM \"User\" WHERE username = '" + user + "'";
+                var anonCmd = QueryHandler.query(anonQuery);
+                using (var reader = anonCmd.ExecuteReader())
+                {
+                    while (reader.Read()) {
+                        Boolean isAnonymous = reader.GetBoolean(0);
+                        if (isAnonymous) {
+                            user = "anonymous";
+                        }
+                    }
+                }
+                
+                var cmd = QueryHandler.query(query, review.ReviewText, review.Score, user, review.MovieId);
                 cmd.ExecuteNonQuery();
             }
             return RedirectToAction("Details", new { id = review.MovieId });
