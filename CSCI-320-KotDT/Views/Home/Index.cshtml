@@ -5,10 +5,6 @@
 
 <div class="jumbotron">
   <h1>Welcome</h1>
-  @if (Session["UserID"] == null) {
-    <p class="lead">Login I guess, or create an account (dont let me forget to add some kind of filler here)</p>
-  }
-  else {
     <table class="table">
       @foreach (Review review in ViewBag.feed) {
         <tr><td>
@@ -22,5 +18,4 @@
         </tr>
       }
     </table>
-  }
 </div>
