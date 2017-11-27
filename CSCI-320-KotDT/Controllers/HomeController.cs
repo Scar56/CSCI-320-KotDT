@@ -2,7 +2,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics.Eventing;
 using System.Web.Mvc;
 using ControllerDI.Interfaces;
 using CSCI_320_KotDT.Models;

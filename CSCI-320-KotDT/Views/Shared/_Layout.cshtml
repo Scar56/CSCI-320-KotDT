@@ -1,4 +1,5 @@
-﻿
+﻿@using CSCI_320_KotDT.Models
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,10 +33,13 @@
         }
         <li style="padding-top: 10px">        
           <form action="/Home/Search" method="post">
-              <input name="search" placeholder="username, movie title...">
-              <button value="submit">search</button>
+            <input name="search" placeholder="username, movie title...">
+            <button value="submit">search</button>
           </form>
         </li>
+        @if(Session["UserID"] != null){
+          <li>@Html.ActionLink(((User)Session["UserID"]).username, "User", "User", new { username = ((User)Session["UserID"]).username }, null)</li>
+        }
       </ul>
     </div>
   </div>
