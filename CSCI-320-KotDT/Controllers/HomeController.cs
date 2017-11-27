@@ -17,58 +17,54 @@ namespace CSCI_320_KotDT.Controllers
 			QueryHandler = IQuery;
 		}
 
-		public ActionResult Index() {
-			User user = (User)System.Web.HttpContext.Current.Session["UserID"];
-			string queryString;
-			if(user==null){
-				queryString = "select * from review";
-				ArrayList dr = QueryHandler.read(queryString, 7);
-				List<Review> reviews = new List<Review>();
-				foreach(ArrayList i in dr) {
-					Review r = new Review((int)i[6]);
-					r.Id = (int) i[4];
-					r.CreatedBy = (string)i[5];
-					r.DislikeCount = (int)i[3];
-					r.LikeCount = (int)i[2];
-					r.Score = (float)i[1];
-					r.ReviewText = (string)i[0];
-					reviews.Add(r);
-				}
-				ViewBag.feed = reviews;
-				return View();
+        public ActionResult Index()
+        {
+            User user = (User)System.Web.HttpContext.Current.Session["UserID"];
+            string queryString;
+            if (user == null)
+            {
+                queryString = "select * from review";
+                ArrayList dr = QueryHandler.read(queryString, 7);
+                List<Review> reviews = new List<Review>();
+                foreach (ArrayList i in dr)
+                {
+                    Review r = new Review((int)i[6]);
+                    r.Id = (int)i[4];
+                    r.CreatedBy = (string)i[5];
+                    r.DislikeCount = (int)i[3];
+                    r.LikeCount = (int)i[2];
+                    r.Score = (float)i[1];
+                    r.ReviewText = (string)i[0];
+                    reviews.Add(r);
+                }
+                ViewBag.feed = reviews;
+                return View();
 
-			}else{
-				queryString = "select * from follows_user  inner join review on follows_user.following=review.created_by where follower='" + user.username + "'";
-				ArrayList dr = QueryHandler.read(queryString, 9);
-				List<Review> reviews = new List<Review>();
-				foreach(ArrayList i in dr) {
-					Review r = new Review((int)i[8]);
-					r.Id = (int) i[6];
-					r.CreatedBy = (string)i[7];
-					r.DislikeCount = (int)i[5];
-					r.LikeCount = (int)i[4];
-					r.Score = (float)i[3];
-					r.ReviewText = (string)i[2];
-					reviews.Add(r);
-				}
-				ViewBag.feed = reviews;
-				return View();
-            string queryString = "select  review_text, score, like_count, dislike_count, review_id, created_by, movie_id, date_create from follows_user  inner join review on follows_user.following=review.created_by where follower='" + user.username + "'" +
-                    "UNION select review_text, score, like_count, dislike_count, review_id, created_by, movie_id, date_create from follows_movie inner join review using (movie_id) where follower = '" + user.username + "'" +
-                    "ORDER BY date_create";
-			ArrayList dr = QueryHandler.read(queryString, 7);
-			List<Review> reviews = new List<Review>();
-			foreach(ArrayList i in dr) {
-				Review r = new Review((int)i[6]);
-				r.Id = (int) i[4];
-				r.CreatedBy = (string)i[5];
-				r.DislikeCount = (int)i[3];
-				r.LikeCount = (int)i[2];
-				r.Score = (float)i[1];
-				r.ReviewText = (string)i[0];
-				reviews.Add(r);
-			}
-		}
+            }
+            else
+            {
+
+
+                queryString = "select  review_text, score, like_count, dislike_count, review_id, created_by, movie_id, date_create from follows_user  inner join review on follows_user.following=review.created_by where follower='" + user.username + "'" +
+                        "UNION select review_text, score, like_count, dislike_count, review_id, created_by, movie_id, date_create from follows_movie inner join review using (movie_id) where follower = '" + user.username + "'" +
+                        "ORDER BY date_create";
+                ArrayList dr = QueryHandler.read(queryString, 7);
+                List<Review> reviews = new List<Review>();
+                foreach (ArrayList i in dr)
+                {
+                    Review r = new Review((int)i[6]);
+                    r.Id = (int)i[4];
+                    r.CreatedBy = (string)i[5];
+                    r.DislikeCount = (int)i[3];
+                    r.LikeCount = (int)i[2];
+                    r.Score = (float)i[1];
+                    r.ReviewText = (string)i[0];
+                    reviews.Add(r);
+                }
+                ViewBag.feed = reviews;
+                return View();
+            }
+        }
 
 		[HttpPost]
 		public ActionResult Search(string search) {

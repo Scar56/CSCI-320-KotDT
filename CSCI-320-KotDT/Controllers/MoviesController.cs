@@ -263,19 +263,19 @@ namespace CSCI_320_KotDT.Controllers
             return View(actor);
         }
 
-        public ActionResult Like(int? id)
+        public ActionResult Like(int? id, string returnURL)
         {
             string queryString = "UPDATE  review set like_count = like_count+1 where review_id = " + id;
             Console.WriteLine(id);
             QueryHandler.nonQuery(queryString);
-            return RedirectToAction("Index", "Home");
+            return Redirect(returnURL);
         }
 
-        public ActionResult Dislike(int? id)
+        public ActionResult Dislike(int? id, string returnURL)
         {
             string queryString = "UPDATE  review set dislike_count = dislike_count+1 where review_id = " + id;
             QueryHandler.nonQuery(queryString);
-            return RedirectToAction("Index", "Home");
+            return Redirect(returnURL);
         }
 
 
