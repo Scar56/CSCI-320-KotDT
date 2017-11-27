@@ -25,6 +25,8 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>@Html.ActionLink("Home", "Index", "Home")</li>
+		<li>@Html.ActionLink("Movies", "Index", "Movies")</li>
+		<li>@Html.ActionLink("Actors", "Index", "Actors")</li>
         @if(Session["UserID"] == null){
           <li>@Html.ActionLink("Login", "Login", "Login")</li>
         }

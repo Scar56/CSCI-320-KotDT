@@ -31,6 +31,8 @@ namespace CSCI_320_KotDT.Models
 
         public int MovieId { get; set; }
 
+        public DateTime CreatedOn { get; set; }
+
         public List<Comment> Comments { get; set; }
 
         public Review(int movie_id)

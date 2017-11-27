@@ -24,13 +24,13 @@ namespace CSCI_320_KotDT.Controllers
         {
             NpgsqlCommand cmd;
             int temp = pageNum * pageSize;
-            string queryString = "SELECT title, release_year, running_time," + 
+            string queryString = "SELECT title, release_year, running_time," +
             "id FROM movies " + Movie.OrderingString() +" limit " +
                 pageSize.ToString() + " offset " + temp.ToString();
             if (!String.IsNullOrEmpty(search))
             {
                 search = search.Replace(' ', '%');
-                queryString = "SELECT title, release_year, running_time, id FROM " + 
+                queryString = "SELECT title, release_year, running_time, id FROM " +
                 "movies where lower(title) like lower( @0 ) " + Movie.OrderingString() + " limit " +
                 pageSize.ToString() + " offset " + temp.ToString();
                 cmd = QueryHandler.query(queryString, "%" + search + "%");
@@ -96,7 +96,7 @@ namespace CSCI_320_KotDT.Controllers
             cmd = QueryHandler.query(query);
             using (var reader = cmd.ExecuteReader())
             {
-                
+
                 while(reader.Read())
                 {
                     movie.Directors.Add(reader.GetString(0));
@@ -156,7 +156,7 @@ namespace CSCI_320_KotDT.Controllers
             }
             if (idquery != "")
             {
-                query = "select comment_text, time_posted, \"user\", parent_review_id from comment where" + idquery.Substring(3) + "order by time_posted";
+                query = "select comment_text, time_posted, \"user\", parent_review_id from comment where " + idquery.Substring(3) + " order by time_posted";
                 Review tempReview = new Review();
                 cmd = QueryHandler.query(query);
                 using (var reader = cmd.ExecuteReader())
@@ -172,6 +172,15 @@ namespace CSCI_320_KotDT.Controllers
                     }
                 }
             }
+            var temp = System.Web.HttpContext.Current.Session["UserID"];
+            if (temp != null){
+                query = "select exists(select follower from follows_movie where follower = '" + ((User)temp).username +  "' AND movie_id = " + id + ")";
+                    cmd = QueryHandler.query(query);
+                    var reader = cmd.ExecuteReader();
+                reader.Read();
+                ViewBag.Following = reader.GetBoolean(0);
+            }
+
             Review[] array = new Review[reviews.Values.Count];
             reviews.Values.CopyTo(array, 0);
             movie.Reviews = array;
@@ -184,6 +193,7 @@ namespace CSCI_320_KotDT.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult AddReview(Review review)
         {
+            
             if (ModelState.IsValid)
             {
                 String query = "insert into review (review_id, review_text, score, created_by, movie_id) values ( nextval('review_review_id_seq')," +
@@ -250,6 +260,23 @@ namespace CSCI_320_KotDT.Controllers
 
             }
             base.Dispose(disposing);
+        }
+
+        public ActionResult follow(int id) {
+            string currUser = ((User)System.Web.HttpContext.Current.Session["UserID"]).username;
+            string query = "INSERT INTO follows_movie " +
+                               "(follower, movie_id) " +
+                                    "VALUES('" + currUser + "', " + id + ")";
+            QueryHandler.nonQuery(query);
+            return RedirectToAction("Details", "Movies", new{id = id});
+        }
+
+        public ActionResult unfollow(int id) {
+            string currUser = ((User)System.Web.HttpContext.Current.Session["UserID"]).username;
+            string query = "DELETE FROM follows_movie " +
+                "WHERE (follower = '" + currUser + "' AND  movie_id = " + id + ")";
+            QueryHandler.nonQuery(query);
+            return RedirectToAction("Details", "Movies", new{id = id});
         }
 
     }

@@ -9,10 +9,20 @@
 <div>
     <h1>@Html.DisplayFor(model => model.Title)</h1>
 
+    @if(Session["UserID"] != null){
+        if(!ViewBag.Following){
+                <button runat="server" onclick="location.href='@Url.Action("follow", "Movies", new{id = Model.MovieId})'">Follow</button>
+        }
+    	else{
+                    <button runat="server" onclick="location.href='@Url.Action("unfollow", "Movies", new{id = Model.MovieId})'">Unfollow</button>
+
+    	}
+    }
+
     <h3>@Html.LabelFor(model => model.Score): @Html.DisplayFor(model => model.Score)</h3>
-        
+
     <p>Released In: @Html.DisplayFor(model => model.ReleaseYear)</p>
-        
+
     <p>Runtime: @Html.DisplayFor(model => model.RunningTime)</p>
     <h3>Directors:</h3>
     <ul>
@@ -25,17 +35,17 @@
     <table class="table">
     @foreach (var actor in Model.Cast)
     {
-            <tr onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
+            <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
                 <td>
                     @Html.DisplayFor(modelItem => actor.Name)
                 </td>
-                <td>   
+                <td>
                     @Html.DisplayFor(modelItem => actor.Role)
                 </td>
             </tr>
     }
     </table>
-    
+
 </div>
 <hr />
 <div>
@@ -45,7 +55,7 @@
                 <h5>Review by: @Html.DisplayFor(text => review.CreatedBy)</h5>
                 <h5>Score: @Html.DisplayFor(text =>review.Score)</h5>
                 <p>@Html.DisplayFor(text => review.ReviewText)</p>
-                
+
             if (Session["UserID"] != null)
             {
                 @Html.ActionLink("Like", "Like", "Movie", new { id = review.Id }, new { @style = "margin-right:20px;" })
@@ -65,7 +75,7 @@
                 }
                 else
                 {
-                    
+
                     { Html.RenderPartial("_Comment", new Comment(review.Id)); }
                 }
         }
