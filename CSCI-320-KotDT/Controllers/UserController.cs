@@ -62,5 +62,13 @@ namespace CSCI_320_KotDT.Controllers {
             QueryHandler.nonQuery(query);
             return RedirectToAction("User", "User", new{username = selUser});
         }
+
+        public ActionResult anonymize() {
+            User user = (User)System.Web.HttpContext.Current.Session["UserID"];
+            string query = "UPDATE \"User\" set is_anonymous = " + !user.isAnon + " WHERE username = '" + user.username + "'";
+            QueryHandler.nonQuery(query);
+            user.isAnon = !user.isAnon;
+            return RedirectToAction("User", "User", new{username = user.username});
+        }
     }
 }

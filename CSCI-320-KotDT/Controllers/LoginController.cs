@@ -25,12 +25,12 @@ namespace CSCI_320_KotDT.Controllers {
         }
         [HttpPost][WebMethod(EnableSession = true)]
         public ActionResult Login(string username, string password) {
-            string queryString = "Select username, password, first_name, last_name From \"User\" where username = '" + username + "'";
+            string queryString = "Select * From \"User\" where username = '" + username + "'";
             
             //should at most have one result
-            ArrayList query = QueryHandler.read(queryString, 4);
+            ArrayList query = QueryHandler.read(queryString, 5);
             if (password.Equals(((ArrayList)query[0])[1])) {
-                System.Web.HttpContext.Current.Session["UserID"] = new User(username, (string) ((ArrayList)query[0])[2], (string) ((ArrayList)query[0])[3]);
+                System.Web.HttpContext.Current.Session["UserID"] = new User(username, (string) ((ArrayList)query[0])[2], (string) ((ArrayList)query[0])[3], (bool) ((ArrayList)query[0])[4]);
                 return RedirectToAction("Index", "Home");
             }
             return View();
