@@ -227,7 +227,20 @@ namespace CSCI_320_KotDT.Controllers
                 String query = "insert into comment (comment_text, time_posted, \"user\", parent_review_id) values (" +
                     "@0, @1, @2, @3)";
 
-                var cmd = QueryHandler.query(query, comment.Text, comment.Posted, comment.CreatedBy, comment.ParentID);
+                String user = comment.CreatedBy;
+                String anonQuery = "SELECT is_anonymous FROM \"User\" WHERE username = '" + user + "'";
+                var anonCmd = QueryHandler.query(anonQuery);
+                using (var reader = anonCmd.ExecuteReader())
+                {
+                    while (reader.Read()) {
+                        Boolean isAnonymous = reader.GetBoolean(0);
+                        if (isAnonymous) {
+                            user = "anonymous";
+                        }
+                    }
+                }
+                
+                var cmd = QueryHandler.query(query, comment.Text, comment.Posted, user, comment.ParentID);
                 cmd.ExecuteNonQuery();
             }
             return Redirect(returnURL);
