@@ -5,50 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96d2b476-0c12-4b44-9497-9f5e04c0921b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/EntityFramework.SqlServer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/EntityFramework.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.Abstractions.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Newtonsoft.Json.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Npgsql.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Net.Http.Formatting.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Threading.Tasks.Extensions.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Helpers.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Http.WebHost.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Http.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Razor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.WebPages.Deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.WebPages.Razor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.WebPages.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/EntityFramework.SqlServer.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/EntityFramework.SqlServer.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/EntityFramework.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/EntityFramework.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Microsoft.Extensions.DependencyInjection.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Microsoft.Web.Infrastructure.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Microsoft.Web.Infrastructure.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Newtonsoft.Json.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Newtonsoft.Json.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Npgsql.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/Npgsql.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Net.Http.Formatting.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Net.Http.Formatting.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Runtime.InteropServices.RuntimeInformation.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Runtime.InteropServices.RuntimeInformation.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Threading.Tasks.Extensions.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Threading.Tasks.Extensions.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Helpers.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Helpers.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Http.WebHost.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Http.WebHost.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Http.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Http.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Mvc.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Mvc.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Razor.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.Razor.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.WebPages.Deployment.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.WebPages.Deployment.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.WebPages.Razor.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.WebPages.Razor.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.WebPages.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/System.Web.WebPages.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/UserController.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/UserController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Models/User.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Models/User.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +64,6 @@
               <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
                 <marker date="1511819413373" expanded="false" signature="6:134" ph="..." />
-                <marker date="1511819413373" expanded="true" signature="173:3366" ph="{...}" />
                 <marker date="1511819413373" expanded="true" signature="221:3364" ph="{...}" />
                 <marker date="1511819413373" expanded="true" signature="330:376" ph="{...}" />
                 <marker date="1511819413373" expanded="true" signature="440:478" ph="{...}" />
@@ -123,48 +83,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.cshtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.cshtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+            <state relative-caret-position="416">
+              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               <folding>
-                <marker date="1511819413373" expanded="true" signature="29:61" ph="@..." />
-                <marker date="1511819413373" expanded="true" signature="63:130" ph="@..." />
-                <marker date="1511819413373" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
-                <marker date="1511819413373" expanded="true" signature="182:506" ph="@..." />
-                <marker date="1511819413373" expanded="true" signature="240:506" ph="{...}" />
-                <marker date="1511819413373" expanded="true" signature="261:379" ph="{...}" />
-                <marker date="1511819413373" expanded="true" signature="379:504" ph="{...}" />
-                <marker date="1511819413373" expanded="true" signature="508:638" ph="@..." />
-                <marker date="1511819413373" expanded="true" signature="536:638" ph="{...}" />
-                <marker date="1511819413373" expanded="true" signature="639:773" ph="@..." />
-                <marker date="1511819413373" expanded="true" signature="667:773" ph="{...}" />
+                <marker date="1511834818270" expanded="true" signature="29:61" ph="@..." />
+                <marker date="1511834818270" expanded="true" signature="63:130" ph="@..." />
+                <marker date="1511834818270" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
+                <marker date="1511834818270" expanded="true" signature="182:449" ph="@..." />
+                <marker date="1511834818270" expanded="true" signature="240:449" ph="{...}" />
+                <marker date="1511834818270" expanded="true" signature="311:347" ph="{...}" />
+                <marker date="1511834818270" expanded="true" signature="451:581" ph="@..." />
+                <marker date="1511834818270" expanded="true" signature="479:581" ph="{...}" />
+                <marker date="1511834818270" expanded="true" signature="582:716" ph="@..." />
+                <marker date="1511834818270" expanded="true" signature="610:716" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+            <state relative-caret-position="672">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <marker date="1511819610429" expanded="false" signature="7:156" ph="..." />
-                <marker date="1511819610429" expanded="true" signature="194:4056" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="238:4054" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="337:368" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="400:2511" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="517:1002" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="694:949" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="1002:2507" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="1013:1591" ph="/* queryString = ... */" />
-                <marker date="1511819610429" expanded="true" signature="2206:2455" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="2570:3554" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="3075:3121" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="3592:3802" ph="{...}" />
-                <marker date="1511819610429" expanded="true" signature="3843:4051" ph="{...}" />
+                <marker date="1511824079766" expanded="false" signature="7:156" ph="..." />
+                <marker date="1511824079766" expanded="true" signature="194:3477" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="238:3475" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="337:368" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="400:1932" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="517:1002" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="694:949" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="1002:1928" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="1627:1876" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="1991:2975" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="2496:2542" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="3013:3223" ph="{...}" />
+                <marker date="1511824079766" expanded="true" signature="3264:3472" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryHandler.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/QueryHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1510964729939" expanded="false" signature="6:70" ph="..." />
+                <marker date="1510964729939" expanded="true" signature="104:2551" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="152:2549" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="304:458" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="468:698" ph="///creates command object for specified query ... " />
+                <marker date="1510964729939" expanded="true" signature="763:919" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="1003:1295" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="1128:1248" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="1305:1629" ph="///creates command object for specified query ... " />
+                <marker date="1510964729939" expanded="true" signature="1693:2243" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="1854:2185" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="1925:2171" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="2056:2119" ph="{...}" />
+                <marker date="1510964729939" expanded="true" signature="2261:2397" ph="///creates command object for specified query ... " />
+                <marker date="1510964729939" expanded="true" signature="2446:2534" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -176,15 +160,15 @@
             <state relative-caret-position="1088">
               <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
-                <marker date="1511819413176" expanded="true" signature="42:105" ph="@..." />
-                <marker date="1511819413176" expanded="true" signature="109:172" ph="&lt;div.../&gt;" />
-                <marker date="1511819413176" expanded="true" signature="2660:2758" ph="{...}" />
-                <marker date="1511819413176" expanded="true" signature="2660:2768" ph="{...}" />
-                <marker date="1511819413176" expanded="true" signature="2660:3027" ph="&lt;div.../&gt;" />
-                <marker date="1511819413176" expanded="true" signature="2792:3019" ph="@..." />
-                <marker date="1511819413176" expanded="true" signature="2823:2922" ph="{...}" />
-                <marker date="1511819413176" expanded="true" signature="2935:3019" ph="{...}" />
-                <marker date="1511819413176" expanded="true" signature="3028:3082" ph="&lt;p.../&gt;" />
+                <marker date="1511823975686" expanded="true" signature="42:105" ph="@..." />
+                <marker date="1511823975686" expanded="true" signature="109:172" ph="&lt;div.../&gt;" />
+                <marker date="1511823975686" expanded="true" signature="2728:2826" ph="{...}" />
+                <marker date="1511823975686" expanded="true" signature="2728:2836" ph="{...}" />
+                <marker date="1511823975686" expanded="true" signature="2728:3095" ph="&lt;div.../&gt;" />
+                <marker date="1511823975686" expanded="true" signature="2860:3087" ph="@..." />
+                <marker date="1511823975686" expanded="true" signature="2891:2990" ph="{...}" />
+                <marker date="1511823975686" expanded="true" signature="3003:3087" ph="{...}" />
+                <marker date="1511823975686" expanded="true" signature="3096:3150" ph="&lt;p.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -294,6 +278,7 @@
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml" />
       </list>
     </option>
   </component>
@@ -327,6 +312,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -338,6 +324,12 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="CSCI-320-KotDT (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="CSCI-320-KotDT" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CSCI-320-KotDT (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CSCI-320-KotDT" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Application" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -391,7 +383,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,125 +391,6 @@
     <property name="SearchEverywhereHistoryKey" value="defaultcontroller&#9;null&#9;null&#10;startup.cs&#9;FILE&#9;file:///home/shaun/.Rider2017.1/config/resharper-host/DecompilerCache/decompiler/E2833757-5F6C-4665-B6EC-AF25FF10DAC6/70/c9683eed/OwinStartupAttribute.cs&#10;configureser&#9;null&#9;null&#10;startup&#9;null&#9;null&#10;controllertypec&#9;null&#9;null" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CSCI-320-KotDT/Views/User" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MoviesController.cs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/Models/Review.cs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Details.cshtml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csproj.CoreCompileInputs.cache</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI-320-KotDT.csprojResolveAssemblyReference.cache</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -683,6 +555,8 @@
       <workItem from="1511794477014" duration="244000" />
       <workItem from="1511795660797" duration="1851000" />
       <workItem from="1511808489461" duration="3666000" />
+      <workItem from="1511832498150" duration="95000" />
+      <workItem from="1511834318761" duration="514000" />
     </task>
     <task id="LOCAL-00001" summary="Created Login Page">
       <created>1506903211219</created>
@@ -943,11 +817,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511796880365</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="can change anonymity from user page and fixed home page">
+      <created>1511819679727</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1511819679728</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134883000" />
+    <option name="totallyTimeSpent" value="139971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -960,42 +841,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="3840" height="2080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21332617" sideWeight="0.38854167" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.49895832" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21283422" sideWeight="0.61145836" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21283422" sideWeight="0.61145836" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33788037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.49375" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272921" sideWeight="0.49375" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21332617" sideWeight="0.38854167" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.49895832" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21283422" sideWeight="0.61145836" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33788037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272921" sideWeight="0.49375" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1054,7 +922,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create user fully works without adding duplicates" />
     <MESSAGE value="Users can login" />
     <MESSAGE value="Users can logout" />
     <MESSAGE value="removed about and contact pages from home" />
@@ -1079,7 +946,8 @@
     <MESSAGE value="updoots, downdoots, score" />
     <MESSAGE value="working on liking and disliking reviews" />
     <MESSAGE value="updoots are actually working now" />
-    <option name="LAST_COMMIT_MESSAGE" value="updoots are actually working now" />
+    <MESSAGE value="can change anonymity from user page and fixed home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="can change anonymity from user page and fixed home page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1088,33 +956,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1511819413373" expanded="true" signature="29:61" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="63:130" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
-            <marker date="1511819413373" expanded="true" signature="182:506" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="240:506" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="261:379" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="379:504" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="508:638" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="536:638" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="639:773" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="667:773" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Properties/AssemblyInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1280">
@@ -1160,20 +1001,19 @@
         <state relative-caret-position="96">
           <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
-            <marker date="1511819610429" expanded="false" signature="7:156" ph="..." />
-            <marker date="1511819610429" expanded="true" signature="194:4056" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="238:4054" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="337:368" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="400:2511" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="517:1002" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="694:949" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1002:2507" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1013:1591" ph="/* queryString = ... */" />
-            <marker date="1511819610429" expanded="true" signature="2206:2455" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="2570:3554" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3075:3121" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3592:3802" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3843:4051" ph="{...}" />
+            <marker date="1511824079766" expanded="false" signature="7:156" ph="..." />
+            <marker date="1511824079766" expanded="true" signature="194:3477" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="238:3475" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="337:368" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="400:1932" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="517:1002" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="694:949" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1002:1928" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1627:1876" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1991:2975" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="2496:2542" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3013:3223" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3264:3472" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1244,20 +1084,19 @@
         <state relative-caret-position="96">
           <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
-            <marker date="1511819610429" expanded="false" signature="7:156" ph="..." />
-            <marker date="1511819610429" expanded="true" signature="194:4056" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="238:4054" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="337:368" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="400:2511" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="517:1002" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="694:949" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1002:2507" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1013:1591" ph="/* queryString = ... */" />
-            <marker date="1511819610429" expanded="true" signature="2206:2455" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="2570:3554" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3075:3121" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3592:3802" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3843:4051" ph="{...}" />
+            <marker date="1511824079766" expanded="false" signature="7:156" ph="..." />
+            <marker date="1511824079766" expanded="true" signature="194:3477" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="238:3475" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="337:368" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="400:1932" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="517:1002" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="694:949" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1002:1928" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1627:1876" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1991:2975" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="2496:2542" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3013:3223" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3264:3472" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1328,20 +1167,19 @@
         <state relative-caret-position="99">
           <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
-            <marker date="1511819610429" expanded="false" signature="7:156" ph="..." />
-            <marker date="1511819610429" expanded="true" signature="194:4056" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="238:4054" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="337:368" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="400:2511" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="517:1002" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="694:949" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1002:2507" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1013:1591" ph="/* queryString = ... */" />
-            <marker date="1511819610429" expanded="true" signature="2206:2455" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="2570:3554" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3075:3121" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3592:3802" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3843:4051" ph="{...}" />
+            <marker date="1511824079766" expanded="false" signature="7:156" ph="..." />
+            <marker date="1511824079766" expanded="true" signature="194:3477" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="238:3475" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="337:368" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="400:1932" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="517:1002" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="694:949" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1002:1928" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1627:1876" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1991:2975" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="2496:2542" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3013:3223" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3264:3472" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1398,20 +1236,19 @@
         <state relative-caret-position="102">
           <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
-            <marker date="1511819610429" expanded="false" signature="7:156" ph="..." />
-            <marker date="1511819610429" expanded="true" signature="194:4056" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="238:4054" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="337:368" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="400:2511" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="517:1002" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="694:949" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1002:2507" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1013:1591" ph="/* queryString = ... */" />
-            <marker date="1511819610429" expanded="true" signature="2206:2455" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="2570:3554" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3075:3121" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3592:3802" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3843:4051" ph="{...}" />
+            <marker date="1511824079766" expanded="false" signature="7:156" ph="..." />
+            <marker date="1511824079766" expanded="true" signature="194:3477" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="238:3475" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="337:368" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="400:1932" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="517:1002" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="694:949" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1002:1928" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1627:1876" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1991:2975" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="2496:2542" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3013:3223" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3264:3472" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1488,23 +1325,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        <state relative-caret-position="672">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <marker date="1511819610429" expanded="false" signature="7:156" ph="..." />
-            <marker date="1511819610429" expanded="true" signature="194:4056" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="238:4054" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="337:368" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="400:2511" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="517:1002" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="694:949" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1002:2507" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="1013:1591" ph="/* queryString = ... */" />
-            <marker date="1511819610429" expanded="true" signature="2206:2455" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="2570:3554" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3075:3121" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3592:3802" ph="{...}" />
-            <marker date="1511819610429" expanded="true" signature="3843:4051" ph="{...}" />
+            <marker date="1511824079766" expanded="false" signature="7:156" ph="..." />
+            <marker date="1511824079766" expanded="true" signature="194:3477" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="238:3475" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="337:368" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="400:1932" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="517:1002" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="694:949" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1002:1928" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1627:1876" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="1991:2975" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="2496:2542" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3013:3223" ph="{...}" />
+            <marker date="1511824079766" expanded="true" signature="3264:3472" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1537,25 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/UserController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1505">
-          <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-          <folding>
-            <marker date="1511819413373" expanded="false" signature="6:121" ph="..." />
-            <marker date="1511819413373" expanded="true" signature="160:3272" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="206:3270" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="323:369" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="439:1686" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="1144:1643" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="1499:1612" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="1766:2297" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="2346:2838" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="2880:3264" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/MoviesController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1568,17 +1385,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1511819413373" expanded="true" signature="29:61" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="63:130" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
-            <marker date="1511819413373" expanded="true" signature="182:506" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="240:506" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="261:379" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="379:504" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="508:638" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="536:638" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="639:773" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="667:773" ph="{...}" />
+            <marker date="1511834818270" expanded="true" signature="29:61" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="63:130" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
+            <marker date="1511834818270" expanded="true" signature="182:449" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="240:449" ph="{...}" />
+            <marker date="1511834818270" expanded="true" signature="311:347" ph="{...}" />
+            <marker date="1511834818270" expanded="true" signature="451:581" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="479:581" ph="{...}" />
+            <marker date="1511834818270" expanded="true" signature="582:716" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="610:716" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1590,33 +1406,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-          <folding>
-            <marker date="1511819413373" expanded="true" signature="29:61" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="63:130" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
-            <marker date="1511819413373" expanded="true" signature="182:506" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="240:506" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="261:379" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="379:504" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="508:638" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="536:638" ph="{...}" />
-            <marker date="1511819413373" expanded="true" signature="639:773" ph="@..." />
-            <marker date="1511819413373" expanded="true" signature="667:773" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/LoginController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <marker date="1511819413373" expanded="false" signature="6:134" ph="..." />
-            <marker date="1511819413373" expanded="true" signature="173:3366" ph="{...}" />
             <marker date="1511819413373" expanded="true" signature="221:3364" ph="{...}" />
             <marker date="1511819413373" expanded="true" signature="330:376" ph="{...}" />
             <marker date="1511819413373" expanded="true" signature="440:478" ph="{...}" />
@@ -1639,6 +1434,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
           <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Application/QueryHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510964729939" expanded="false" signature="6:70" ph="..." />
+            <marker date="1510964729939" expanded="true" signature="104:2551" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="152:2549" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="304:458" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="468:698" ph="///creates command object for specified query ... " />
+            <marker date="1510964729939" expanded="true" signature="763:919" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="1003:1295" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="1128:1248" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="1305:1629" ph="///creates command object for specified query ... " />
+            <marker date="1510964729939" expanded="true" signature="1693:2243" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="1854:2185" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="1925:2171" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="2056:2119" ph="{...}" />
+            <marker date="1510964729939" expanded="true" signature="2261:2397" ph="///creates command object for specified query ... " />
+            <marker date="1510964729939" expanded="true" signature="2446:2534" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Controllers/UserController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1505">
+          <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+          <folding>
+            <marker date="1511819413373" expanded="false" signature="6:121" ph="..." />
+            <marker date="1511819413373" expanded="true" signature="160:3272" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="206:3270" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="323:369" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="439:1686" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="1144:1643" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="1499:1612" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="1766:2297" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="2346:2838" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="2880:3264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <marker date="1511819413373" expanded="true" signature="32:708" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="56:706" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="332:491" ph="{...}" />
+            <marker date="1511819413373" expanded="true" signature="573:700" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <marker date="1511834818270" expanded="true" signature="29:61" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="63:130" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
+            <marker date="1511834818270" expanded="true" signature="182:449" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="240:449" ph="{...}" />
+            <marker date="1511834818270" expanded="true" signature="311:347" ph="{...}" />
+            <marker date="1511834818270" expanded="true" signature="451:581" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="479:581" ph="{...}" />
+            <marker date="1511834818270" expanded="true" signature="582:716" ph="@..." />
+            <marker date="1511834818270" expanded="true" signature="610:716" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

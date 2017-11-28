@@ -11,12 +11,11 @@
 </h2>
 
 @if (user.username == ((User)Session["UserId"]).username) {
-    if(user.isAnon){
-        <button runat="server" onclick="location.href='@Url.Action("anonymize", "User")'">Unanonymize</button>
+    var btn = "Anonymize";
+    if (((User)Session["UserId"]).isAnon) {
+        btn = "Unanonymize";
     }
-    else{
-        <button runat="server" onclick="location.href='@Url.Action("anonymize", "User")'">Anonymize</button>
-    }
+    <button runat="server" onclick="location.href='@Url.Action("anonymize", "User")'">@btn</button>
 }
 
 @if(ViewBag.followable == 1){
