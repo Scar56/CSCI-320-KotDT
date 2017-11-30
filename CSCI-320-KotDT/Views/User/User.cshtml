@@ -9,12 +9,15 @@
     @user.firstName
     @user.lastName
 </h2>
-<form method="post" action="/User/update">
-    First Name: <input type="text" name="firstname" placeholder="@user.firstName" value="@user.firstName"/><br/>
-    Last Name: <input type="text" name="lastname" placeholder="@user.lastName" value="@user.lastName"/><br/>
-@*    Password: <input type="password" name="password" placeholder=""/><br/>*@
-    <button type="submit">Submit</button>
-</form>
+
+@if (user.username == ((User) Session["UserId"]).username) {
+    <form method="post" action="/User/update">
+        First Name: <input type="text" name="firstname" placeholder="@user.firstName" value="@user.firstName"/><br/>
+        Last Name: <input type="text" name="lastname" placeholder="@user.lastName" value="@user.lastName"/><br/>
+        @*    Password: <input type="password" name="password" placeholder=""/><br/>*@
+        <button type="submit">Submit</button>
+    </form>
+}
 
 <br/>
 

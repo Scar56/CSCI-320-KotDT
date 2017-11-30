@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96d2b476-0c12-4b44-9497-9f5e04c0921b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/UserController.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/UserController.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,20 +42,22 @@
       <file leaf-file-name="User.cshtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="608">
+              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
-                <marker date="1512077879920" expanded="true" signature="29:61" ph="@..." />
-                <marker date="1512077879920" expanded="true" signature="63:130" ph="@..." />
-                <marker date="1512077879920" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
-                <marker date="1512077879920" expanded="true" signature="181:574" ph="&lt;form.../&gt;" />
-                <marker date="1512077879920" expanded="true" signature="583:850" ph="@..." />
-                <marker date="1512077879920" expanded="true" signature="641:850" ph="{...}" />
-                <marker date="1512077879920" expanded="true" signature="712:748" ph="{...}" />
-                <marker date="1512077879920" expanded="true" signature="851:981" ph="@..." />
-                <marker date="1512077879920" expanded="true" signature="879:981" ph="{...}" />
-                <marker date="1512077879920" expanded="true" signature="982:1116" ph="@..." />
-                <marker date="1512077879920" expanded="true" signature="1010:1116" ph="{...}" />
+                <marker date="1512077984153" expanded="true" signature="29:61" ph="@..." />
+                <marker date="1512077984153" expanded="true" signature="63:130" ph="@..." />
+                <marker date="1512077984153" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
+                <marker date="1512077984153" expanded="true" signature="182:666" ph="@..." />
+                <marker date="1512077984153" expanded="true" signature="241:666" ph="{...}" />
+                <marker date="1512077984153" expanded="true" signature="247:664" ph="&lt;form.../&gt;" />
+                <marker date="1512077984153" expanded="true" signature="675:942" ph="@..." />
+                <marker date="1512077984153" expanded="true" signature="733:942" ph="{...}" />
+                <marker date="1512077984153" expanded="true" signature="804:840" ph="{...}" />
+                <marker date="1512077984153" expanded="true" signature="943:1073" ph="@..." />
+                <marker date="1512077984153" expanded="true" signature="971:1073" ph="{...}" />
+                <marker date="1512077984153" expanded="true" signature="1074:1208" ph="@..." />
+                <marker date="1512077984153" expanded="true" signature="1102:1208" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -561,7 +558,7 @@
       <workItem from="1511964460839" duration="627000" />
       <workItem from="1512068527856" duration="1469000" />
       <workItem from="1512072390441" duration="549000" />
-      <workItem from="1512074354425" duration="3546000" />
+      <workItem from="1512074354425" duration="3643000" />
     </task>
     <task id="LOCAL-00001" summary="Created Login Page">
       <created>1506903211219</created>
@@ -850,11 +847,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512075723054</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="can edit first and last name">
+      <created>1512077918542</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1512077918542</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147922000" />
+    <option name="totallyTimeSpent" value="148019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -948,7 +952,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added search bar" />
     <MESSAGE value="search bar can list results (currently just queries all usernames)" />
     <MESSAGE value="fixing merge errors" />
     <MESSAGE value="again" />
@@ -973,7 +976,8 @@
     <MESSAGE value="gross html on user page" />
     <MESSAGE value="home page displays review's movie titles" />
     <MESSAGE value="merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge" />
+    <MESSAGE value="can edit first and last name" />
+    <option name="LAST_COMMIT_MESSAGE" value="can edit first and last name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1323,17 +1327,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512077879920" expanded="true" signature="29:61" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="63:130" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
-            <marker date="1512077879920" expanded="true" signature="181:574" ph="&lt;form.../&gt;" />
-            <marker date="1512077879920" expanded="true" signature="583:850" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="641:850" ph="{...}" />
-            <marker date="1512077879920" expanded="true" signature="712:748" ph="{...}" />
-            <marker date="1512077879920" expanded="true" signature="851:981" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="879:981" ph="{...}" />
-            <marker date="1512077879920" expanded="true" signature="982:1116" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="1010:1116" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="29:61" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="63:130" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
+            <marker date="1512077984153" expanded="true" signature="182:666" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="241:666" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="247:664" ph="&lt;form.../&gt;" />
+            <marker date="1512077984153" expanded="true" signature="675:942" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="733:942" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="804:840" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="943:1073" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="971:1073" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="1074:1208" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="1102:1208" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1594,20 +1600,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="608">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <marker date="1512077879920" expanded="true" signature="29:61" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="63:130" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
-            <marker date="1512077879920" expanded="true" signature="181:574" ph="&lt;form.../&gt;" />
-            <marker date="1512077879920" expanded="true" signature="583:850" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="641:850" ph="{...}" />
-            <marker date="1512077879920" expanded="true" signature="712:748" ph="{...}" />
-            <marker date="1512077879920" expanded="true" signature="851:981" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="879:981" ph="{...}" />
-            <marker date="1512077879920" expanded="true" signature="982:1116" ph="@..." />
-            <marker date="1512077879920" expanded="true" signature="1010:1116" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="29:61" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="63:130" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="131:180" ph="&lt;h2.../&gt;" />
+            <marker date="1512077984153" expanded="true" signature="182:666" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="241:666" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="247:664" ph="&lt;form.../&gt;" />
+            <marker date="1512077984153" expanded="true" signature="675:942" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="733:942" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="804:840" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="943:1073" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="971:1073" ph="{...}" />
+            <marker date="1512077984153" expanded="true" signature="1074:1208" ph="@..." />
+            <marker date="1512077984153" expanded="true" signature="1102:1208" ph="{...}" />
           </folding>
         </state>
       </provider>
