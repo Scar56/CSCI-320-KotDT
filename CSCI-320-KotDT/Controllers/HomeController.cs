@@ -21,12 +21,13 @@ namespace CSCI_320_KotDT.Controllers
 			User user = (User)System.Web.HttpContext.Current.Session["UserID"];
 			string queryString;
 			if (user == null) {
-				queryString = "select * from review";
-				ArrayList dr = QueryHandler.read(queryString, 7);
+				queryString = "select * from review inner join movies on review.movie_id=movies.id ORDER BY date_create DESC";
+				ArrayList dr = QueryHandler.read(queryString, 9);
 				List<Review> reviews = new List<Review>();
 				foreach (ArrayList i in dr) {
 					Review r = new Review((int) i[6]);
 					r.Id = (int) i[4];
+					r.MovieTitle = (string) i[8];
 					r.CreatedBy = (string) i[5];
 					r.DislikeCount = (int) i[3];
 					r.LikeCount = (int) i[2];
@@ -39,13 +40,14 @@ namespace CSCI_320_KotDT.Controllers
 
 			}
 			else {
-				queryString = "select  review_text, score, like_count, dislike_count, review_id, created_by, movie_id, date_create from follows_user  inner join review on follows_user.following=review.created_by where follower='" + user.username + "'" +
-						"UNION select review_text, score, like_count, dislike_count, review_id, created_by, movie_id, date_create from follows_movie inner join review using (movie_id) where follower = '" + user.username + "'" +
-						"ORDER BY date_create";
-				ArrayList dr = QueryHandler.read(queryString, 7);
+				queryString = "select  review_text, score, like_count, dislike_count, review_id, created_by, movie_id, date_create, title from (follows_user  inner join review on follows_user.following=review.created_by) inner join movies on review.movie_id=movies.id where follower='" + user.username + "'" +
+						"UNION select review_text, score, like_count, dislike_count, review_id, created_by, movie_id, date_create, title from (follows_movie inner join review using (movie_id)) inner join movies on review.movie_id=movies.id where follower = '" + user.username + "'" +
+						"ORDER BY date_create DESC";
+				ArrayList dr = QueryHandler.read(queryString, 9);
 				List<Review> reviews = new List<Review>();
 				foreach(ArrayList i in dr) {
 					Review r = new Review((int)i[6]);
+					r.MovieTitle = (string) i[8];
 					r.Id = (int) i[4];
 					r.CreatedBy = (string)i[5];
 					r.DislikeCount = (int)i[3];
