@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96d2b476-0c12-4b44-9497-9f5e04c0921b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/bin/CSCI_320_KotDT.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/obj/Debug/CSCI_320_KotDT.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CSCI-320-KotDT/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Controllers/HomeController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Models/Review.cs" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Models/Review.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Index.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/Home/Index.cshtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml" afterPath="$PROJECT_DIR$/CSCI-320-KotDT/Views/User/User.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -184,34 +176,29 @@
             <state relative-caret-position="1088">
               <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
-                <marker date="1511823975686" expanded="true" signature="42:105" ph="@..." />
-                <marker date="1511823975686" expanded="true" signature="109:1473" ph="&lt;div.../&gt;" />
-                <marker date="1511823975686" expanded="true" signature="172:554" ph="@..." />
-                <marker date="1511823975686" expanded="true" signature="202:554" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="234:383" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="383:548" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="810:1003" ph="&lt;ul.../&gt;" />
-                <marker date="1511823975686" expanded="true" signature="823:993" ph="@..." />
-                <marker date="1511823975686" expanded="true" signature="868:993" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="1029:1465" ph="&lt;table.../&gt;" />
-                <marker date="1511823975686" expanded="true" signature="1055:1452" ph="@..." />
-                <marker date="1511823975686" expanded="true" signature="1089:1452" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="1108:1446" ph="&lt;tr.../&gt;" />
-                <marker date="1511823975686" expanded="true" signature="1235:1323" ph="&lt;td.../&gt;" />
-                <marker date="1511823975686" expanded="true" signature="1340:1428" ph="&lt;td.../&gt;" />
-                <marker date="1511823975686" expanded="true" signature="1481:3095" ph="&lt;div.../&gt;" />
-                <marker date="1511823975686" expanded="true" signature="1520:2836" ph="@..." />
-                <marker date="1511823975686" expanded="true" signature="1558:2836" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="1828:2172" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="2185:2498" ph="&lt;div.../&gt;" />
-                <marker date="1511823975686" expanded="true" signature="2239:2479" ph="@..." />
-                <marker date="1511823975686" expanded="true" signature="2280:2479" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="2541:2688" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="2709:2826" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="2860:3087" ph="@..." />
-                <marker date="1511823975686" expanded="true" signature="2891:2990" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="3003:3087" ph="{...}" />
-                <marker date="1511823975686" expanded="true" signature="3096:3150" ph="&lt;p.../&gt;" />
+                <marker date="1512075707957" expanded="true" signature="42:105" ph="@..." />
+                <marker date="1512075707957" expanded="true" signature="109:1734" ph="&lt;div.../&gt;" />
+                <marker date="1512075707957" expanded="true" signature="172:554" ph="@..." />
+                <marker date="1512075707957" expanded="true" signature="202:554" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="234:383" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="383:548" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="810:1003" ph="&lt;ul.../&gt;" />
+                <marker date="1512075707957" expanded="true" signature="823:993" ph="@..." />
+                <marker date="1512075707957" expanded="true" signature="868:993" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="1725:1726" ph="&lt;table.../&gt;" />
+                <marker date="1512075707957" expanded="true" signature="1742:3356" ph="&lt;div.../&gt;" />
+                <marker date="1512075707957" expanded="true" signature="1781:3097" ph="@..." />
+                <marker date="1512075707957" expanded="true" signature="1819:3097" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="2089:2433" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="2446:2759" ph="&lt;div.../&gt;" />
+                <marker date="1512075707957" expanded="true" signature="2500:2740" ph="@..." />
+                <marker date="1512075707957" expanded="true" signature="2541:2740" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="2802:2949" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="2970:3087" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="3121:3348" ph="@..." />
+                <marker date="1512075707957" expanded="true" signature="3152:3251" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="3264:3348" ph="{...}" />
+                <marker date="1512075707957" expanded="true" signature="3357:3411" ph="&lt;p.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -402,6 +389,119 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CSCI-320-KotDT/Views/User" />
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/Content/site.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/Scripts/site.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/Views/Actors/Index.cshtml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CSCI-320-KotDT/Views/Movies/Details.cshtml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -572,7 +672,7 @@
       <workItem from="1511964460839" duration="627000" />
       <workItem from="1512068527856" duration="1469000" />
       <workItem from="1512072390441" duration="549000" />
-      <workItem from="1512074354425" duration="1326000" />
+      <workItem from="1512074354425" duration="1362000" />
     </task>
     <task id="LOCAL-00001" summary="Created Login Page">
       <created>1506903211219</created>
@@ -847,11 +947,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511834848003</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="home page displays review's movie titles">
+      <created>1512075699346</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1512075699346</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145702000" />
+    <option name="totallyTimeSpent" value="145738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -944,7 +1051,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Users can logout" />
     <MESSAGE value="removed about and contact pages from home" />
     <MESSAGE value="added search bar" />
     <MESSAGE value="search bar can list results (currently just queries all usernames)" />
@@ -969,7 +1075,8 @@
     <MESSAGE value="updoots are actually working now" />
     <MESSAGE value="can change anonymity from user page and fixed home page" />
     <MESSAGE value="gross html on user page" />
-    <option name="LAST_COMMIT_MESSAGE" value="gross html on user page" />
+    <MESSAGE value="home page displays review's movie titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="home page displays review's movie titles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1438,34 +1545,29 @@
         <state relative-caret-position="1088">
           <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
-            <marker date="1511823975686" expanded="true" signature="42:105" ph="@..." />
-            <marker date="1511823975686" expanded="true" signature="109:1473" ph="&lt;div.../&gt;" />
-            <marker date="1511823975686" expanded="true" signature="172:554" ph="@..." />
-            <marker date="1511823975686" expanded="true" signature="202:554" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="234:383" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="383:548" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="810:1003" ph="&lt;ul.../&gt;" />
-            <marker date="1511823975686" expanded="true" signature="823:993" ph="@..." />
-            <marker date="1511823975686" expanded="true" signature="868:993" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="1029:1465" ph="&lt;table.../&gt;" />
-            <marker date="1511823975686" expanded="true" signature="1055:1452" ph="@..." />
-            <marker date="1511823975686" expanded="true" signature="1089:1452" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="1108:1446" ph="&lt;tr.../&gt;" />
-            <marker date="1511823975686" expanded="true" signature="1235:1323" ph="&lt;td.../&gt;" />
-            <marker date="1511823975686" expanded="true" signature="1340:1428" ph="&lt;td.../&gt;" />
-            <marker date="1511823975686" expanded="true" signature="1481:3095" ph="&lt;div.../&gt;" />
-            <marker date="1511823975686" expanded="true" signature="1520:2836" ph="@..." />
-            <marker date="1511823975686" expanded="true" signature="1558:2836" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="1828:2172" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="2185:2498" ph="&lt;div.../&gt;" />
-            <marker date="1511823975686" expanded="true" signature="2239:2479" ph="@..." />
-            <marker date="1511823975686" expanded="true" signature="2280:2479" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="2541:2688" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="2709:2826" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="2860:3087" ph="@..." />
-            <marker date="1511823975686" expanded="true" signature="2891:2990" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="3003:3087" ph="{...}" />
-            <marker date="1511823975686" expanded="true" signature="3096:3150" ph="&lt;p.../&gt;" />
+            <marker date="1512075707957" expanded="true" signature="42:105" ph="@..." />
+            <marker date="1512075707957" expanded="true" signature="109:1734" ph="&lt;div.../&gt;" />
+            <marker date="1512075707957" expanded="true" signature="172:554" ph="@..." />
+            <marker date="1512075707957" expanded="true" signature="202:554" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="234:383" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="383:548" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="810:1003" ph="&lt;ul.../&gt;" />
+            <marker date="1512075707957" expanded="true" signature="823:993" ph="@..." />
+            <marker date="1512075707957" expanded="true" signature="868:993" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="1725:1726" ph="&lt;table.../&gt;" />
+            <marker date="1512075707957" expanded="true" signature="1742:3356" ph="&lt;div.../&gt;" />
+            <marker date="1512075707957" expanded="true" signature="1781:3097" ph="@..." />
+            <marker date="1512075707957" expanded="true" signature="1819:3097" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="2089:2433" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="2446:2759" ph="&lt;div.../&gt;" />
+            <marker date="1512075707957" expanded="true" signature="2500:2740" ph="@..." />
+            <marker date="1512075707957" expanded="true" signature="2541:2740" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="2802:2949" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="2970:3087" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="3121:3348" ph="@..." />
+            <marker date="1512075707957" expanded="true" signature="3152:3251" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="3264:3348" ph="{...}" />
+            <marker date="1512075707957" expanded="true" signature="3357:3411" ph="&lt;p.../&gt;" />
           </folding>
         </state>
       </provider>
