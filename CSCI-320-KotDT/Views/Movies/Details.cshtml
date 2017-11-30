@@ -33,19 +33,28 @@
         }
     </ul>
     <h3>Actors:</h3>
-    <table class="table">
-    @foreach (var actor in Model.Cast)
-    {
-            <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'">
-                <td>
-                    @Html.DisplayFor(modelItem => actor.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => actor.Role)
-                </td>
-            </tr>
-    }
-    </table>
+	<div class="panel">
+		<table class="table" id ="castList">
+		@{int i  = 0;}
+        @foreach (var actor in Model.Cast)
+        {
+			    
+                <tr class="index-row" onclick="location.href = '@(Url.Action("Details", "Actors", new { id = actor.Name }))'" @if(i > 9){<text>style="display:none"</text>} >
+                    <td>
+                        @Html.DisplayFor(modelItem => actor.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => actor.Role)
+                    </td>
+                </tr>
+			    i++;
+        }
+		
+        </table>
+		@if(i > 9){
+		    <button onclick="toggleCastList()">Show More Cast</button>
+		}
+	</div>
 
 </div>
 <hr />
