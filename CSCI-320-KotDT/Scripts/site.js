@@ -1,7 +1,6 @@
 // Write your Javascript code.
 
 function toggleCastList(){
-    console.log(document.getElementById('castList'))
     var table = document.getElementById("castList");
     for (var i = 10, row; row = table.rows[i]; i++) { 
 
@@ -11,6 +10,6 @@ function toggleCastList(){
         } else {
             row.style.display = "table-row";
         }
-         
+        //comment to test something
     } 
 }
