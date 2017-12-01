@@ -39,11 +39,12 @@ namespace CSCI_320_KotDT.Controllers {
                 }
                 
             }
-            queryString = "select * from review where created_by = '" + username + "'";
-            ArrayList dr = QueryHandler.read(queryString, 7);
+            queryString = "select * from review inner join movies on review.movie_id=movies.id where created_by = '" + username + "' order by date_create desc";
+            ArrayList dr = QueryHandler.read(queryString, 9);
             List<Review> reviews = new List<Review>();
             foreach (ArrayList i in dr) {
                 Review r = new Review((int) i[6]);
+                r.MovieTitle = (string) i[8];
                 r.Id = (int) i[4];
                 r.CreatedBy = (string) i[5];
                 r.DislikeCount = (int) i[3];
@@ -86,9 +87,9 @@ namespace CSCI_320_KotDT.Controllers {
         }
 
         [HttpPost]
-        public ActionResult update(string firstname, string lastname) {
+        public ActionResult update(string firstname, string lastname, string password) {
             User user = (User)System.Web.HttpContext.Current.Session["UserID"];
-            string query = "UPDATE \"User\" set first_name = '" + firstname + "', last_name = '" + lastname + "' WHERE username = '" + user.username + "'";
+            string query = "UPDATE \"User\" set first_name = '" + firstname + "', last_name = '" + lastname + "', password = '" + password + "' WHERE username = '" + user.username + "'";
             QueryHandler.nonQuery(query);
             return RedirectToAction("User", "User", new{username = user.username});
         }

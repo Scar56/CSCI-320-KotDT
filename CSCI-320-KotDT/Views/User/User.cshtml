@@ -14,7 +14,7 @@
     <form method="post" action="/User/update">
         First Name: <input type="text" name="firstname" placeholder="@user.firstName" value="@user.firstName"/><br/>
         Last Name: <input type="text" name="lastname" placeholder="@user.lastName" value="@user.lastName"/><br/>
-        @*    Password: <input type="password" name="password" placeholder=""/><br/>*@
+        Password: <input type="password" name="password" placeholder=""/><br/>
         <button type="submit">Submit</button>
     </form>
 }
@@ -40,7 +40,7 @@
         <tr><td>
                 <p>Review by: @review.CreatedBy</p>
                 <p>Likes: @review.LikeCount Dislikes: @review.DislikeCount Score: @review.Score</p>
-                <p>Movie: @Html.ActionLink("this movie", "Details", "Movies", new{id=review.MovieId}, null)</p>
+                <p>Movie: @Html.ActionLink(review.MovieTitle, "Details", "Movies", new{id=review.MovieId}, null)</p>
                 <p>@review.ReviewText</p>
                 @Html.ActionLink("Like", "Like", "Home", new{id = review.Id}, null)
                 @Html.ActionLink("Dislike", "Dislike", "Home", new{id = review.Id}, null)
