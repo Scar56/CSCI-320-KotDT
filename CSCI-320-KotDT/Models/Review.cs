@@ -30,6 +30,8 @@ namespace CSCI_320_KotDT.Models
         public string CreatedBy { get; set; }
 
         public int MovieId { get; set; }
+        
+        public string MovieTitle { get; set; }
 
         public DateTime CreatedOn { get; set; }
 
