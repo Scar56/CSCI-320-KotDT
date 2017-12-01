@@ -10,6 +10,17 @@
     @user.lastName
 </h2>
 
+@if (user.username == ((User) Session["UserId"]).username) {
+    <form method="post" action="/User/update">
+        First Name: <input type="text" name="firstname" placeholder="@user.firstName" value="@user.firstName"/><br/>
+        Last Name: <input type="text" name="lastname" placeholder="@user.lastName" value="@user.lastName"/><br/>
+        @*    Password: <input type="password" name="password" placeholder=""/><br/>*@
+        <button type="submit">Submit</button>
+    </form>
+}
+
+<br/>
+
 @if (user.username == ((User)Session["UserId"]).username) {
     var btn = "Anonymize";
     if (((User)Session["UserId"]).isAnon) {
@@ -17,13 +28,13 @@
     }
     <button runat="server" onclick="location.href='@Url.Action("anonymize", "User")'">@btn</button>
 }
-
 @if(ViewBag.followable == 1){
     <button runat="server" onclick="location.href='@Url.Action("follow", "User")'">Follow</button>
 }
 @if(ViewBag.followable == 2){
     <button runat="server" onclick="location.href='@Url.Action("unfollow", "User")'">Unfollow</button>
 }
+<<<<<<< HEAD
 
 <table class="table">
     @foreach (Review review in ViewBag.feed) {
@@ -38,3 +49,5 @@
         </tr>
     }
 </table>
+=======
+>>>>>>> origin/master
