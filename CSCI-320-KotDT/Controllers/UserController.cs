@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Web.Mvc;
 using ControllerDI.Interfaces;
 using CSCI_320_KotDT.Models;
@@ -38,9 +39,22 @@ namespace CSCI_320_KotDT.Controllers {
                 }
                 
             }
-        
+            queryString = "select * from review where created_by = '" + username + "'";
+            ArrayList dr = QueryHandler.read(queryString, 7);
+            List<Review> reviews = new List<Review>();
+            foreach (ArrayList i in dr) {
+                Review r = new Review((int) i[6]);
+                r.Id = (int) i[4];
+                r.CreatedBy = (string) i[5];
+                r.DislikeCount = (int) i[3];
+                r.LikeCount = (int) i[2];
+                r.Score = (float) i[1];
+                r.ReviewText = (string) i[0];
+                reviews.Add(r);
+            }
+            ViewBag.feed = reviews;
 
-        return View();
+            return View();
         }
 
         //adds usernames to follows_user

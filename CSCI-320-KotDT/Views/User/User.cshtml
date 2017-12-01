@@ -24,3 +24,17 @@
 @if(ViewBag.followable == 2){
     <button runat="server" onclick="location.href='@Url.Action("unfollow", "User")'">Unfollow</button>
 }
+
+<table class="table">
+    @foreach (Review review in ViewBag.feed) {
+        <tr><td>
+                <p>Review by: @review.CreatedBy</p>
+                <p>Likes: @review.LikeCount Dislikes: @review.DislikeCount Score: @review.Score</p>
+                <p>Movie: @Html.ActionLink("this movie", "Details", "Movies", new{id=review.MovieId}, null)</p>
+                <p>@review.ReviewText</p>
+                @Html.ActionLink("Like", "Like", "Home", new{id = review.Id}, null)
+                @Html.ActionLink("Dislike", "Dislike", "Home", new{id = review.Id}, null)
+            </td>
+        </tr>
+    }
+</table>
